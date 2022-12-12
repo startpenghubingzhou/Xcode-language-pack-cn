@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Compiles Interface Builder XIB files to deployable NIB files.</string>
+	<key>Name</key>
+	<string>Interface Builder XIB Compiler</string>
+	<key>[IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS]-description</key>
+	<string>Instructs the XIB compiler to add custom fonts to the application's `Info.plist`, which will cause the fonts to activate upon application launch.</string>
+	<key>[IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS]-name</key>
+	<string>Auto-Activate Custom Fonts</string>
+	<key>[IBC_COMPILER_OPTIONS]-category</key>
+	<string>Options</string>
+	<key>[IBC_ERRORS]-description</key>
+	<string>Show errors encountered during the compilation of XIB files.</string>
+	<key>[IBC_ERRORS]-name</key>
+	<string>Show Errors</string>
+	<key>[IBC_FLATTEN_NIBS]-description</key>
+	<string>If enabled, compile XIB files into flattened (non-wrapper) NIB files. After flattening, the resulting NIB is more compact but no longer editable by Interface Builder. When this option is disabled, the resulting NIB file remains editable in Interface Builder.</string>
+	<key>[IBC_FLATTEN_NIBS]-name</key>
+	<string>Flatten Compiled XIB Files</string>
+	<key>[IBC_MODULE]-description</key>
+	<string>Defines the module name for Swift classes referenced without a specific module name.</string>
+	<key>[IBC_MODULE]-name</key>
+	<string>Default Module</string>
+	<key>[IBC_NOTICES]-description</key>
+	<string>Show notices encountered during the compilation of XIB files.</string>
+	<key>[IBC_NOTICES]-name</key>
+	<string>Show Notices</string>
+	<key>[IBC_OTHER_FLAGS]-description</key>
+	<string>A list of additional flags to pass to the Interface Builder Compiler. Use this setting if Xcode does not already provide UI for a particular Interface Builder Compiler flag.</string>
+	<key>[IBC_OTHER_FLAGS]-name</key>
+	<string>Other Interface Builder Compiler Flags</string>
+	<key>[IBC_OVERRIDING_PLUGINS_AND_FRAMEWORKS_DIR]-description</key>
+	<string>Instructs Interface Builder to load frameworks and Interface Builder plugins from the specified directory. Setting this value to `$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)` will ensure that Interface Builder will load frameworks and plug-ins from the built products directory of the current build configuration.</string>
+	<key>[IBC_OVERRIDING_PLUGINS_AND_FRAMEWORKS_DIR]-name</key>
+	<string>Overriding Plug-In and Framework Directory</string>
+	<key>[IBC_PLUGINS]-description</key>
+	<string>A list of paths to Interface Builder plugins to load when compiling XIB files.</string>
+	<key>[IBC_PLUGINS]-name</key>
+	<string>Plug-Ins</string>
+	<key>[IBC_PLUGIN_SEARCH_PATHS]-description</key>
+	<string>A list of paths to be searched for Interface Builder plug-ins to load when compiling XIB files.</string>
+	<key>[IBC_PLUGIN_SEARCH_PATHS]-name</key>
+	<string>Plug-In Search Paths</string>
+	<key>[IBC_WARNINGS]-description</key>
+	<string>Show warnings encountered during the compilation of XIB files.</string>
+	<key>[IBC_WARNINGS]-name</key>
+	<string>Show Warnings</string>
+</dict>
+</plist>

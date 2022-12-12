@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cancel Integration</key>
+	<string>Cancel Integration</string>
+	<key>Delete Bot</key>
+	<string>删除机器人</string>
+	<key>Delete Integration</key>
+	<string>Delete Integration</string>
+	<key>Integrate</key>
+	<string>Integrate</string>
+	<key>Xcode.DebugNavigator.FilterFieldAccessibilityDescription</key>
+	<string>Debug navigator filter</string>
+	<key>Xcode.DebugNavigator.FilterFieldToolTip</key>
+	<string>Show matching content based on filter string</string>
+	<key>Xcode.DebugNavigator.FilterShowCompressedStackFramesAccessibilityDescription</key>
+	<string>Show compressed stack frames</string>
+	<key>Xcode.DebugNavigator.FilterShowCompressedStackFramesToolTip</key>
+	<string>Show only stack frames with debug symbols and between libraries</string>
+	<key>Xcode.DebugNavigator.FilterShowOnlyInterestingContentAccessibilityDescription</key>
+	<string>Show only interesting content</string>
+	<key>Xcode.DebugNavigator.FilterShowOnlyInterestingContentToolTip</key>
+	<string>Show only crashed threads and threads with debug symbols</string>
+	<key>Xcode.DebugNavigator.FilterShowOnlyRunningBlocksAccessibilityDescription</key>
+	<string>Show only running blocks</string>
+	<key>Xcode.DebugNavigator.FilterShowOnlyRunningBlocksToolTip</key>
+	<string>Show only running blocks when in Queues view</string>
+	<key>Xcode.IDEFindNavigator.FindResultTextSearchFieldControlAccessibilityDescription</key>
+	<string>Find navigator filter</string>
+	<key>Xcode.IDEIssueNavigator.ErrorFilteringControlAccessibilityDescription</key>
+	<string>构建错误</string>
+	<key>Xcode.IDEIssueNavigator.ErrorFilteringControlToolTip</key>
+	<string>Show only errors</string>
+	<key>Xcode.IDEIssueNavigator.FilterSearchFieldControlAccessibilityDescription</key>
+	<string>Issue navigator filter</string>
+	<key>Xcode.IDEIssueNavigator.FilterSearchFieldControlToolTip</key>
+	<string>Show issues with matching content</string>
+	<key>Xcode.IDEIssueNavigator.RecentFilteringControlAccessibilityDescription</key>
+	<string>Last build issues</string>
+	<key>Xcode.IDEIssueNavigator.RecentFilteringControlToolTip</key>
+	<string>Show only issues from the latest build</string>
+	<key>Xcode.IDEKey.Scheme.NoActions</key>
+	<string>No Actions</string>
+	<key>Xcode.IDEKit.ARCConversion.Approval</key>
+	<string>Convert to Automatic Reference Counting:</string>
+	<key>Xcode.IDEKit.ARCConversion.GeneratingPreview</key>
+	<string>Generating preview:</string>
+	<key>Xcode.IDEKit.ARCConversion.ReviewChanges</key>
+	<string>Review changes:</string>
+	<key>Xcode.IDEKit.ARCConversion.ReviewChanges.FinishButton</key>
+	<string>保存</string>
+	<key>Xcode.IDEKit.ARCConversion.TargetChooser</key>
+	<string>Select targets to convert:</string>
+	<key>Xcode.IDEKit.ARCConversion.TargetChooser.FinishButton</key>
+	<string>检查</string>
+	<key>Xcode.IDEKit.AnalyzeFile.Format</key>
+	<string>分析 “%@”</string>
+	<key>Xcode.IDEKit.AnalyzeFile.Unsupported</key>
+	<string>分析文件</string>
+	<key>Xcode.IDEKit.Assistant.ARCConversion.TargetChooser.AccessibilityDescription</key>
+	<string>ARC Conversion Target Chooser filter</string>
+	<key>Xcode.IDEKit.Assistant.ARCConversion.TargetChooser.SearchFieldFilterToolTip</key>
+	<string>Show files with matching name</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.BasicInfo.title</key>
+	<string>&lt;See source code&gt;</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.Creating.finishButtonTitle</key>
+	<string>Done</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.Creating.title</key>
+	<string>&lt;See source code&gt;</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.Notifications.finishButtonTitle</key>
+	<string>&lt;See source code&gt;</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.Notifications.title</key>
+	<string>Configure bot email notifications:</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.SCM.title</key>
+	<string>Configure source control for this bot:</string>
+	<key>Xcode.IDEKit.Assistant.CreateBotAssistant.Scheduling.title</key>
+	<string>Schedule bot integrations:</string>
+	<key>Xcode.IDEKit.Assistant.ObjCModernization.TargetChooser.AccessibilityDescription</key>
+	<string>Objective-C Modernization Target Chooser filter</string>
+	<key>Xcode.IDEKit.Assistant.ObjCModernization.TargetChooser.SearchFieldFilterToolTip</key>
+	<string>Show files with matching name</string>
+	<key>Xcode.IDEKit.Assistant.SwiftMigration.TargetChooser.AccessibilityDescription</key>
+	<string>Swift Conversion Target Chooser filter</string>
+	<key>Xcode.IDEKit.Assistant.SwiftMigration.TargetChooser.SearchFieldFilterToolTip</key>
+	<string>Show files with matching name</string>
+	<key>Xcode.IDEKit.CmdDefinition.APIChanges</key>
+	<string>API 改动</string>
+	<key>Xcode.IDEKit.CmdDefinition.AboutXcode</key>
+	<string>关于 Xcode</string>
+	<key>Xcode.IDEKit.CmdDefinition.ActivateConsole</key>
+	<string>激活控制台</string>
+	<key>Xcode.IDEKit.CmdDefinition.AddAssistantEditor</key>
+	<string>添加辅助视图</string>
+	<key>Xcode.IDEKit.CmdDefinition.AddCommand</key>
+	<string>Add</string>
+	<key>Xcode.IDEKit.CmdDefinition.AddFiles</key>
+	<string>添加文件…</string>
+	<key>Xcode.IDEKit.CmdDefinition.AlignLeft</key>
+	<string>Align Left</string>
+	<key>Xcode.IDEKit.CmdDefinition.AlignRight</key>
+	<string>Align Right</string>
+	<key>Xcode.IDEKit.CmdDefinition.Analyze</key>
+	<string>分析</string>
+	<key>Xcode.IDEKit.CmdDefinition.AnalyzeFile</key>
+	<string>分析文件</string>
+	<key>Xcode.IDEKit.CmdDefinition.ArrangeInFront</key>
+	<string>Arrange in Front</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_Bottom</key>
+	<string>辅助视图在底部</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_HorizontalLeftToRight</key>
+	<string>All Editors Stacked Horizontally</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_HorizontalRightToLeft</key>
+	<string>All Editors Stacked Horizontally Right to Left</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_Left</key>
+	<string>Assistant Editors on Left</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_Right</key>
+	<string>Assistant Editors on Right</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_Top</key>
+	<string>Assistant Editors on Top</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_VerticalBottomToTop</key>
+	<string>All Editors Stacked Vertically Bottom to Top</string>
+	<key>Xcode.IDEKit.CmdDefinition.AssistantEditorsLayout_VerticalTopToBottom</key>
+	<string>All Editors Stacked Vertically</string>
+	<key>Xcode.IDEKit.CmdDefinition.AttachByPIDOrName</key>
+	<string>Attach to Process by PID or Name…</string>
+	<key>Xcode.IDEKit.CmdDefinition.BackgroundFetchEvent</key>
+	<string>Simulate Background Fetch</string>
+	<key>Xcode.IDEKit.CmdDefinition.BaselineLower</key>
+	<string>Lower</string>
+	<key>Xcode.IDEKit.CmdDefinition.BaselineRaise</key>
+	<string>Raise</string>
+	<key>Xcode.IDEKit.CmdDefinition.BaselineSubscript</key>
+	<string>Subscript</string>
+	<key>Xcode.IDEKit.CmdDefinition.BaselineSuperscript</key>
+	<string>Superscript</string>
+	<key>Xcode.IDEKit.CmdDefinition.BaselineUseDefault</key>
+	<string>使用默认</string>
+	<key>Xcode.IDEKit.CmdDefinition.Bigger</key>
+	<string>Bigger</string>
+	<key>Xcode.IDEKit.CmdDefinition.Bold</key>
+	<string>Bold</string>
+	<key>Xcode.IDEKit.CmdDefinition.BringAllToFront</key>
+	<string>前置全部窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.Build</key>
+	<string>构建</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildAndArchive</key>
+	<string>归档</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildAndRunToGenerateOptimizationProfile</key>
+	<string>Generate Optimization Profile…</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildForInstall</key>
+	<string>Installing</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildForProfile</key>
+	<string>Profiling</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildForRun</key>
+	<string>运行</string>
+	<key>Xcode.IDEKit.CmdDefinition.BuildForTest</key>
+	<string>测试</string>
+	<key>Xcode.IDEKit.CmdDefinition.CallHierarchy</key>
+	<string>Find Call Hierarchy</string>
+	<key>Xcode.IDEKit.CmdDefinition.Capitalize</key>
+	<string>Capitalize</string>
+	<key>Xcode.IDEKit.CmdDefinition.CaptureGPUFrame</key>
+	<string>Capture GPU Frame</string>
+	<key>Xcode.IDEKit.CmdDefinition.Center</key>
+	<string>Center</string>
+	<key>Xcode.IDEKit.CmdDefinition.CheckDocumentNow</key>
+	<string>Check Document Now</string>
+	<key>Xcode.IDEKit.CmdDefinition.CheckGrammarWhithSpelling</key>
+	<string>Check Grammar With Spelling</string>
+	<key>Xcode.IDEKit.CmdDefinition.CheckSpellingWhileTyping</key>
+	<string>Check Spelling While Typing</string>
+	<key>Xcode.IDEKit.CmdDefinition.Clean</key>
+	<string>清理</string>
+	<key>Xcode.IDEKit.CmdDefinition.Clean.Format</key>
+	<string>清理“%@”</string>
+	<key>Xcode.IDEKit.CmdDefinition.CleanBuildFolder</key>
+	<string>清理构建文件夹…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CleanBuildFolder.NoAlert</key>
+	<string>清理构建文件夹</string>
+	<key>Xcode.IDEKit.CmdDefinition.ClearConsole</key>
+	<string>清空控制台</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseAllWindows</key>
+	<string>关闭所有窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseDocument</key>
+	<string>关闭文档</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseOtherTabs</key>
+	<string>关闭其他标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseOtherWindows</key>
+	<string>关闭其他窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseSomething</key>
+	<string>关闭 %@</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseTab</key>
+	<string>关闭标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseWindow</key>
+	<string>关闭窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.CloseWorkspace</key>
+	<string>关闭工作区</string>
+	<key>Xcode.IDEKit.CmdDefinition.CommitCommand</key>
+	<string>提交…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CommitSelectedFilesCommand</key>
+	<string>Commit Selected Files…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CompileFile</key>
+	<string>Compile File</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuDisableTests</key>
+	<string>Disable</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuEnableTests</key>
+	<string>Enable</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuNewTestBundle</key>
+	<string>New Test Bundle…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuNewTestClass</key>
+	<string>New Test Class…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuRevealInLog</key>
+	<string>Reveal in Log</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuSortFilesByName</key>
+	<string>Sort by Name</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContextMenuSortFilesByType</key>
+	<string>Sort by Type</string>
+	<key>Xcode.IDEKit.CmdDefinition.Continue</key>
+	<string>Continue</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContinueToCurrentLine</key>
+	<string>Continue To Current Line</string>
+	<key>Xcode.IDEKit.CmdDefinition.ContinueToHere</key>
+	<string>Continue to Here</string>
+	<key>Xcode.IDEKit.CmdDefinition.ConvertSwift</key>
+	<string>To Current Swift Syntax…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ConvertToAutomaticReferenceCounting</key>
+	<string>To Objective-C ARC…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ConvertToModernObjectiveCSyntax</key>
+	<string>To Modern Objective-C Syntax…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Copy</key>
+	<string>拷贝</string>
+	<key>Xcode.IDEKit.CmdDefinition.CopyQualifiedSymbolName</key>
+	<string>Copy Qualified Symbol Name</string>
+	<key>Xcode.IDEKit.CmdDefinition.CopyRuler</key>
+	<string>Copy Ruler</string>
+	<key>Xcode.IDEKit.CmdDefinition.CopyStyle</key>
+	<string>Copy Style</string>
+	<key>Xcode.IDEKit.CmdDefinition.CopySymbolName</key>
+	<string>Copy Symbol Name</string>
+	<key>Xcode.IDEKit.CmdDefinition.CorrectSpellingAutomatically</key>
+	<string>Correct Spelling Automatically</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateBot</key>
+	<string>创建机器人…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateExceptionBreakpoint</key>
+	<string>Create Exception Breakpoint…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreatePatchCommand</key>
+	<string>Create Patch…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateSnapshot</key>
+	<string>Create Snapshot…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateSwiftErrorBreakpoint</key>
+	<string>Create Swift Error Breakpoint</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateSymbolicBreakpoint</key>
+	<string>Create Symbolic Breakpoint…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateTestFailureBreakpoint</key>
+	<string>Create Test Failure Breakpoint</string>
+	<key>Xcode.IDEKit.CmdDefinition.CreateWorkingCopyCommand</key>
+	<string>创建Git仓库…</string>
+	<key>Xcode.IDEKit.CmdDefinition.CustomizeToolbar</key>
+	<string>Customize Toolbar…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Cut</key>
+	<string>剪切</string>
+	<key>Xcode.IDEKit.CmdDefinition.DataDetectors</key>
+	<string>Data Detectors</string>
+	<key>Xcode.IDEKit.CmdDefinition.DebuggerToggleVisibility</key>
+	<string>显示调试区</string>
+	<key>Xcode.IDEKit.CmdDefinition.DebuggerToggleVisibility.Hide</key>
+	<string>隐藏调试区</string>
+	<key>Xcode.IDEKit.CmdDefinition.Delete</key>
+	<string>删除</string>
+	<key>Xcode.IDEKit.CmdDefinition.Detach</key>
+	<string>Detach</string>
+	<key>Xcode.IDEKit.CmdDefinition.DetachFrom</key>
+	<string>Detach from %@</string>
+	<key>Xcode.IDEKit.CmdDefinition.DeveloperDocumentation</key>
+	<string>开发文档</string>
+	<key>Xcode.IDEKit.CmdDefinition.Duplicate</key>
+	<string>重复</string>
+	<key>Xcode.IDEKit.CmdDefinition.DuplicateDocument</key>
+	<string>另存为…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditActiveScheme</key>
+	<string>Edit Scheme…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAlerts</key>
+	<string>编辑行为…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndAnalyze</key>
+	<string>Analyze…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndBuild</key>
+	<string>Build…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndClean</key>
+	<string>Clean…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndProfile</key>
+	<string>Profile…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndRun</key>
+	<string>运行…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditAndTest</key>
+	<string>测试…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditBuildAndArchive</key>
+	<string>Archive…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditBuildAndIntegrate</key>
+	<string>Integrate…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditSomethingUserSettings</key>
+	<string>%@ Settings…</string>
+	<key>Xcode.IDEKit.CmdDefinition.EditWorkspaceUserSettings</key>
+	<string>工作区设置…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ExportDocument</key>
+	<string>导出…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FilterInLibrary</key>
+	<string>在代码库中过滤</string>
+	<key>Xcode.IDEKit.CmdDefinition.FilterInNavigator</key>
+	<string>在导航中过滤</string>
+	<key>Xcode.IDEKit.CmdDefinition.Find</key>
+	<string>查找…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindAndReplace</key>
+	<string>查找和替换…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindAndReplaceInSomething</key>
+	<string>在%@中查找和替换…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindAndReplaceInWorkspace</key>
+	<string>在工作区中查找和替换…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindInSomething</key>
+	<string>在%@中查找…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindInWorkspace</key>
+	<string>在工作区中查找…</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindNext</key>
+	<string>查找下一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindPrevious</key>
+	<string>查找上一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindSelectedSymbolInSomething</key>
+	<string> 在%@中查找选中的符号</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindSelectedSymbolInWorkspace</key>
+	<string>在工作区中查找选中的符号</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindSelectedTextInSomething</key>
+	<string> 在%@中查找选中的字符</string>
+	<key>Xcode.IDEKit.CmdDefinition.FindSelectedTextInWorkspace</key>
+	<string>在工作区中查找选中的字符</string>
+	<key>Xcode.IDEKit.CmdDefinition.FixNextIssue</key>
+	<string>Fix Next Issue</string>
+	<key>Xcode.IDEKit.CmdDefinition.FixPreviousIssue</key>
+	<string>Fix Previous Issue</string>
+	<key>Xcode.IDEKit.CmdDefinition.FocusOnCallHierarchySymbol</key>
+	<string>Find Call Hierarchy</string>
+	<key>Xcode.IDEKit.CmdDefinition.GenerateAssemblyFile</key>
+	<string>整合文件</string>
+	<key>Xcode.IDEKit.CmdDefinition.GeneratePreprocessedFile</key>
+	<string>预处理文件</string>
+	<key>Xcode.IDEKit.CmdDefinition.GeniusEditor</key>
+	<string>显示辅助视图</string>
+	<key>Xcode.IDEKit.CmdDefinition.GetInfo</key>
+	<string>Get Info</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoBack</key>
+	<string>Go Back</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoBackWithAlternate</key>
+	<string>Go Back (option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoBackWithShiftPlusAlternate</key>
+	<string>Go Back (shift+option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoForward</key>
+	<string>Go Forward</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoForwardWithAlternate</key>
+	<string>Go Forward (option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.GoForwardWithShiftPlusAlternate</key>
+	<string>Go Forward (shift+option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.Hide</key>
+	<string>隐藏 Xcode</string>
+	<key>Xcode.IDEKit.CmdDefinition.HideFindBar</key>
+	<string>隐藏查找栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.HideOthers</key>
+	<string>隐藏其他</string>
+	<key>Xcode.IDEKit.CmdDefinition.IDEQuickHelp</key>
+	<string>显示所选条目快速帮助</string>
+	<key>Xcode.IDEKit.CmdDefinition.IDEQuickHelpInternal</key>
+	<string>快速帮助</string>
+	<key>Xcode.IDEKit.CmdDefinition.IgnoreCommand</key>
+	<string>忽略</string>
+	<key>Xcode.IDEKit.CmdDefinition.Install</key>
+	<string>安装</string>
+	<key>Xcode.IDEKit.CmdDefinition.Issue.ViewByFile</key>
+	<string>View by File</string>
+	<key>Xcode.IDEKit.CmdDefinition.Issue.ViewByType</key>
+	<string>View by Type</string>
+	<key>Xcode.IDEKit.CmdDefinition.Italics</key>
+	<string>Italics</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpBetweenSourceFileAndGeneratedFile</key>
+	<string>Jump to Original Source/Generated Interface</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToDefinition</key>
+	<string>转到定义</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToDefinitionWithAlternate</key>
+	<string>转到定义 (option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToDefinitionWithShiftPlusAlternate</key>
+	<string>转到定义 (shift+option)</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToDocumentation</key>
+	<string>Jump to Documentation</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToInstructionPointer</key>
+	<string>Jump to Instruction Pointer</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToNextIssue</key>
+	<string>Jump to Next Issue</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToPreviousIssue</key>
+	<string>Jump to Previous Issue</string>
+	<key>Xcode.IDEKit.CmdDefinition.JumpToSelection</key>
+	<string>转到所选位置</string>
+	<key>Xcode.IDEKit.CmdDefinition.Justify</key>
+	<string>Justify</string>
+	<key>Xcode.IDEKit.CmdDefinition.KernLoosen</key>
+	<string>Loosen</string>
+	<key>Xcode.IDEKit.CmdDefinition.KernTighten</key>
+	<string>Tighten</string>
+	<key>Xcode.IDEKit.CmdDefinition.KernUseDefault</key>
+	<string>Use Default</string>
+	<key>Xcode.IDEKit.CmdDefinition.KernUseNone</key>
+	<string>Use None</string>
+	<key>Xcode.IDEKit.CmdDefinition.LigatureUseAll</key>
+	<string>Use All</string>
+	<key>Xcode.IDEKit.CmdDefinition.LigatureUseDefault</key>
+	<string>Use Default</string>
+	<key>Xcode.IDEKit.CmdDefinition.LigatureUseNone</key>
+	<string>Use None</string>
+	<key>Xcode.IDEKit.CmdDefinition.LogPowerConsumption</key>
+	<string>Log Power Consumption</string>
+	<key>Xcode.IDEKit.CmdDefinition.MakeLowerCase</key>
+	<string>Make Lower Case</string>
+	<key>Xcode.IDEKit.CmdDefinition.MakeUpperCase</key>
+	<string>Make Upper Case</string>
+	<key>Xcode.IDEKit.CmdDefinition.ManageSchemes</key>
+	<string>Manage Schemes…</string>
+	<key>Xcode.IDEKit.CmdDefinition.MergeAllWindows</key>
+	<string>合并所有窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.MergeAllWorkspaceTabs</key>
+	<string>合并所有工作区标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.MergeCommand</key>
+	<string>合并分支…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Minimize</key>
+	<string>最小化</string>
+	<key>Xcode.IDEKit.CmdDefinition.MinimizeAll</key>
+	<string>最小化全部窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveDocumentTo</key>
+	<string>Move To…</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveFocusToEditor</key>
+	<string>Move Focus To Editor…</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveFocusToNextArea</key>
+	<string>Move Focus To Next Area</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveFocusToNextEditor</key>
+	<string>Move Focus To Next Editor</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveFocusToPreviousArea</key>
+	<string>Move Focus To Previous Area</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveFocusToPreviousEditor</key>
+	<string>Move Focus To Previous Editor</string>
+	<key>Xcode.IDEKit.CmdDefinition.MoveTabToNewWindow</key>
+	<string>将标签页移到新窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigateToNextFindResultInSomething</key>
+	<string>在 %@中查找下一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigateToNextFindResultInWorkspace</key>
+	<string>在工作区中查找下一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigateToPreviousFindResultInSomething</key>
+	<string>在 %@中查找上一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigateToPreviousFindResultInWorkspace</key>
+	<string>在工作区中查找上一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsBreakpoints</key>
+	<string>显示断点导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsDebugger</key>
+	<string>显示调试导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsFind</key>
+	<string>显示搜索导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsIssues</key>
+	<string>显示问题导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsLogs</key>
+	<string>显示记录导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsStructure</key>
+	<string>显示项目导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsSymbols</key>
+	<string>显示符号导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsTest</key>
+	<string>显示测试导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsToggleVisibility</key>
+	<string>显示导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsToggleVisibility.Hide</key>
+	<string>隐藏导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NavigatorsWorkingCopies</key>
+	<string>显示代码控制导航</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFile</key>
+	<string>文件…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFileContextual</key>
+	<string>新文件…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFolder</key>
+	<string>文件夹</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFolderContextual</key>
+	<string>新文件夹</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFolderFromSelection</key>
+	<string>选择的文件夹</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewFolderFromSelectionContextual</key>
+	<string>新选择的文件夹</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroup</key>
+	<string>组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupContextual</key>
+	<string>新建组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupFromSelection</key>
+	<string>所选组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupFromSelectionContextual</key>
+	<string>新建所选组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupWithFolder</key>
+	<string>文件夹组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupWithFolderContextual</key>
+	<string>新建文件夹组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupWithoutFolder</key>
+	<string>无文件夹组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewGroupWithoutFolderContextual</key>
+	<string>新建无文件夹组</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlayground</key>
+	<string>Playground…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundChapter</key>
+	<string>Playground Chapter</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundChapterContextual</key>
+	<string>New Playground Chapter</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundCutscene</key>
+	<string>Playground Cutscene</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundCutsceneContextual</key>
+	<string>New Playground Cutscene</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundPage</key>
+	<string>Playground Page</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewPlaygroundPageContextual</key>
+	<string>New Playground Page</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewProject</key>
+	<string>项目…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewProjectContextual</key>
+	<string>新项目…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewScheme</key>
+	<string>New Scheme…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewTab</key>
+	<string>标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewTarget</key>
+	<string>目标文件…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewWindow</key>
+	<string>窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewWindowForWorkspace</key>
+	<string>工作区窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.NewWorkspace</key>
+	<string>工作区…</string>
+	<key>Xcode.IDEKit.CmdDefinition.NextDestination</key>
+	<string>Select Next Destination</string>
+	<key>Xcode.IDEKit.CmdDefinition.NextScheme</key>
+	<string>Select Next Scheme</string>
+	<key>Xcode.IDEKit.CmdDefinition.Open</key>
+	<string>打开…</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenInAdjacentEditor</key>
+	<string>打开为…</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenInNewTab</key>
+	<string>新的标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenInNewWindow</key>
+	<string>新的窗口</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenLocalization</key>
+	<string>Open Localization…</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenQuickly</key>
+	<string>快速打开…</string>
+	<key>Xcode.IDEKit.CmdDefinition.OpenWithExternalEditor</key>
+	<string>用内置编辑器打开</string>
+	<key>Xcode.IDEKit.CmdDefinition.Outline</key>
+	<string>Outline</string>
+	<key>Xcode.IDEKit.CmdDefinition.PageSetup</key>
+	<string>页面设置…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Paragraph</key>
+	<string>Paragraph</string>
+	<key>Xcode.IDEKit.CmdDefinition.ParagraphDefault</key>
+	<string>   Default</string>
+	<key>Xcode.IDEKit.CmdDefinition.ParagraphLeftToRight</key>
+	<string>   Left to Right</string>
+	<key>Xcode.IDEKit.CmdDefinition.ParagraphRightToLeft</key>
+	<string>   Right to Left</string>
+	<key>Xcode.IDEKit.CmdDefinition.Paste</key>
+	<string>粘贴</string>
+	<key>Xcode.IDEKit.CmdDefinition.PasteAndPreserveFormatting</key>
+	<string>粘贴并匹配样式</string>
+	<key>Xcode.IDEKit.CmdDefinition.PasteRuler</key>
+	<string>Paste Ruler</string>
+	<key>Xcode.IDEKit.CmdDefinition.PasteStyle</key>
+	<string>Paste Style</string>
+	<key>Xcode.IDEKit.CmdDefinition.Pause</key>
+	<string>Pause</string>
+	<key>Xcode.IDEKit.CmdDefinition.PauseContinue</key>
+	<string>Pause / Continue</string>
+	<key>Xcode.IDEKit.CmdDefinition.Preferences</key>
+	<string>偏好设置…</string>
+	<key>Xcode.IDEKit.CmdDefinition.PreviousDestination</key>
+	<string>Select Previous Destination</string>
+	<key>Xcode.IDEKit.CmdDefinition.PreviousScheme</key>
+	<string>Select Previous Scheme</string>
+	<key>Xcode.IDEKit.CmdDefinition.Print</key>
+	<string>打印…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Products</key>
+	<string>组织者</string>
+	<key>Xcode.IDEKit.CmdDefinition.Profile</key>
+	<string>Profile</string>
+	<key>Xcode.IDEKit.CmdDefinition.ProfileAgain</key>
+	<string>Profile Again</string>
+	<key>Xcode.IDEKit.CmdDefinition.ProfileSelectedItems</key>
+	<string>Profile</string>
+	<key>Xcode.IDEKit.CmdDefinition.ProfileWithoutBuilding</key>
+	<string>Profile Without Building</string>
+	<key>Xcode.IDEKit.CmdDefinition.Projects</key>
+	<string>项目</string>
+	<key>Xcode.IDEKit.CmdDefinition.PushCommand</key>
+	<string>推送…</string>
+	<key>Xcode.IDEKit.CmdDefinition.QuitXcode</key>
+	<string>退出 Xcode</string>
+	<key>Xcode.IDEKit.CmdDefinition.Redo</key>
+	<string>重做</string>
+	<key>Xcode.IDEKit.CmdDefinition.RefreshFileStatusCommand</key>
+	<string>获取和刷新状态</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReleaseNotes</key>
+	<string>发行注记</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReloadConsole</key>
+	<string>Reload Console</string>
+	<key>Xcode.IDEKit.CmdDefinition.RemoveAssistantEditor</key>
+	<string>Remove Assistant Editor</string>
+	<key>Xcode.IDEKit.CmdDefinition.RenameCurrentTab</key>
+	<string>重命名标签栏…</string>
+	<key>Xcode.IDEKit.CmdDefinition.RenameDocument</key>
+	<string>Rename…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Replace</key>
+	<string>替换</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReplaceAll</key>
+	<string>替换全部</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReplaceAndFindNext</key>
+	<string>替换并查找下一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReplaceAndFindPrevious</key>
+	<string>替换并查找上一个</string>
+	<key>Xcode.IDEKit.CmdDefinition.ReportIssueToApple</key>
+	<string>报告问题</string>
+	<key>Xcode.IDEKit.CmdDefinition.RepositoriesCommand</key>
+	<string>仓库…</string>
+	<key>Xcode.IDEKit.CmdDefinition.ResetEditor</key>
+	<string>Reset Editor</string>
+	<key>Xcode.IDEKit.CmdDefinition.ResolvedCommand</key>
+	<string>Mark as Resolved</string>
+	<key>Xcode.IDEKit.CmdDefinition.RestoreSnapshot</key>
+	<string>Restore Snapshot…</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevealInDebugNavigator</key>
+	<string>Reveal in Debug Navigator</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevealInProjectNavigator</key>
+	<string>在项目导航器中显示</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevealInSymbolNavigator</key>
+	<string>在符号导航器中显示</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevealInTestNavigator</key>
+	<string>在调试导航器中显示</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevertDocumentToLastSaved</key>
+	<string>Revert to Saved…</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevertSelectedFilesCommand</key>
+	<string>放弃所选文件更改…</string>
+	<key>Xcode.IDEKit.CmdDefinition.RevertWorkingCopiesCommand</key>
+	<string>放弃所有更改…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Run</key>
+	<string>运行</string>
+	<key>Xcode.IDEKit.CmdDefinition.RunTestToHereThenRecord</key>
+	<string>Run test to Here then Record</string>
+	<key>Xcode.IDEKit.CmdDefinition.RunWithoutBuilding</key>
+	<string>Run Without Building</string>
+	<key>Xcode.IDEKit.CmdDefinition.SCMDownload</key>
+	<string>克隆…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SaveAllEditorDocuments</key>
+	<string>保存全部</string>
+	<key>Xcode.IDEKit.CmdDefinition.SaveAsWorkspace</key>
+	<string>保存为工作区…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SaveDocument</key>
+	<string>保存</string>
+	<key>Xcode.IDEKit.CmdDefinition.SaveDocumentAs</key>
+	<string>保存为…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SaveWorkspace</key>
+	<string>保存工作区</string>
+	<key>Xcode.IDEKit.CmdDefinition.SearchDocumentationForSelectedText</key>
+	<string>搜索所选内容有关文档</string>
+	<key>Xcode.IDEKit.CmdDefinition.SearchInSelectedFolders</key>
+	<string>在选择的文件夹中查找…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SearchInSelectedGroups</key>
+	<string>在选择的组中查找…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectAll</key>
+	<string>全选</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectContentChild</key>
+	<string>Select Content Child</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectContentParent</key>
+	<string>Select Content Parent</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectNavigatorChild</key>
+	<string>Select Navigator Child</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectNavigatorParent</key>
+	<string>Select Navigator Parent</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectNextContentSibling</key>
+	<string>Select Next Content Sibling</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectNextNavigatorSibling</key>
+	<string>Select Next Navigator Sibling</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectNone</key>
+	<string>Select None</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectPreviousContentSibling</key>
+	<string>Select Previous Content Sibling</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectPreviousNavigatorSibling</key>
+	<string>Select Previous Navigator Sibling</string>
+	<key>Xcode.IDEKit.CmdDefinition.Selection</key>
+	<string>选择</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectionDefault</key>
+	<string>   默认</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectionLeftToRight</key>
+	<string>   Left to Right</string>
+	<key>Xcode.IDEKit.CmdDefinition.SelectionRightToLeft</key>
+	<string>   Right to Left</string>
+	<key>Xcode.IDEKit.CmdDefinition.SharedLibraries</key>
+	<string>Shared Libraries...</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowAll</key>
+	<string>显示全部</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowColors</key>
+	<string>显示颜色</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowDisassemblyWhenDebugging</key>
+	<string>Always Show Disassembly</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowDocumentItemsMenu</key>
+	<string>Show Document Items</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowDocumentation</key>
+	<string>Show Documentation</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowDocumentationForSymbol</key>
+	<string>Show Documentation for Symbol</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowFileInspector</key>
+	<string>Show File Inspector</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowFonts</key>
+	<string>显示字体</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowGroupFilesMenu</key>
+	<string>Show Group Files</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowIconDebuggingWindow</key>
+	<string>Show Icon Debugging Window</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowInFinder</key>
+	<string>在访达中显示</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowIssuesMenu</key>
+	<string>Show Issues</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowNextFilesHistoryMenu</key>
+	<string>Show Next Files History</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowNextHistoryMenu</key>
+	<string>Show Next History</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowNextTab</key>
+	<string>显示下一个标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowPreviousFilesHistoryMenu</key>
+	<string>Show Previous Files History</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowPreviousHistoryMenu</key>
+	<string>Show Previous History</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowPreviousTab</key>
+	<string>显示上一个标签页</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowRelatedItemsMenu</key>
+	<string>Show Related Items</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowRuler</key>
+	<string>Show Ruler</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowSpellingAndGrammar</key>
+	<string>Show Spelling and Grammar</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowSubstitutions</key>
+	<string>Show Substitutions</string>
+	<key>Xcode.IDEKit.CmdDefinition.ShowTopLevelItemsMenu</key>
+	<string>Show Top Level Items</string>
+	<key>Xcode.IDEKit.CmdDefinition.Smaller</key>
+	<string>Smaller</string>
+	<key>Xcode.IDEKit.CmdDefinition.SmartCopyPaste</key>
+	<string>Smart Copy/Paste</string>
+	<key>Xcode.IDEKit.CmdDefinition.SmartDashes</key>
+	<string>Smart Dashes</string>
+	<key>Xcode.IDEKit.CmdDefinition.SmartLinks</key>
+	<string>Smart Links</string>
+	<key>Xcode.IDEKit.CmdDefinition.SmartQuotes</key>
+	<string>Smart Quotes</string>
+	<key>Xcode.IDEKit.CmdDefinition.SortFilesByName</key>
+	<string>通过名称</string>
+	<key>Xcode.IDEKit.CmdDefinition.SortFilesByType</key>
+	<string>通过类型</string>
+	<key>Xcode.IDEKit.CmdDefinition.SpecialPaste</key>
+	<string>特殊粘贴</string>
+	<key>Xcode.IDEKit.CmdDefinition.StandardEditor</key>
+	<string>显示标准视图</string>
+	<key>Xcode.IDEKit.CmdDefinition.StartSpeaking</key>
+	<string>Start Speaking</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepInto</key>
+	<string>Step Into</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepIntoInstruction</key>
+	<string>Step Into Instruction</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepIntoThread</key>
+	<string>Step Into Thread</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepOut</key>
+	<string>Step Out</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepOver</key>
+	<string>Step Over</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepOverInstruction</key>
+	<string>Step Over Instruction</string>
+	<key>Xcode.IDEKit.CmdDefinition.StepOverThread</key>
+	<string>Step Over Thread</string>
+	<key>Xcode.IDEKit.CmdDefinition.Stop</key>
+	<string>停止</string>
+	<key>Xcode.IDEKit.CmdDefinition.StopSpeaking</key>
+	<string>Stop Speaking</string>
+	<key>Xcode.IDEKit.CmdDefinition.Styles</key>
+	<string>Show Styles…</string>
+	<key>Xcode.IDEKit.CmdDefinition.SwitchBranchCommand</key>
+	<string>Switch Branch…</string>
+	<key>Xcode.IDEKit.CmdDefinition.TakeScreenshot</key>
+	<string>Take Screenshot of Active Device</string>
+	<key>Xcode.IDEKit.CmdDefinition.Test</key>
+	<string>测试</string>
+	<key>Xcode.IDEKit.CmdDefinition.TestAgain</key>
+	<string>再次测试</string>
+	<key>Xcode.IDEKit.CmdDefinition.TestSelectedItems</key>
+	<string>测试</string>
+	<key>Xcode.IDEKit.CmdDefinition.TestWithoutBuilding</key>
+	<string>在不构建情况下测试</string>
+	<key>Xcode.IDEKit.CmdDefinition.Testing.ProfileTest</key>
+	<string>Profile Test…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Testing.RevealTestInReportEditor</key>
+	<string>Jump to Report</string>
+	<key>Xcode.IDEKit.CmdDefinition.Testing.RunTest</key>
+	<string>运行测试…</string>
+	<key>Xcode.IDEKit.CmdDefinition.TextReplacement</key>
+	<string>Text Replacement</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleBreakpointAtCurrentLine</key>
+	<string>Add Breakpoint at Current Line</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleBreakpoints</key>
+	<string>Activate Breakpoints</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleBreakpoints.Disable</key>
+	<string>Deactivate Breakpoints</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleFullScreen</key>
+	<string>进入全屏幕</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleFullScreenMode</key>
+	<string>进入全屏幕模式</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleLibraryVisibility</key>
+	<string>显示代码模板库</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleLibraryVisibility.Hide</key>
+	<string>隐藏代码模板库</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleLocalStatusCommand</key>
+	<string>Show Working Copy Status</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleRecordingUITest</key>
+	<string>Start Recording UI Test</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleRemoteStatusCommand</key>
+	<string>Show Repository Status</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleTabBar</key>
+	<string>显示标签页栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleTabBar.Hide</key>
+	<string>隐藏标签页栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleTabOverview</key>
+	<string>显示标签页概览</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleTabOverview.Exit</key>
+	<string>Exit Tab Overview</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleToolbar</key>
+	<string>显示工具栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleToolbar.FullScreen</key>
+	<string>Show Toolbar in Full Screen</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleToolbar.FullScreen.Hide</key>
+	<string>Hide Toolbar in Full Screen</string>
+	<key>Xcode.IDEKit.CmdDefinition.ToggleToolbar.Hide</key>
+	<string>隐藏工具栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.TriggerFailedAssertion</key>
+	<string>Trigger Failed Assertion</string>
+	<key>Xcode.IDEKit.CmdDefinition.UISnapshotRefresh</key>
+	<string>Simulate UI Snapshot</string>
+	<key>Xcode.IDEKit.CmdDefinition.Underline</key>
+	<string>Underline</string>
+	<key>Xcode.IDEKit.CmdDefinition.Undo</key>
+	<string>撤销</string>
+	<key>Xcode.IDEKit.CmdDefinition.UnlockDocument</key>
+	<string>解锁…</string>
+	<key>Xcode.IDEKit.CmdDefinition.UpdateCommand</key>
+	<string>拉取或更新</string>
+	<key>Xcode.IDEKit.CmdDefinition.UpdateSelectedFilesCommand</key>
+	<string>Update Selected Files</string>
+	<key>Xcode.IDEKit.CmdDefinition.UpdateSelectedFilesWithVECommand</key>
+	<string>Update Selected Files…</string>
+	<key>Xcode.IDEKit.CmdDefinition.UpdateWithVECommand</key>
+	<string>拉取或更新…</string>
+	<key>Xcode.IDEKit.CmdDefinition.UseSelectionForFind</key>
+	<string>用所选内容查找</string>
+	<key>Xcode.IDEKit.CmdDefinition.UseSelectionForReplace</key>
+	<string>用所选内容替换</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesCodeSnippetLibrary</key>
+	<string>Show Code Snippet Library</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesFileInspector</key>
+	<string>Show File Inspector</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesMediaLibrary</key>
+	<string>Show Media Library</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesObjectLibrary</key>
+	<string>Show Object Library</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesSymbolsInspector</key>
+	<string>Show Symbols Inspector</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesTemplateLibrary</key>
+	<string>Show File Template Library</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesToggleVisibility</key>
+	<string>显示实用工具栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.UtilitiesToggleVisibility.Hide</key>
+	<string>隐藏实用工具栏</string>
+	<key>Xcode.IDEKit.CmdDefinition.VersionEditor</key>
+	<string>显示版本编辑器</string>
+	<key>Xcode.IDEKit.CmdDefinition.VersionEditorBlameView</key>
+	<string>Show Authors View</string>
+	<key>Xcode.IDEKit.CmdDefinition.VersionEditorComparisonView</key>
+	<string>Show Comparison View</string>
+	<key>Xcode.IDEKit.CmdDefinition.VersionEditorLogView</key>
+	<string>Show Log View</string>
+	<key>Xcode.IDEKit.CmdDefinition.ViewMemory</key>
+	<string>View Memory</string>
+	<key>Xcode.IDEKit.CmdDefinition.ViewPatchesCommand</key>
+	<string>Apply Patch…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WelcomeToXcode</key>
+	<string>Xcode 欢迎页</string>
+	<key>Xcode.IDEKit.CmdDefinition.WhatsNew</key>
+	<string>Xcode 新特性</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.CheckOutCommand</key>
+	<string>Check Out…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.ConfigureCommand</key>
+	<string>Configure…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.MergeFromBranchCommand</key>
+	<string>从分支合并…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.MergeIntoBranchCommand</key>
+	<string>合并到分支…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.NewBranchCommand</key>
+	<string>新分支…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.SwitchBranchCommand</key>
+	<string>切换分支…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkingCopy.UpgradeCommand</key>
+	<string>Upgrade…</string>
+	<key>Xcode.IDEKit.CmdDefinition.WorkspaceSaveAs</key>
+	<string>Save Workspace As…</string>
+	<key>Xcode.IDEKit.CmdDefinition.XcodeHelp</key>
+	<string>Xcode 帮助</string>
+	<key>Xcode.IDEKit.CmdDefinition.XcodeServer</key>
+	<string>Xcode 服务器…</string>
+	<key>Xcode.IDEKit.CmdDefinition.Zoom</key>
+	<string>缩放</string>
+	<key>Xcode.IDEKit.CmdDefinition.ZoomAll</key>
+	<string>缩放全部</string>
+	<key>Xcode.IDEKit.CompileFile.Format</key>
+	<string>编译 “%@”</string>
+	<key>Xcode.IDEKit.CompileFile.Unsupported</key>
+	<string>编译文件</string>
+	<key>Xcode.IDEKit.DebugNavigator.Title</key>
+	<string>Debug navigator</string>
+	<key>Xcode.IDEKit.DebugNavigator.ToolTip</key>
+	<string>显示调试导航</string>
+	<key>Xcode.IDEKit.EditorDocument.BotDocument-title</key>
+	<string>Bot Editor</string>
+	<key>Xcode.IDEKit.EditorDocument.LogDocument-title</key>
+	<string>Log Viewer</string>
+	<key>Xcode.IDEKit.GenerateAssemblyFile.Format</key>
+	<string>整合 “%@”</string>
+	<key>Xcode.IDEKit.GenerateAssemblyFile.Unsupported</key>
+	<string>整合文件</string>
+	<key>Xcode.IDEKit.GeneratePreprocessedFile.Format</key>
+	<string>预处理 “%@”</string>
+	<key>Xcode.IDEKit.GeneratePreprocessedFile.Unsupported</key>
+	<string>预处理文件</string>
+	<key>Xcode.IDEKit.GeniusCategory.Counterparts</key>
+	<string>Counterparts</string>
+	<key>Xcode.IDEKit.GeniusCategory.GeneratedInterface</key>
+	<string>Generated Interface</string>
+	<key>Xcode.IDEKit.GeniusCategory.IncludedBy</key>
+	<string>Included By</string>
+	<key>Xcode.IDEKit.GeniusCategory.Includes</key>
+	<string>Includes</string>
+	<key>Xcode.IDEKit.GeniusCategory.JumpToCounterpart_Private</key>
+	<string>Jump to Counterpart (Private)</string>
+	<key>Xcode.IDEKit.GeniusCategory.Manual</key>
+	<string>Manual</string>
+	<key>Xcode.IDEKit.GeniusCategory.OriginalSource</key>
+	<string>Original Source</string>
+	<key>Xcode.IDEKit.IDEFilesToContainerItemsAssistantTitle</key>
+	<string>选择添加这些文件的选项:</string>
+	<key>Xcode.IDEKit.IDESCMDownloadAssistantTitle</key>
+	<string>下载</string>
+	<key>Xcode.IDEKit.IDESCMDownloadCredentialsAssistantTitle</key>
+	<string>Enter repository information:</string>
+	<key>Xcode.IDEKit.IDESCMDownloadLocationAssistantTitle</key>
+	<string>选择一个分支:</string>
+	<key>Xcode.IDEKit.IDESCMDownloadPreflightAssistantTitle</key>
+	<string>Checking credentials:</string>
+	<key>Xcode.IDEKit.IDESCMDownloadProgressAssistantTitle</key>
+	<string>下载中:</string>
+	<key>Xcode.IDEKit.IDETemplateOptionsAssistantTitle</key>
+	<string>Choose options for your new template:</string>
+	<key>Xcode.IDEKit.IDEToy.SelectGraphResultInlineRepresentation</key>
+	<string>Graph</string>
+	<key>Xcode.IDEKit.IDEToy.SelectMultipleResultInlineRepresentation</key>
+	<string>Value History</string>
+	<key>Xcode.IDEKit.IDEToy.SelectSingleResultInlineRepresentation</key>
+	<string>Latest Value</string>
+	<key>Xcode.IDEKit.IDEToy.SelectedResultDisplayMode</key>
+	<string>Result Display Mode</string>
+	<key>Xcode.IDEKit.InspectorCategory.FileTitle</key>
+	<string>File Inspector</string>
+	<key>Xcode.IDEKit.InspectorCategory.FileToolTip</key>
+	<string>Show the File inspector</string>
+	<key>Xcode.IDEKit.InspectorCategory.QuickHelpTitle</key>
+	<string>Quick Help Inspector</string>
+	<key>Xcode.IDEKit.InspectorCategory.QuickHelpToolTip</key>
+	<string>Show Quick Help inspector</string>
+	<key>Xcode.IDEKit.InspectorCategory.SourceControlTitle</key>
+	<string>Source Control Inspector</string>
+	<key>Xcode.IDEKit.InspectorCategory.SourceControlToolTip</key>
+	<string>Show the Source Control inspector</string>
+	<key>Xcode.IDEKit.KeyBindingsPreferences.AccessibilityDescription</key>
+	<string>Key Bindings preferences filter</string>
+	<key>Xcode.IDEKit.KeyBindingsPreferences.SearchFieldFilterToolTip</key>
+	<string>Show key bindings with matching content</string>
+	<key>Xcode.IDEKit.LibraryCategory.Files.title</key>
+	<string>File Template Library</string>
+	<key>Xcode.IDEKit.LibraryCategory.Files.toolTip</key>
+	<string>Show the File Template library</string>
+	<key>Xcode.IDEKit.LibraryCategory.Media.title</key>
+	<string>Media Library</string>
+	<key>Xcode.IDEKit.LibraryCategory.Media.toolTip</key>
+	<string>Show the Media library</string>
+	<key>Xcode.IDEKit.LibraryCategory.Objects.title</key>
+	<string>Object Library</string>
+	<key>Xcode.IDEKit.LibraryCategory.Objects.toolTip</key>
+	<string>Show the Object library</string>
+	<key>Xcode.IDEKit.LicenseAgreement.SubTitle.LicenseAndInstall</key>
+	<string>You must agree to both license agreements below in order to complete the installation and use Xcode. By clicking Agree, you are agreeing to the terms of the software license agreements.</string>
+	<key>Xcode.IDEKit.LicenseAgreement.SubTitle.LicenseOnly</key>
+	<string>You must agree to both license agreements below in order to use Xcode. By clicking Agree, you are agreeing to the terms of the software license agreements.</string>
+	<key>Xcode.IDEKit.MediaLibrary.System.title</key>
+	<string>System</string>
+	<key>Xcode.IDEKit.MediaLibrary.User.title</key>
+	<string>工作区</string>
+	<key>Xcode.IDEKit.MediaLibrary.title</key>
+	<string>Media Library</string>
+	<key>Xcode.IDEKit.MenuDefinition.Alerts</key>
+	<string>行为</string>
+	<key>Xcode.IDEKit.MenuDefinition.AssistantEditor</key>
+	<string>辅助视图</string>
+	<key>Xcode.IDEKit.MenuDefinition.AttachToProcess</key>
+	<string>Attach to Process</string>
+	<key>Xcode.IDEKit.MenuDefinition.Baseline</key>
+	<string>Baseline</string>
+	<key>Xcode.IDEKit.MenuDefinition.Breakpoints</key>
+	<string>Breakpoints</string>
+	<key>Xcode.IDEKit.MenuDefinition.Build</key>
+	<string>Build</string>
+	<key>Xcode.IDEKit.MenuDefinition.CaptureGPUScope</key>
+	<string>Capture GPU Scope</string>
+	<key>Xcode.IDEKit.MenuDefinition.CollectionChecking</key>
+	<string>Collection Checking</string>
+	<key>Xcode.IDEKit.MenuDefinition.Convert</key>
+	<string>转换</string>
+	<key>Xcode.IDEKit.MenuDefinition.Debug</key>
+	<string>调试</string>
+	<key>Xcode.IDEKit.MenuDefinition.DebugArea</key>
+	<string>调试区</string>
+	<key>Xcode.IDEKit.MenuDefinition.DebugWorkflow</key>
+	<string>Debug Workflow</string>
+	<key>Xcode.IDEKit.MenuDefinition.Destination</key>
+	<string>Destination</string>
+	<key>Xcode.IDEKit.MenuDefinition.DrawingDiagnostics</key>
+	<string>Drawing Diagnostics</string>
+	<key>Xcode.IDEKit.MenuDefinition.Edit</key>
+	<string>编辑</string>
+	<key>Xcode.IDEKit.MenuDefinition.Editor</key>
+	<string>编辑器</string>
+	<key>Xcode.IDEKit.MenuDefinition.File</key>
+	<string>文件</string>
+	<key>Xcode.IDEKit.MenuDefinition.Filter</key>
+	<string>过滤</string>
+	<key>Xcode.IDEKit.MenuDefinition.Find</key>
+	<string>查找</string>
+	<key>Xcode.IDEKit.MenuDefinition.Font</key>
+	<string>字体</string>
+	<key>Xcode.IDEKit.MenuDefinition.Format</key>
+	<string>格式</string>
+	<key>Xcode.IDEKit.MenuDefinition.GPUOverrides</key>
+	<string>GPU Overrides</string>
+	<key>Xcode.IDEKit.MenuDefinition.Help</key>
+	<string>帮助</string>
+	<key>Xcode.IDEKit.MenuDefinition.HelperApps</key>
+	<string>打开开发工具</string>
+	<key>Xcode.IDEKit.MenuDefinition.HelperApps.GetMore</key>
+	<string>More Developer Tools…</string>
+	<key>Xcode.IDEKit.MenuDefinition.Kern</key>
+	<string>Kern</string>
+	<key>Xcode.IDEKit.MenuDefinition.Ligatures</key>
+	<string>Ligatures</string>
+	<key>Xcode.IDEKit.MenuDefinition.Main</key>
+	<string>Xcode</string>
+	<key>Xcode.IDEKit.MenuDefinition.Navigate</key>
+	<string>导航</string>
+	<key>Xcode.IDEKit.MenuDefinition.Navigators</key>
+	<string>导航</string>
+	<key>Xcode.IDEKit.MenuDefinition.New</key>
+	<string>新建</string>
+	<key>Xcode.IDEKit.MenuDefinition.OpenAs</key>
+	<string>Open As</string>
+	<key>Xcode.IDEKit.MenuDefinition.Product</key>
+	<string>成品</string>
+	<key>Xcode.IDEKit.MenuDefinition.ProductBuildFor</key>
+	<string>构建为</string>
+	<key>Xcode.IDEKit.MenuDefinition.ProductPerformAction</key>
+	<string>执行动作</string>
+	<key>Xcode.IDEKit.MenuDefinition.Profile</key>
+	<string>Profile</string>
+	<key>Xcode.IDEKit.MenuDefinition.Revisions</key>
+	<string>代码控制</string>
+	<key>Xcode.IDEKit.MenuDefinition.RevisionsContextualMenu</key>
+	<string>代码控制</string>
+	<key>Xcode.IDEKit.MenuDefinition.Run</key>
+	<string>运行</string>
+	<key>Xcode.IDEKit.MenuDefinition.SCMCompareWith</key>
+	<string>Compare With</string>
+	<key>Xcode.IDEKit.MenuDefinition.SCMDiffWith</key>
+	<string>Diff With</string>
+	<key>Xcode.IDEKit.MenuDefinition.SCMGetAnnotationsFor</key>
+	<string>Get Annotations For</string>
+	<key>Xcode.IDEKit.MenuDefinition.SCMUpdateTo</key>
+	<string>Update To</string>
+	<key>Xcode.IDEKit.MenuDefinition.Scheme</key>
+	<string>Scheme</string>
+	<key>Xcode.IDEKit.MenuDefinition.Services</key>
+	<string>服务</string>
+	<key>Xcode.IDEKit.MenuDefinition.SimulateLocation</key>
+	<string>Simulate Location</string>
+	<key>Xcode.IDEKit.MenuDefinition.Sort</key>
+	<string>检索</string>
+	<key>Xcode.IDEKit.MenuDefinition.SourceControl</key>
+	<string>代码控制</string>
+	<key>Xcode.IDEKit.MenuDefinition.Speech</key>
+	<string>Speech</string>
+	<key>Xcode.IDEKit.MenuDefinition.SpellingAndGrammar</key>
+	<string>拼写和语法</string>
+	<key>Xcode.IDEKit.MenuDefinition.StandardEditor</key>
+	<string>标准视图</string>
+	<key>Xcode.IDEKit.MenuDefinition.Substitutions</key>
+	<string>Substitutions</string>
+	<key>Xcode.IDEKit.MenuDefinition.Text</key>
+	<string>Text</string>
+	<key>Xcode.IDEKit.MenuDefinition.Transformations</key>
+	<string>Transformations</string>
+	<key>Xcode.IDEKit.MenuDefinition.Utilities</key>
+	<string>实用工具栏</string>
+	<key>Xcode.IDEKit.MenuDefinition.VersionEditor</key>
+	<string>版本视图</string>
+	<key>Xcode.IDEKit.MenuDefinition.View</key>
+	<string>视图</string>
+	<key>Xcode.IDEKit.MenuDefinition.Window</key>
+	<string>窗口</string>
+	<key>Xcode.IDEKit.MenuDefinition.WritingDirection</key>
+	<string>Writing Direction</string>
+	<key>Xcode.IDEKit.MenuDefinition.Xcode</key>
+	<string>Xcode</string>
+	<key>Xcode.IDEKit.MenuTitle.Items</key>
+	<string>Items</string>
+	<key>Xcode.IDEKit.MenuTitle.TestAgain.Suffix</key>
+	<string>Again</string>
+	<key>Xcode.IDEKit.MenuTitle.TestBundles</key>
+	<string>测试 Bundles</string>
+	<key>Xcode.IDEKit.MenuTitle.TestClasses</key>
+	<string>测试类</string>
+	<key>Xcode.IDEKit.MenuTitle.TestMethods</key>
+	<string>测试方法</string>
+	<key>Xcode.IDEKit.Navigator.FilterButtonMenu.NewUITestClass</key>
+	<string>New UI Test Class…</string>
+	<key>Xcode.IDEKit.Navigator.FilterButtonMenu.NewUITestTarget</key>
+	<string>New UI Test Target…</string>
+	<key>Xcode.IDEKit.Navigator.FilterButtonMenu.NewUnitTestClass</key>
+	<string>New Unit Test Class…</string>
+	<key>Xcode.IDEKit.Navigator.FilterButtonMenu.NewUnitTestTarget</key>
+	<string>New Unit Test Target…</string>
+	<key>Xcode.IDEKit.Navigator.FindNavigatorFilterToolTip</key>
+	<string>Show results with matching text</string>
+	<key>Xcode.IDEKit.Navigator.FindNavigatorTitle</key>
+	<string>Find navigator</string>
+	<key>Xcode.IDEKit.Navigator.FindNavigatorToolTip</key>
+	<string>显示搜索导航</string>
+	<key>Xcode.IDEKit.Navigator.Issues.MenuDefinition.ContextualMenu</key>
+	<string>Issue navigator contextual menu</string>
+	<key>Xcode.IDEKit.Navigator.IssuesTitle</key>
+	<string>Issue navigator</string>
+	<key>Xcode.IDEKit.Navigator.IssuesToolTip</key>
+	<string>显示问题导航</string>
+	<key>Xcode.IDEKit.Navigator.LogsTitle</key>
+	<string>Report navigator</string>
+	<key>Xcode.IDEKit.Navigator.LogsToolTip</key>
+	<string>显示报告导航</string>
+	<key>Xcode.IDEKit.Navigator.StructureAccessibilityDescription</key>
+	<string>Project navigator</string>
+	<key>Xcode.IDEKit.Navigator.StructureTitle</key>
+	<string>Project navigator</string>
+	<key>Xcode.IDEKit.Navigator.StructureToolTip</key>
+	<string>显示项目导航</string>
+	<key>Xcode.IDEKit.Navigator.SymbolTitle</key>
+	<string>Symbol navigator</string>
+	<key>Xcode.IDEKit.Navigator.SymbolToolTip</key>
+	<string>显示符号导航</string>
+	<key>Xcode.IDEKit.Navigator.SourceControlTitle</key>
+	<string>Source Control navigator</string>
+	<key>Xcode.IDEKit.Navigator.SourceControlToolTip</key>
+	<string>显示代码控制导航</string>
+	<key>Xcode.IDEKit.Navigator.TestTitle</key>
+	<string>Test navigator</string>
+	<key>Xcode.IDEKit.Navigator.TestToolTip</key>
+	<string>显示测试导航</string>
+	<key>Xcode.IDEKit.ObjCModernization.GeneratingPreview</key>
+	<string>Generating preview:</string>
+	<key>Xcode.IDEKit.ObjCModernization.Overview</key>
+	<string>Convert to modern Objective-C syntax:</string>
+	<key>Xcode.IDEKit.ObjCModernization.ReviewChanges</key>
+	<string>Review changes:</string>
+	<key>Xcode.IDEKit.ObjCModernization.ReviewChanges.FinishButton</key>
+	<string>保存</string>
+	<key>Xcode.IDEKit.ObjCModernization.TargetChooser</key>
+	<string>Select targets to modernize:</string>
+	<key>Xcode.IDEKit.ObjCModernization.TargetChooser.FinishButton</key>
+	<string>Check</string>
+	<key>Xcode.IDEKit.PackageInstallation.Title.InstallPrompt</key>
+	<string>Install additional required components?</string>
+	<key>Xcode.IDEKit.PackageInstallation.Title.Installing</key>
+	<string>Installing components…</string>
+	<key>Xcode.IDEKit.ReviewFilesFilterAccessibilityDescription</key>
+	<string>Review Files navigator filter</string>
+	<key>Xcode.IDEKit.ReviewFilesFilterToolTip</key>
+	<string>Show files with matching name</string>
+	<key>Xcode.IDEKit.SwiftMigration.ChooseVersion</key>
+	<string>Choose Swift version:</string>
+	<key>Xcode.IDEKit.SwiftMigration.GeneratingPreview</key>
+	<string>Generating preview:</string>
+	<key>Xcode.IDEKit.SwiftMigration.HowMuchObjC</key>
+	<string>Options:</string>
+	<key>Xcode.IDEKit.SwiftMigration.OptionChooser</key>
+	<string>Select Options for Migration:</string>
+	<key>Xcode.IDEKit.SwiftMigration.Overview</key>
+	<string>Convert to the current Swift syntax:</string>
+	<key>Xcode.IDEKit.SwiftMigration.ReviewChanges</key>
+	<string>Review changes:</string>
+	<key>Xcode.IDEKit.SwiftMigration.ReviewChanges.FinishButton</key>
+	<string>保存</string>
+	<key>Xcode.IDEKit.SwiftMigration.TargetChooser</key>
+	<string>Select targets to convert:</string>
+	<key>Xcode.IDEKit.SwiftMigration.TargetChooser.FinishButton</key>
+	<string>检查</string>
+	<key>Xcode.IDEKit.TestReport.CmdDefinition.OpenAttachment</key>
+	<string>Open Attachment</string>
+	<key>Xcode.IDELogNavigator.FilterSearchFieldControlAccessibilityDescription</key>
+	<string>Report navigator filter</string>
+	<key>Xcode.IDELogNavigator.FilterSearchFieldControlToolTip</key>
+	<string>Show reports with matching name</string>
+	<key>Xcode.IDELogNavigator.GeniusCategory.ReferencedFiles</key>
+	<string>Referenced Files</string>
+	<key>Xcode.IDELogNavigator.GeniusCategory.TestAttachments</key>
+	<string>Attachments</string>
+	<key>Xcode.IDELogNavigator.MenuDefinition.ContextualMenu</key>
+	<string>Context Menu</string>
+	<key>Xcode.IDELogNavigator.MenuDefinition.LogEditor</key>
+	<string>Editor</string>
+	<key>Xcode.IDELogNavigator.RecentsOnlyFilteringControlAccessibilityDescription</key>
+	<string>Recent reports filter</string>
+	<key>Xcode.IDELogNavigator.RecentsOnlyFilteringControlToolTip</key>
+	<string>Show only recent reports</string>
+	<key>Xcode.IDELogNavigator.WorkspaceBotFilteringControlAccessibilityDescription</key>
+	<string>Bots for this workspace filter</string>
+	<key>Xcode.IDELogNavigator.WorkspaceBotFilteringControlToolTip</key>
+	<string>Show only bots for this workspace</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</key>
+	<string>Jump to Next Counterpart</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</key>
+	<string>Jump to Next Counterpart (option)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithShiftPlusAlternate</key>
+	<string>Jump to Next Counterpart (shift+option)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpart</key>
+	<string>Jump to Previous Counterpart</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithAlternate</key>
+	<string>Jump to Previous Counterpart (option)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithShiftPlusAlternate</key>
+	<string>Jump to Previous Counterpart (shift+option)</string>
+	<key>Xcode.IDEStructureNavigator.DocumentFilteringControlAccessibilityDescription</key>
+	<string>Recently edited files</string>
+	<key>Xcode.IDEStructureNavigator.DocumentFilteringControlToolTip</key>
+	<string>Show only recent files</string>
+	<key>Xcode.IDEStructureNavigator.FileNameSearchFieldControlAccessibilityDescription</key>
+	<string>Project navigator filter</string>
+	<key>Xcode.IDEStructureNavigator.FileNameSearchFieldControlToolTip</key>
+	<string>Show files with matching name</string>
+	<key>Xcode.IDEStructureNavigator.MenuDefinition.ContextualMenu</key>
+	<string>Project navigator contextual menu</string>
+	<key>Xcode.IDEStructureNavigator.MenuDefinition.FilterMenu</key>
+	<string>Project navigator filter menu</string>
+	<key>Xcode.IDEStructureNavigator.SCMFilteringControlAccessibilityDescription</key>
+	<string>Files with source-control status</string>
+	<key>Xcode.IDEStructureNavigator.SCMFilteringControlToolTip</key>
+	<string>Show only files with source-control status</string>
+	<key>Xcode.IDESymbolNavigator.OnlyClassesFilteringControlAccessibilityDescription</key>
+	<string>Only classes</string>
+	<key>Xcode.IDESymbolNavigator.OnlyClassesFilteringControlToolTip</key>
+	<string>Show only class and protocol symbols (hide other global symbol types)</string>
+	<key>Xcode.IDESymbolNavigator.OnlyContainersFilteringAccessibilityDescription</key>
+	<string>Only containers</string>
+	<key>Xcode.IDESymbolNavigator.OnlyContainersFilteringControlToolTip</key>
+	<string>Show only containers (hide members)</string>
+	<key>Xcode.IDESymbolNavigator.SymbolNameSearchFieldControlAccessibilityDescription</key>
+	<string>Symbol navigator filter</string>
+	<key>Xcode.IDESymbolNavigator.SymbolNameSearchFieldControlToolTip</key>
+	<string>Show symbols with matching name</string>
+	<key>Xcode.IDESymbolNavigator.TestNameSearchFieldControlAccessibilityDescription</key>
+	<string>Filter by test name</string>
+	<key>Xcode.IDESymbolNavigator.WorkspaceFilteringAccessibilityDescription</key>
+	<string>Only project symbols</string>
+	<key>Xcode.IDESymbolNavigator.WorkspaceFilteringControlToolTip</key>
+	<string>Show only project-defined symbols</string>
+	<key>Xcode.IDETemplateLibrary.Library.FileTemplatesTitle</key>
+	<string>File Template Library</string>
+	<key>Xcode.IDETestNavigator.AddTests</key>
+	<string>Click the + button to add test targets</string>
+	<key>Xcode.IDETestNavigator.LoadingTests</key>
+	<string>Loading Tests…</string>
+	<key>Xcode.IDETestNavigator.NoTests</key>
+	<string>No Tests</string>
+	<key>Xcode.IDETestNavigator.OnlyFailingTestsFilteringControlAccessibilityDescription</key>
+	<string>Only Failing tests</string>
+	<key>Xcode.IDETestNavigator.OnlyFailingTestsFilteringControlToolTip</key>
+	<string>Show only failing tests</string>
+	<key>Xcode.IDETestNavigator.SchemeFilteringAccessibilityDescription</key>
+	<string>Only Scheme tests</string>
+	<key>Xcode.IDETestNavigator.SchemeFilteringControlToolTip</key>
+	<string>Show only tests in the currently selected scheme</string>
+	<key>Xcode.IDETestNavigator.TestNameSearchFieldControlToolTip</key>
+	<string>Show tests with matching name</string>
+	<key>Xcode.IDETestNavigator.Tooltip.AddANewTestTargetOrClass</key>
+	<string>Add a new test target or class</string>
+	<key>Xcode.OrganizerCategory.Devices.title</key>
+	<string>DEVICES</string>
+	<key>Xcode.OrganizerCategory.Learning.title</key>
+	<string>LEARNING</string>
+	<key>Xcode.OrganizerCategory.Library.title</key>
+	<string>LIBRARY</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.AAVFetchApplicationListAssistantTitle</key>
+	<string>Connecting to iTunes Connect…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.AAVImportProfileAssistantTitle</key>
+	<string>Importing developer profile…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.AAVNoAppsAssistantTitle</key>
+	<string></string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.AAVValidationErrorsAssistantTitle</key>
+	<string>The following issues were found during validation:</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.AAVValidationSuccessAssistantTitle</key>
+	<string>Validation Succeeded</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.ContextMenuDeleteArchive</key>
+	<string>Delete Archive…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.ContextMenuShowArchiveInFinder</key>
+	<string>Show in Finder</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.DeleteArchive</key>
+	<string>Delete Archive…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.DistributeArchive</key>
+	<string>Distribute Archive…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.DistributeAssistantTitle</key>
+	<string>Select the method of distribution:</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.IdentityAssistantTitle</key>
+	<string>Choose your signing identity:</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.PackageGenerationAssistantTitle</key>
+	<string>Xcode is packaging your application…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.ShowArchiveInFinder</key>
+	<string>在访达中显示</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.ValidateArchive</key>
+	<string>Validate Archive…</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.ValidationMethodAssistantTitle</key>
+	<string>Choose the method of validation:</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.iTCLoginAssistantTitle</key>
+	<string>Log in to iTunes Connect:</string>
+	<key>Xcode.OrganizerSource.ArchivedApplications.title</key>
+	<string>归档</string>
+	<key>Xcode.OrganizerSource.Projects.title</key>
+	<string>项目</string>
+	<key>Xcode.PreferencePane.Accounts.Title</key>
+	<string>账户</string>
+	<key>Xcode.PreferencePane.Alerts.Title</key>
+	<string>行为</string>
+	<key>Xcode.AlertEvent.BuildSucceeds</key>
+	<string>构建成功</string>
+	<key>Xcode.PreferencePane.Components.Title</key>
+	<string>组件</string>
+	<key>Xcode.PreferencePane.FontAndColor.Title</key>
+	<string>字体&amp;颜色</string>
+	<key>Xcode.PreferencePane.General.Title</key>
+	<string>通用</string>
+	<key>Xcode.PreferencePane.KeyBindings.Title</key>
+	<string>快捷键</string>
+	<key>Xcode.PreferencePane.Locations.Title</key>
+	<string>位置</string>
+	<key>Xcode.PreferencePane.Navigation.Title</key>
+	<string>导航</string>
+	<key>Xcode.Template.ChooseFileTemplate</key>
+	<string>为您的新文件选择一个模板:</string>
+	<key>Xcode.Template.ChoosePlaygroundTemplate</key>
+	<string>为您的新playground选择一个模板:</string>
+</dict>
+</plist>

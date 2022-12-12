@@ -1,0 +1,29 @@
+{
+	"%@ matches" = "%@ \U4e2a\U5339\U914d\U9879";
+	"1 match" = "1 \U4e2a\U5339\U914d\U9879";
+	Category = "\U76ee\U5f55";
+	Contains = Contains;
+	"Contains Exactly" = "Contains Exactly";
+	"Contains Something Like" = "Contains Something Like";
+	Days = "\U5929";
+	"Edit %@\\U2026" = "Edit %@\U2026";
+	"Empty Selection" = "Empty Selection";
+	"Ends With" = "Ends With";
+	Hours = "\U5c0f\U65f6";
+	"Include objects where all of the following are true" = "Include objects where all of the following are true";
+	"Include objects where any of the following are true" = "Include objects where any of the following are true";
+	"Include objects where none of the following are true" = "Include objects where none of the following are true";
+	"Incomplete rule" = "Incomplete rule";
+	Label = Label;
+	Library = Library;
+	Minutes = "\U5206\U949f";
+	Movies = "\U7535\U5f71";
+	"Movies Library" = "\U7535\U5f71\U5e93";
+	"Multiple Selection" = "Multiple Selection";
+	"New Group" = "\U65b0\U5efa\U7ec4";
+	Photos = "\U7167\U7247";
+	"Search Criteria Matches" = "Search Criteria Matches";
+	"Starts With" = "Starts With";
+	"Used Within" = "Used Within";
+	Weeks = "\U5468";
+}

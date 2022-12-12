@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ASCII Property List</key>
+	<string>ASCII Property List</string>
+	<key>Ada Source</key>
+	<string>Ada Source</string>
+	<key>Anything</key>
+	<string>Anything</string>
+	<key>AppleScript Script Suite</key>
+	<string>AppleScript Script Suite</string>
+	<key>AppleScript Script Terminology</key>
+	<string>AppleScript Script Terminology</string>
+	<key>Archived Debug Symbols</key>
+	<string>Archived Debug Symbols</string>
+	<key>Assembly Source</key>
+	<string>Assembly Source</string>
+	<key>Binary Property List</key>
+	<string>Binary Property List</string>
+	<key>Bourne-Again Shell Script</key>
+	<string>Bourne-Again Shell Script</string>
+	<key>C Header Source</key>
+	<string>C Header Source</string>
+	<key>C Precompiled Header Source</key>
+	<string>C Precompiled Header Source</string>
+	<key>C Shell Script</key>
+	<string>C Shell Script</string>
+	<key>C Source</key>
+	<string>C Source</string>
+	<key>C++ Header Source</key>
+	<string>C++ 头文件代码</string>
+	<key>C++ Precompiled Header Source</key>
+	<string>C++ Precompiled Header Source</string>
+	<key>C++ Source</key>
+	<string>C++ 代码</string>
+	<key>CFBundleDisplayName</key>
+	<string>Xcode</string>
+	<key>CFBundleName</key>
+	<string>Xcode</string>
+	<key>Compiled Core Data Model</key>
+	<string>Compiled Core Data Model</string>
+	<key>Core Data Mapping Model</key>
+	<string>Core Data Mapping Model</string>
+	<key>Core Data Model</key>
+	<string>Core Data Model</string>
+	<key>Developer Profile</key>
+	<string>Developer Profile</string>
+	<key>Developer Provisioning Profile</key>
+	<string>Developer Provisioning Profile</string>
+	<key>Documentation Set</key>
+	<string>Documentation Set</string>
+	<key>Fortran Source</key>
+	<string>Fortran Source</string>
+	<key>Interface Builder NIB Document</key>
+	<string>Interface Builder NIB Document</string>
+	<key>Interface Builder XIB Document</key>
+	<string>Interface Builder XIB Document</string>
+	<key>Java Class</key>
+	<string>Java 类</string>
+	<key>Java Source</key>
+	<string>Java 源代码</string>
+	<key>Korn Shell Script</key>
+	<string>Korn Shell Script</string>
+	<key>Lex Source</key>
+	<string>Lex Source</string>
+	<key>Makefile</key>
+	<string>Makefile</string>
+	<key>Markdown Document</key>
+	<string>Markdown Document</string>
+	<key>Metal Shader Source</key>
+	<string>Metal Shader Source</string>
+	<key>Mig Definition</key>
+	<string>Mig Definition</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Xcode can pair your contacts with Source Control users for enhanced collaboration.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 1999–2018 Apple Inc. 保留一切权利。</string>
+	<key>Objective-C Source</key>
+	<string>Objective-C Source</string>
+	<key>Objective-C++ Source</key>
+	<string>Objective-C++ Source</string>
+	<key>Pascal Source</key>
+	<string>Pascal Source</string>
+	<key>Perl Source</key>
+	<string>Perl Source</string>
+	<key>Property List</key>
+	<string>Property List</string>
+	<key>Python Source</key>
+	<string>Python Source</string>
+	<key>Rez Source</key>
+	<string>Rez Source</string>
+	<key>Rich Text Document</key>
+	<string>Rich Text Document</string>
+	<key>Rich Text Document with Attachments</key>
+	<string>Rich Text Document with Attachments</string>
+	<key>Ruby Source</key>
+	<string>Ruby Source</string>
+	<key>Script</key>
+	<string>Script</string>
+	<key>Scripting Definition</key>
+	<string>Scripting Definition</string>
+	<key>Shell Script</key>
+	<string>Shell 脚本</string>
+	<key>Source Code</key>
+	<string>源代码</string>
+	<key>Strings File</key>
+	<string>Strings File</string>
+	<key>Stringsdict File</key>
+	<string>Stringsdict File</string>
+	<key>Symbol Export</key>
+	<string>Symbol Export</string>
+	<key>Tenex C Shell Script</key>
+	<string>Tenex C Shell Script</string>
+	<key>Text Document</key>
+	<string>Text Document</string>
+	<key>Versioned Core Data Model</key>
+	<string>Versioned Core Data Model</string>
+	<key>XML Document</key>
+	<string>XML Document</string>
+	<key>XML Property List</key>
+	<string>XML Property List</string>
+	<key>Xcode Configuration Settings</key>
+	<string>Xcode Configuration Settings</string>
+	<key>Xcode DVT Plug-in</key>
+	<string>Xcode DVT Plug-in</string>
+	<key>Xcode IDE Plug-in</key>
+	<string>Xcode IDE Plug-in</string>
+	<key>Xcode Project</key>
+	<string>Xcode Project</string>
+	<key>Xcode Project Data</key>
+	<string>Xcode Project Data</string>
+	<key>Xcode Scheme</key>
+	<string>Xcode Scheme</string>
+	<key>Xcode Snapshot</key>
+	<string>Xcode Snapshot</string>
+	<key>Xcode User Settings</key>
+	<string>Xcode User Settings</string>
+	<key>Xcode Workspace</key>
+	<string>Xcode Workspace</string>
+	<key>Yacc Source</key>
+	<string>Yacc Source</string>
+	<key>Zsh Script</key>
+	<string>Zsh Script</string>
+	<key>nasm Assembly Source</key>
+	<string>nasm Assembly Source</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Standalone C Preprocessor</string>
+	<key>Name</key>
+	<string>C Preprocessor</string>
+	<key>OutputParseInfo-MessageStatusFormat</key>
+	<string>预处理 %@</string>
+	<key>OutputParseInfo-ProgressStatusFormat</key>
+	<string>正在预处理 %@</string>
+	<key>Vendor</key>
+	<string>Apple</string>
+	<key>Version</key>
+	<string>Default</string>
+	<key>[BuildOptions]-category</key>
+	<string>构建选项</string>
+	<key>[CPP_OTHER_PREPROCESSOR_FLAGS]-description</key>
+	<string>Other flags to pass to the C preprocessor when using the standalone C Preprocessor rule.</string>
+	<key>[CPP_OTHER_PREPROCESSOR_FLAGS]-name</key>
+	<string>Cpp Other Preprocessor Flags</string>
+	<key>[CPP_PREFIX_HEADER]-description</key>
+	<string>Implicitly include the given file when preprocessing using the standalone C Preprocessor rule. The path given should either be a project relative path or an absolute path.</string>
+	<key>[CPP_PREFIX_HEADER]-name</key>
+	<string>Cpp Prefix File</string>
+	<key>[CPP_PREPROCESSOR_DEFINITIONS]-description</key>
+	<string>Space-separated list of preprocessor macros of the form `foo` or `foo=bar`. These macros are used when preprocessing using the standalone C Preprocessor rule.</string>
+	<key>[CPP_PREPROCESSOR_DEFINITIONS]-name</key>
+	<string>Cpp Preprocessor Definitions</string>
+</dict>
+</plist>

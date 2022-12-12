@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ (%d files)</key>
+	<string>%1$@ (%2$d 文件)</string>
+	<key>%@ (1 file)</key>
+	<string>%@ (1 文件)</string>
+	<key>Are you sure you want to delete the &quot;%@&quot; build phase?</key>
+	<string>你确定要删除 &quot;%@&quot; 构建阶段吗?</string>
+	<key>Are you sure you want to delete the build rule  “%@”?</key>
+	<string>你确定删除构建规则&quot;%@&quot;吗?</string>
+	<key>Absolute Path</key>
+	<string>Absolute Path</string>
+	<key>New Run Script Phase</key>
+	<string>新运行脚本阶段</string>
+	<key>Build Status</key>
+	<string>构建状态</string>
+	<key>Build Settings</key>
+	<string>构建设置</string>
+	<key>Cancel</key>
+	<string>取消</string>
+	<key>This operation cannot be undone.</key>
+	<string>此操作无法撤消!</string>
+	<key>Choose items to add to &quot;%@&quot;</key>
+	<string>选择添加项目到 &quot;%@&quot;</string>
+	<key>Choose items to add:</key>
+	<string>选择要添加的项目:</string>
+	<key>Compiler Flags</key>
+	<string>编译器标志</string>
+	<key>Delete</key>
+	<string>删除</string>
+	<key>Add Other...</key>
+	<string>添加其他...</string>
+	<key>Drag %@ files here</key>
+	<string>拖拽 %@ 文件 到此</string>
+	<key>Drag %@ frameworks or libraries here</key>
+	<string>拖拽 %@ 框架或链接库到此</string>
+	<key>Drag %@ header files here</key>
+	<string>拖拽 %@ 头文件到此</string>
+	<key>Drag items here to add them to this build phase.</key>
+	<string>Drag items here to add them to this build phase.</string>
+	<key>Executables</key>
+	<string>可执行文件</string>
+	<key>Frameworks</key>
+	<string>框架</string>
+	<key>Java Resources</key>
+	<string>Java资源</string>
+	<key>New %@ Build Phase</key>
+	<string>新 %@ 构建阶段</string>
+	<key>New %@ Phase</key>
+	<string>新 %@ 阶段</string>
+	<key>PlugIns</key>
+	<string>插件</string>
+	<key>Products Directory</key>
+	<string>Products Directory</string>
+	<key>Resources</key>
+	<string>资源</string>
+	<key>Role</key>
+	<string>Role</string>
+	<key>Shared Frameworks</key>
+	<string>Shared Frameworks</string>
+	<key>Shared Support</key>
+	<string>Shared Support</string>
+	<key>Show Target Dependencies Build Phase</key>
+	<string>Show Target Dependencies Build Phase</string>
+	<key>Type a script or drag a script file from your workspace to insert its path</key>
+	<string>Type a script or drag a script file from your workspace to insert its path</string>
+	<key>Wrapper</key>
+	<string>封装</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.BuildPropertyCategory</key>
+	<string>编译设置</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.BuildPropertyCategory.UserDefined</key>
+	<string>用户定义</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.BuildPropertyCategory.Deployment</key>
+	<string>部署</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.CONFIGURATIONFILES</key>
+	<string>CONFIGURATION FILES</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.CustomKeys</key>
+	<string>Custom Keys &amp; Values</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.PROJECT</key>
+	<string>项目</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.TARGETS</key>
+	<string>目标文件</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.classPrefix</key>
+	<string>The default prefix for new class files added to this project</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.classPrefixDefaultValue</key>
+	<string>The default prefix for new class files added to this project.</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.currentMacOS</key>
+	<string>当前macOS</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.organizationName</key>
+	<string>The organization name to use in the comment headers of new files added to this project</string>
+	<key>Xcode.Xcode3ProjectSupport.Strings.organizationNameDefaultValue</key>
+	<string>The organization name to use in the comment headers of new files added to this project.  Open Address Book and choose Cards &gt; Go To My Card to set this for all new projects</string>
+	<key>class</key>
+	<string>类</string>
+	<key>com.apple.dt.Xcode3ProjectSupport.Strings.BuildPhasesEditorName</key>
+	<string>构建阶段</string>
+	<key>com.apple.dt.Xcode3ProjectSupport.Strings.BuildRulesEditorName</key>
+	<string>构建规则</string>
+	<key>com.apple.dt.Xcode3ProjectSupport.Strings.InfoEditorName</key>
+	<string>信息</string>
+	<key>executable</key>
+	<string>executable</string>
+	<key>extensions</key>
+	<string>扩展</string>
+	<key>identifier</key>
+	<string>标识符</string>
+	<key>main interface</key>
+	<string>main interface</string>
+	<key>mime types</key>
+	<string>mime types</string>
+	<key>name</key>
+	<string>名称</string>
+	<key>Name</key>
+	<string>名称</string>
+	<key>path</key>
+	<string>路径</string>
+	<key>principal class</key>
+	<string>principal class</string>
+	<key>role</key>
+	<string>role</string>
+	<key>store type</key>
+	<string>store type</string>
+	<key>subpath</key>
+	<string>子路径</string>
+	<key>type</key>
+	<string>type</string>
+	<key>uti</key>
+	<string>uti</string>
+	<key>version</key>
+	<string>版本</string>
+</dict>
+</plist>

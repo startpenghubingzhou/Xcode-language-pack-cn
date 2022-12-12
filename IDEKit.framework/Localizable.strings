@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (update available)</key>
+	<string> (update available)</string>
+	<key> in %@</key>
+	<string> in %@</string>
+	<key> in New Split</key>
+	<string> in New Split</string>
+	<key> in New Tab</key>
+	<string> in New Tab</string>
+	<key> in New Window</key>
+	<string> in New Window</string>
+	<key> in Separate Split</key>
+	<string> in Separate Split</string>
+	<key> in Separate Tab</key>
+	<string> in Separate Tab</string>
+	<key> in Separate Window</key>
+	<string> in Separate Window</string>
+	<key> in Smart Split in Primary Editor</key>
+	<string> in Smart Split in Primary Editor</string>
+	<key>%@ &quot;%@&quot;</key>
+	<string>%1$@ &quot;%2$@&quot;</string>
+	<key>%@ &quot;%@&quot; successfully</key>
+	<string>%1$@ &quot;%2$@&quot; successfully</string>
+	<key>%@ &amp; Frameworks</key>
+	<string>%@ &amp; Frameworks</string>
+	<key>%@ Menu</key>
+	<string>%@ Menu</string>
+	<key>%@ Menu for %@</key>
+	<string>%1$@ Menu for %2$@</string>
+	<key>%@ may not start with a digit</key>
+	<string>%@ may not start with a digit</string>
+	<key>%@ of %@ results</key>
+	<string>%1$@ of %2$@ results</string>
+	<key>%@ of same name already exists</key>
+	<string>%@ of same name already exists</string>
+	<key>%@ results in %@ file</key>
+	<string>%1$@ results in %2$@ file</string>
+	<key>%@ results in %@ files</key>
+	<string>%1$@ results in %2$@ files</string>
+	<key>%@ results in 1 file</key>
+	<string>%@ results in 1 file</string>
+	<key>%d Groups</key>
+	<string>%d Groups</string>
+	<key>&apos;%@&apos; is a reserved language keyword</key>
+	<string>&apos;%@&apos; is a reserved language keyword</string>
+	<key>1 of 1 result</key>
+	<string>1 of 1 result</string>
+	<key>1 result in 1 file</key>
+	<string>1 result in 1 file</string>
+	<key>10</key>
+	<string>10</string>
+	<key>15</key>
+	<string>15</string>
+	<key>20</key>
+	<string>20</string>
+	<key>30</key>
+	<string>30</string>
+	<key>5</key>
+	<string>5</string>
+	<key>50</key>
+	<string>50</string>
+	<key>&lt;None&gt;</key>
+	<string>&lt;无&gt;</string>
+	<key>&lt;empty string&gt;</key>
+	<string>&lt;empty string&gt;</string>
+	<key>A copy of your project is available in %@</key>
+	<string>A copy of your project is available in “%@”</string>
+	<key>Add</key>
+	<string>Add</string>
+	<key>Add Files to %@...</key>
+	<string>Add Files to “%@”…</string>
+	<key>Add Files...</key>
+	<string>添加文件…</string>
+	<key>Add Other…</key>
+	<string>Add Other…</string>
+	<key>Add a new file</key>
+	<string>添加一个新文件</string>
+	<key>Add a new file or project</key>
+	<string>Add a new file or project</string>
+	<key>Add file</key>
+	<string>Add file</string>
+	<key>Add file or project</key>
+	<string>Add file or project</string>
+	<key>Add items</key>
+	<string>Add items</string>
+	<key>Added</key>
+	<string>已添加</string>
+	<key>An error occurred while %@ &quot;%@&quot;</key>
+	<string>An error occurred while %1$@ &quot;%2$@&quot;</string>
+	<key>An unknown error occurred</key>
+	<string>An unknown error occurred</string>
+	<key>Analyze</key>
+	<string>分析</string>
+	<key>Any</key>
+	<string>Any</string>
+	<key>Apple ID</key>
+	<string>Apple ID</string>
+	<key>Applications</key>
+	<string>Applications</string>
+	<key>Archive</key>
+	<string>归档</string>
+	<key>Are you sure you want to clean the build folder for “%@”?</key>
+	<string>Are you sure you want to clean the build folder for “%@”?</string>
+	<key>Are you sure you want to delete all snapshots of %@?</key>
+	<string>Are you sure you want to delete all snapshots of “%@”?</string>
+	<key>Are you sure you want to delete the derived data of %@?</key>
+	<string>Are you sure you want to delete the derived data of “%@”?</string>
+	<key>Are you sure you want to delete the snapshot %@?</key>
+	<string>Are you sure you want to delete the snapshot “%@”?</string>
+	<key>Are you sure you want to delete these %ld snapshots?</key>
+	<string>Are you sure you want to delete these %ld snapshots?</string>
+	<key>Are you sure you want to permanently discard all changes to %lu working copies?</key>
+	<string>Are you sure you want to permanently discard all changes to %lu working copies?</string>
+	<key>Are you sure you want to permanently discard all changes to the working copy “%@”?</key>
+	<string>Are you sure you want to permanently discard all changes to the working copy “%@”?</string>
+	<key>Are you sure you want to remove %@ from Projects?</key>
+	<string>Are you sure you want to remove “%@” from Projects?</string>
+	<key>Are you sure you want to remove these %ld items from Projects?</key>
+	<string>Are you sure you want to remove these %ld items from Projects?</string>
+	<key>Are you sure you want to revert these %ld files?</key>
+	<string>Are you sure you want to revert these %ld files?</string>
+	<key>Are you sure you want to revert “%@”?</key>
+	<string>Are you sure you want to revert “%@”?</string>
+	<key>Are you sure you want to stop the commit?</key>
+	<string>Are you sure you want to stop the commit?</string>
+	<key>Are you sure you want to stop the update?</key>
+	<string>Are you sure you want to stop the update?</string>
+	<key>Arguments</key>
+	<string>参数</string>
+	<key>Arguments Passed On Launch</key>
+	<string>Arguments Passed On Launch</string>
+	<key>Assistant editor</key>
+	<string>Assistant editor</string>
+	<key>Build &amp; Profile</key>
+	<string>Build &amp; Profile</string>
+	<key>Build &amp; Run</key>
+	<string>构建并运行</string>
+	<key>Build Error</key>
+	<string>Build Error</string>
+	<key>Build Issue</key>
+	<string>构建问题</string>
+	<key>Build Warning</key>
+	<string>构建警告</string>
+	<key>Building %@</key>
+	<string>正在构建 %@</string>
+	<key>C source</key>
+	<string>C 代码资源</string>
+	<key>C++ source</key>
+	<string>C++ 代码资源</string>
+	<key>Can\u2019t delete the keyboard shortcut because %@ has alternate menu items</key>
+	<string>Can’t delete the keyboard shortcut because %@ has alternate menu items</string>
+	<key>Can\u2019t delete the keyboard shortcut because %@ has an alternate menu item</key>
+	<string>Can’t delete the keyboard shortcut because %@ has an alternate menu item</string>
+	<key>Cancel</key>
+	<string>取消</string>
+	<key>Cancel Update</key>
+	<string>取消更新</string>
+	<key>Cannot restore the snapshot over a directory named</key>
+	<string>Cannot restore the snapshot over a directory named</string>
+	<key>Check All</key>
+	<string>Check All</string>
+	<key>Checked out</key>
+	<string>Checked out</string>
+	<key>Checking out</key>
+	<string>Checking out</string>
+	<key>Checkout</key>
+	<string>Checkout</string>
+	<key>Checkout or Clone</key>
+	<string>Checkout or Clone</string>
+	<key>Choose</key>
+	<string>Choose</string>
+	<key>Choose a Working Directory</key>
+	<string>Choose a Working Directory</string>
+	<key>Choose an executable to launch</key>
+	<string>Choose an executable to launch</string>
+	<key>Choose folder to export schemes to</key>
+	<string>Choose folder to export schemes to</string>
+	<key>Choose options for your new file:</key>
+	<string>为您的新文件选择选项:</string>
+	<key>Choose options for your new project:</key>
+	<string>为您的新项目选择选项:</string>
+	<key>Choose options for your new template:</key>
+	<string>为您的新模板选择选项:</string>
+	<key>Choose schemes to import</key>
+	<string>Choose schemes to import</string>
+	<key>Choose targets to build as part of this scheme</key>
+	<string>Choose targets to build as part of this scheme</string>
+	<key>Class of same name already exists</key>
+	<string>Class of same name already exists</string>
+	<key>Clean</key>
+	<string>清理</string>
+	<key>Clean Build Folder</key>
+	<string>Clean Build Folder</string>
+	<key>Clear Menu</key>
+	<string>Clear Menu</string>
+	<key>Clear Recents</key>
+	<string>Clear Recents</string>
+	<key>Clone</key>
+	<string>克隆</string>
+	<key>Cloned</key>
+	<string>已克隆</string>
+	<key>Cloning</key>
+	<string>正在克隆</string>
+	<key>Close</key>
+	<string>关闭</string>
+	<key>Close Assistant Split</key>
+	<string>Close Assistant Split</string>
+	<key>Close Document</key>
+	<string>Close Document</string>
+	<key>Close Single-File Split</key>
+	<string>Close Single-File Split</string>
+	<key>Close Split</key>
+	<string>Close Split</string>
+	<key>Close “%@”</key>
+	<string>关闭 “%@”</string>
+	<key>Code snippet</key>
+	<string>Code snippet</string>
+	<key>Command Sets</key>
+	<string>Command Sets</string>
+	<key>Committed by %@</key>
+	<string>Committed by %@</string>
+	<key>Conflicted</key>
+	<string>Conflicted</string>
+	<key>Console</key>
+	<string>控制台</string>
+	<key>Contains</key>
+	<string>Contains</string>
+	<key>Continue</key>
+	<string>继续</string>
+	<key>Continue Update</key>
+	<string>Continue Update</string>
+	<key>Copy of %@</key>
+	<string>Copy of %@</string>
+	<key>Couldn&apos;t restore snapshot in %@</key>
+	<string>Couldn&apos;t restore snapshot in “%@”</string>
+	<key>Create Assistant Split</key>
+	<string>Create Assistant Split</string>
+	<key>Create Single-File Split</key>
+	<string>Create Single-File Split</string>
+	<key>Create Split</key>
+	<string>Create Split</string>
+	<key>Create snapshot of %@ before mass-editing operations</key>
+	<string>Create snapshot of %@ before mass-editing operations</string>
+	<key>Creating snapshot</key>
+	<string>Creating snapshot</string>
+	<key>Debug Area</key>
+	<string>调试区</string>
+	<key>Debugging</key>
+	<string>Debugging</string>
+	<key>Default shortcut: %@</key>
+	<string>Default shortcut: %@</string>
+	<key>Default shortcuts: %@</key>
+	<string>Default shortcuts: %@</string>
+	<key>Delete</key>
+	<string>Delete</string>
+	<key>Deleted</key>
+	<string>Deleted</string>
+	<key>Derived data associated with %@ — such as build output, logs, index, and snapshots — will be immediately deleted. You can&apos;t undo this action.</key>
+	<string>Derived data associated with “%@” — such as build output, logs, index, and snapshots — will be immediately deleted. You can&apos;t undo this action.</string>
+	<key>Derived data associated with these %ld items — such as build output, logs, index, and snapshots — will be immediately deleted. You can&apos;t undo this action.</key>
+	<string>Derived data associated with these %ld items — such as build output, logs, index, and snapshots — will be immediately deleted. You can&apos;t undo this action.</string>
+	<key>Derived data such as index, build output and logs will be immediately deleted. The first indexing and rebuild of a project after that may be slower.</key>
+	<string>Derived data such as index, build output and logs will be immediately deleted. The first indexing and rebuild of a project after that may be slower.</string>
+	<key>Diagnostics</key>
+	<string>Diagnostics</string>
+	<key>Discard</key>
+	<string>Discard</string>
+	<key>Discard All Changes</key>
+	<string>Discard All Changes</string>
+	<key>Discard All Changes…</key>
+	<string>Discard All Changes…</string>
+	<key>Discard Changes</key>
+	<string>Discard Changes</string>
+	<key>Discard Changes…</key>
+	<string>Discard Changes…</string>
+	<key>Discard local changes:</key>
+	<string>Discard local changes:</string>
+	<key>Discarding local changes</key>
+	<string>Discarding local changes</string>
+	<key>Discard…</key>
+	<string>Discard…</string>
+	<key>Do you really want to delete %u schemes?</key>
+	<string>Do you really want to delete %u schemes?</string>
+	<key>Do you really want to delete the scheme &quot;%@&quot;?</key>
+	<string>Do you really want to delete the scheme &quot;%@&quot;?</string>
+	<key>Do you want to move %@ to the Trash, or only remove the reference to it?</key>
+	<string>您想将 “%@” 移到废纸篓，还是仅移除对它的引用？</string>
+	<key>Do you want to move %@ to the Trash?</key>
+	<string>您想将“%@” 移到废纸篓么?</string>
+	<key>Do you want to move the %lu selected items to the Trash, or only remove the references to them?</key>
+	<string>您想将 %lu 个选中的条目移到废纸篓，还是仅移除对它们的引用?</string>
+	<key>Do you want to move the %lu selected items to the Trash?</key>
+	<string>Do you want to move the %lu selected items to the Trash?</string>
+	<key>Do you want to permanently discard all changes to the selected files?</key>
+	<string>Do you want to permanently discard all changes to the selected files?</string>
+	<key>Do you want to permanently discard all changes to the working copy “%@”?</key>
+	<string>Do you want to permanently discard all changes to the working copy “%@”?</string>
+	<key>Do you want to permanently discard all changes to “%@”?</key>
+	<string>Do you want to permanently discard all changes to “%@”?</string>
+	<key>Do you want to remove the password for the repository &quot;%@&quot; from the keychain?</key>
+	<string>Do you want to remove the password for the repository &quot;%@&quot; from the keychain?</string>
+	<key>Do you want to revert to the most recently saved version of the document \U201C%@?\U201D</key>
+	<string>Do you want to revert to the most recently saved version of the document “%@?”</string>
+	<key>Document is not under source control.</key>
+	<string>Document is not under source control.</string>
+	<key>Does Not Contain</key>
+	<string>Does Not Contain</string>
+	<key>Don&apos;t Open</key>
+	<string>不打开</string>
+	<key>Don&apos;t Quit</key>
+	<string>不退出</string>
+	<key>Don&apos;t Remove</key>
+	<string>不移除</string>
+	<key>Don&apos;t Unlock</key>
+	<string>Don&apos;t Unlock</string>
+	<key>Duplicate &quot;%@&quot;</key>
+	<string>Duplicate &quot;%@&quot;</string>
+	<key>Edit</key>
+	<string>Edit</string>
+	<key>Edit Scheme…</key>
+	<string>Edit Scheme…</string>
+	<key>Edit “%@”…</key>
+	<string>编辑 “%@”…</string>
+	<key>Enter commit message here</key>
+	<string>Enter commit message here</string>
+	<key>Enter description here</key>
+	<string>Enter description here</string>
+	<key>Environment Variables</key>
+	<string>Environment Variables</string>
+	<key>Error searching for “%@”</key>
+	<string>Error searching for “%@”</string>
+	<key>Export</key>
+	<string>Export</string>
+	<key>Export Schemes</key>
+	<string>Export Schemes</string>
+	<key>Export Snapshot</key>
+	<string>Export Snapshot</string>
+	<key>Failed to replace %@ result out of %@.</key>
+	<string>Failed to replace %1$@ result out of %2$@.</string>
+	<key>Failed to replace %@ results out of %@.</key>
+	<string>Failed to replace %1$@ results out of %2$@.</string>
+	<key>Fetching remote data</key>
+	<string>Fetching remote data…</string>
+	<key>File</key>
+	<string>文件</string>
+	<key>File View</key>
+	<string>File View</string>
+	<key>File...</key>
+	<string>File…</string>
+	<key>Find</key>
+	<string>查找</string>
+	<key>Find in files where all of these conditions are true:</key>
+	<string>Find in files where all of these conditions are true:</string>
+	<key>Find regular expression &quot;%@&quot;</key>
+	<string>Find regular expression “%@”</string>
+	<key>Find symbol definitions &quot;%@&quot;</key>
+	<string>Find symbol definitions “%@”</string>
+	<key>Find symbol references &quot;%@&quot;</key>
+	<string>Find symbol references “%@”</string>
+	<key>Find text &quot;%@&quot;</key>
+	<string>Find text “%@”</string>
+	<key>Finding “%@”</key>
+	<string>Finding “%@”</string>
+	<key>Finish</key>
+	<string>结束</string>
+	<key>First character cannot be a colon</key>
+	<string>First character cannot be a colon</string>
+	<key>First character cannot be a digit</key>
+	<string>First character cannot be a digit</string>
+	<key>Flat View</key>
+	<string>Flat View</string>
+	<key>Folder</key>
+	<string>Folder</string>
+	<key>Found</key>
+	<string>Found</string>
+	<key>Go Back</key>
+	<string>Go Back</string>
+	<key>Go Forward</key>
+	<string>Go Forward</string>
+	<key>Group</key>
+	<string>组</string>
+	<key>HTML</key>
+	<string>HTML</string>
+	<key>Hide</key>
+	<string>Hide</string>
+	<key>Hide Find Options</key>
+	<string>Hide Find Options</string>
+	<key>Hide Ignored Files</key>
+	<string>Hide Ignored Files</string>
+	<key>Ignore</key>
+	<string>Ignore</string>
+	<key>Ignored</key>
+	<string>已忽略</string>
+	<key>Import</key>
+	<string>导入</string>
+	<key>Import Schemes</key>
+	<string>Import Schemes</string>
+	<key>In %@</key>
+	<string>在 %@ 中</string>
+	<key>In %@ &amp; Frameworks</key>
+	<string>In %@ &amp; Frameworks</string>
+	<key>In %@ and Frameworks</key>
+	<string>In %@ and Frameworks</string>
+	<key>In Workspace</key>
+	<string>In Workspace</string>
+	<key>In Workspace and Frameworks</key>
+	<string>In Workspace and Frameworks</string>
+	<key>Info</key>
+	<string>Info</string>
+	<key>Insert Pattern</key>
+	<string>Insert Pattern</string>
+	<key>Invalid process identifier</key>
+	<string>Invalid process identifier</string>
+	<key>Issues View</key>
+	<string>Issues View</string>
+	<key>Java source</key>
+	<string>Java 代码资源</string>
+	<key>JavaScript</key>
+	<string>JavaScript</string>
+	<key>Jump</key>
+	<string>Jump</string>
+	<key>Jump Bar</key>
+	<string>Jump Bar</string>
+	<key>Jump to Next Counterpart</key>
+	<string>Jump to Next Counterpart</string>
+	<key>Jump to Previous Counterpart</key>
+	<string>Jump to Previous Counterpart</string>
+	<key>Keep Xcode Version</key>
+	<string>Keep Xcode Version</string>
+	<key>Keep this Version</key>
+	<string>Keep this Version</string>
+	<key>Last character must be a colon</key>
+	<string>Last character must be a colon</string>
+	<key>Last opened %@</key>
+	<string>Last opened %@</string>
+	<key>Likely Targets</key>
+	<string>Likely Targets</string>
+	<key>Load More</key>
+	<string>Load More</string>
+	<key>Loading More</key>
+	<string>Loading More</string>
+	<key>Loading Snapshots...</key>
+	<string>Loading Snapshots...</string>
+	<key>Location</key>
+	<string>位置</string>
+	<key>Log Message</key>
+	<string>Log Message</string>
+	<key>MIG definition file</key>
+	<string>MIG definition file</string>
+	<key>Manage Key Bindings…</key>
+	<string>Manage Key Bindings…</string>
+	<key>Manage Preference Sets…</key>
+	<string>Manage Preference Sets…</string>
+	<key>Manage Schemes…</key>
+	<string>Manage Schemes…</string>
+	<key>Markdown</key>
+	<string>Markdown</string>
+	<key>Method keyword %d &quot;%@&quot;</key>
+	<string>Method keyword %1$d &quot;%2$@&quot;</string>
+	<key>Missing</key>
+	<string>Missing</string>
+	<key>Mixed</key>
+	<string>Mixed</string>
+	<key>Modified</key>
+	<string>Modified</string>
+	<key>Module Names To Load Debug Symbols For</key>
+	<string>Module Names To Load Debug Symbols For</string>
+	<key>Move to Trash</key>
+	<string>移到废纸篓</string>
+	<key>Multiple items selected</key>
+	<string>Multiple items selected</string>
+	<key>Must be different than original</key>
+	<string>Must be different than original</string>
+	<key>Must be different than subclass</key>
+	<string>Must be different than subclass</string>
+	<key>Must be one or more characters</key>
+	<string>Must be one or more characters</string>
+	<key>My Scope</key>
+	<string>My Scope</string>
+	<key>Name</key>
+	<string>名称</string>
+	<key>Needs %d fewer colons to match original</key>
+	<string>Needs %d fewer colons to match original</string>
+	<key>Needs %ld more colons to match original</key>
+	<string>Needs %ld more colons to match original</string>
+	<key>Needs 1 fewer colon to match original</key>
+	<string>Needs 1 fewer colon to match original</string>
+	<key>Needs 1 more colon to match original</key>
+	<string>Needs 1 more colon to match original</string>
+	<key>New Command Set from Template</key>
+	<string>New Command Set from Template</string>
+	<key>New File</key>
+	<string>New File</string>
+	<key>New File...</key>
+	<string>New File…</string>
+	<key>New Folder</key>
+	<string>New Folder</string>
+	<key>New Group</key>
+	<string>New Group</string>
+	<key>New Scheme…</key>
+	<string>New Scheme…</string>
+	<key>New Scope…</key>
+	<string>New Scope…</string>
+	<key>New snapshot</key>
+	<string>New snapshot</string>
+	<key>Next</key>
+	<string>下一步</string>
+	<key>No Assistant Results</key>
+	<string>No Assistant Results</string>
+	<key>No Editor</key>
+	<string>No Editor</string>
+	<key>No Files</key>
+	<string>No Files</string>
+	<key>No Filter Results</key>
+	<string>No Filter Results</string>
+	<key>No Projects</key>
+	<string>No Projects</string>
+	<key>No Recent Files</key>
+	<string>No Recent Files</string>
+	<key>No Results for 
+“%@”</key>
+	<string>No Results for 
+“%@”</string>
+	<key>No Scheme</key>
+	<string>No Scheme</string>
+	<key>No Selection</key>
+	<string>No Selection</string>
+	<key>No Snapshots</key>
+	<string>No Snapshots</string>
+	<key>No Unsaved Files</key>
+	<string>No Unsaved Files</string>
+	<key>No Version Editor</key>
+	<string>No Version Editor</string>
+	<key>No issues</key>
+	<string>无问题</string>
+	<key>No items are available</key>
+	<string>No items are available</string>
+	<key>No modified files</key>
+	<string>No modified files</string>
+	<key>No modified files info</key>
+	<string>There are no differences between the selected snapshot and the workspace. There are no changes to restore.</string>
+	<key>No recents</key>
+	<string>No recents</string>
+	<key>No results</key>
+	<string>无结果</string>
+	<key>None</key>
+	<string>无</string>
+	<key>Not Found</key>
+	<string>Not Found</string>
+	<key>Not yet committed</key>
+	<string>Not yet committed</string>
+	<key>Number of Recent Files</key>
+	<string>Number of Recent Files</string>
+	<key>OK</key>
+	<string>好</string>
+	<key>Objective-C source</key>
+	<string>Objective-C 代码资源</string>
+	<key>Objective-C++ source</key>
+	<string>Objective-C++ 代码资源</string>
+	<key>Only Roman letters, digits, and underscores are permitted</key>
+	<string>Only Roman letters, digits, and underscores are permitted</string>
+	<key>Only Roman letters, digits, underscores, and colons are permitted</key>
+	<string>Only Roman letters, digits, underscores, and colons are permitted</string>
+	<key>Open</key>
+	<string>打开</string>
+	<key>Opens in focused editor</key>
+	<string>Opens in focused editor</string>
+	<key>Opens in primary editor</key>
+	<string>Opens in primary editor</string>
+	<key>Opens in separate assistant editor</key>
+	<string>Opens in separate assistant editor</string>
+	<key>Opens in separate tab</key>
+	<string>Opens in separate tab</string>
+	<key>Opens in separate window</key>
+	<string>Opens in separate window</string>
+	<key>Opens in single assistant editor</key>
+	<string>Opens in single assistant editor</string>
+	<key>Organizer - %@</key>
+	<string>Organizer — %@</string>
+	<key>Other</key>
+	<string>其他</string>
+	<key>Other…</key>
+	<string>其他…</string>
+	<key>PHP script</key>
+	<string>PHP 脚本</string>
+	<key>Path</key>
+	<string>Path</string>
+	<key>Path Extension</key>
+	<string>Path Extension</string>
+	<key>Perl script</key>
+	<string>Perl script</string>
+	<key>Pick a file</key>
+	<string>Pick a file</string>
+	<key>Please enter a commit message.</key>
+	<string>Please enter a commit message.</string>
+	<key>Please enter your password for the host &apos;%@&apos;.</key>
+	<string>Please enter your password for the host &apos;%@&apos;.</string>
+	<key>Post-actions</key>
+	<string>Post-actions</string>
+	<key>Pre-actions</key>
+	<string>Pre-actions</string>
+	<key>Presents navigation dialog to select destination</key>
+	<string>Presents navigation dialog to select destination</string>
+	<key>Previous</key>
+	<string>上一步</string>
+	<key>Profile</key>
+	<string>Profile</string>
+	<key>Profile Anway</key>
+	<string>Profile Anway</string>
+	<key>Project</key>
+	<string>Project</string>
+	<key>Project View</key>
+	<string>Project View</string>
+	<key>Projects in this workspace</key>
+	<string>Projects in this workspace</string>
+	<key>Python script</key>
+	<string>Python 脚本</string>
+	<key>Re-save</key>
+	<string>Re-save</string>
+	<key>Read from Disk</key>
+	<string>Read from Disk</string>
+	<key>Recent Files</key>
+	<string>Recent Files</string>
+	<key>Recent Results</key>
+	<string>Recent Results</string>
+	<key>Redo</key>
+	<string>Redo</string>
+	<key>Related Items</key>
+	<string>Related Items</string>
+	<key>Remove</key>
+	<string>Remove</string>
+	<key>Remove Reference</key>
+	<string>移除引用</string>
+	<key>Remove References</key>
+	<string>移除引用</string>
+	<key>Remove items</key>
+	<string>Remove items</string>
+	<key>Replace</key>
+	<string>替换</string>
+	<key>Replacing &apos;%@&apos; with &apos;%@&apos;</key>
+	<string>Replacing &apos;%1$@&apos; with &apos;%2$@&apos;</string>
+	<key>Repository</key>
+	<string>仓库</string>
+	<key>Resolved</key>
+	<string>Resolved</string>
+	<key>Restore</key>
+	<string>Restore</string>
+	<key>Restore Snapshot</key>
+	<string>Restore Snapshot</string>
+	<key>Retrieving...</key>
+	<string>Retrieving...</string>
+	<key>Reveal In Finder</key>
+	<string>Reveal In Finder</string>
+	<key>Revert</key>
+	<string>Revert</string>
+	<key>Revert...</key>
+	<string>Revert...</string>
+	<key>Reverting will lose your current changes.</key>
+	<string>Reverting will lose your current changes.</string>
+	<key>Revision %@</key>
+	<string>Revision %@</string>
+	<key>Ruby script</key>
+	<string>Ruby script</string>
+	<key>Run</key>
+	<string>运行</string>
+	<key>Run Anway</key>
+	<string>Run Anway</string>
+	<key>Save</key>
+	<string>Save</string>
+	<key>Save As…</key>
+	<string>保存为…</string>
+	<key>Save Documents Before Building</key>
+	<string>Save Documents Before Building</string>
+	<key>Save Documents Before Committing</key>
+	<string>Save Documents Before Committing</string>
+	<key>Save Documents Before Quitting</key>
+	<string>Save Documents Before Quitting</string>
+	<key>Save Documents Before Updating</key>
+	<string>Save Documents Before Updating</string>
+	<key>Save files before closing?</key>
+	<string>在关闭之前保存文件么?</string>
+	<key>Save files before taking a snapshot</key>
+	<string>Save files before taking a snapshot</string>
+	<key>Search Scopes</key>
+	<string>Search Scopes</string>
+	<key>Searching for tests in %@...</key>
+	<string>Searching for tests in %@...</string>
+	<key>Select</key>
+	<string>选择</string>
+	<key>Select a file or folder to search</key>
+	<string>Select a file or folder to search</string>
+	<key>Select another folder.</key>
+	<string>Select another folder.</string>
+	<key>Select folder to export your snapshot to</key>
+	<string>Select folder to export your snapshot to</string>
+	<key>Select folder to restore your snapshot to</key>
+	<string>Select folder to restore your snapshot to</string>
+	<key>Select something in the Symbol Navigator or a source code or header file and try again.</key>
+	<string>Select something in the Symbol Navigator or a source code or header file and try again.</string>
+	<key>Select something other than white space in a source code or header file and try again.</key>
+	<string>Select something other than white space in a source code or header file and try again.</string>
+	<key>Selection in source code or header file must not be blank.</key>
+	<string>Selection in source code or header file must not be blank.</string>
+	<key>Send Email to &lt;%@&gt;</key>
+	<string>Send Email to &lt;%@&gt;</string>
+	<key>Server</key>
+	<string>服务器</string>
+	<key>Setter and getter names must be different</key>
+	<string>Setter and getter names must be different</string>
+	<key>Setting up repository…</key>
+	<string>Setting up repository…</string>
+	<key>Should only have a document extension identifier if we also have a archivableRepresentation</key>
+	<string>Should only have a document extension identifier if we also have a archivableRepresentation</string>
+	<key>Show</key>
+	<string>Show</string>
+	<key>Show Find Options</key>
+	<string>Show Find Options</string>
+	<key>Show Ignored Files</key>
+	<string>Show Ignored Files</string>
+	<key>Show In Finder</key>
+	<string>在访达中显示</string>
+	<key>Show in Finder</key>
+	<string>在访达中显示</string>
+	<key>Snapshot successfully exported in %@</key>
+	<string>Snapshot successfully exported in “%@”</string>
+	<key>Snapshot successfully restored in %@</key>
+	<string>Snapshot successfully restored in “%@”</string>
+	<key>Snapshots are disabled</key>
+	<string>Snapshots are disabled</string>
+	<key>Sound</key>
+	<string>Sound</string>
+	<key>Source Control</key>
+	<string>代码控制</string>
+	<key>Source Control Unavailable</key>
+	<string>Source Control Unavailable</string>
+	<key>Source Editor</key>
+	<string>Source Editor</string>
+	<key>Source control update</key>
+	<string>Source control update</string>
+	<key>Standard editor</key>
+	<string>Standard editor</string>
+	<key>Static Analyzer Result</key>
+	<string>Static Analyzer Result</string>
+	<key>Static Analyzer Warning</key>
+	<string>Static Analyzer Warning</string>
+	<key>Stop</key>
+	<string>停止</string>
+	<key>Stop &apos;@&apos;?</key>
+	<string>停止 &apos;@&apos;?</string>
+	<key>Stopping the commit could potentially be harmful to your source files. Press Continue to allow the commit to proceed.</key>
+	<string>Stopping the commit could potentially be harmful to your source files. Press Continue to allow the commit to proceed.</string>
+	<key>Stopping the update could potentially be harmful to your source files. Press Continue to allow the update to proceed.</key>
+	<string>Stopping the update could potentially be harmful to your source files. Press Continue to allow the update to proceed.</string>
+	<key>System</key>
+	<string>System</string>
+	<key>Test</key>
+	<string>Test</string>
+	<key>The executable is already running.</key>
+	<string>The executable is already running.</string>
+	<key>The file could not be unlocked.</key>
+	<string>The file could not be unlocked.</string>
+	<key>The file for the container at %@ has been modified by another application. Do you want to keep the Xcode version or revert to the version on disk?</key>
+	<string>The file for the container at %@ has been modified by another application. Do you want to keep the Xcode version or revert to the version on disk?</string>
+	<key>The file for the container that was at %@ has disappeared. Do you want to re-save the container or close it?</key>
+	<string>The file for the container that was at %@ has disappeared. Do you want to re-save the container or close it?</string>
+	<key>The file for the document at %@ has been modified by another application.  There are also unsaved changes in Xcode.  Do you want to keep the Xcode version or revert to the version on disk?</key>
+	<string>The file for the document at %@ has been modified by another application.  There are also unsaved changes in Xcode.  Do you want to keep the Xcode version or revert to the version on disk?</string>
+	<key>The file for the document that was at %@ has disappeared. Do you want to re-save the document or close it?</key>
+	<string>The file for the document that was at %@ has disappeared. Do you want to re-save the document or close it?</string>
+	<key>The file for the document that was at %@ has disappeared. The document has previously unsaved changes. Do you want to re-save the document or close it?</key>
+	<string>The file for the document that was at %@ has disappeared. The document has previously unsaved changes. Do you want to re-save the document or close it?</string>
+	<key>The file will be closed before opening it in a new editor.</key>
+	<string>The file will be closed before opening it in a new editor.</string>
+	<key>The file “%@” could not be unlocked.</key>
+	<string>The file “%@” could not be unlocked.</string>
+	<key>The provided LocationToSelect&apos;s URL (%@) refers to a different document than the archivableRepresentation (%@)</key>
+	<string>The provided LocationToSelect&apos;s URL (%1$@) refers to a different document than the archivableRepresentation (%2$@)</string>
+	<key>The working copy &quot;%@&quot; requires a newer version of %@ than Xcode supports.</key>
+	<string>The working copy &quot;%@&quot; requires a newer version of %@ than Xcode supports.</string>
+	<key>The working direcotry &quot;%@&quot; for scheme &quot;%@&quot; doesn&apos;t exist.</key>
+	<string>The working direcotry &quot;%1$@&quot; for scheme &quot;%2$@&quot; doesn&apos;t exist.</string>
+	<key>There are no files to commit.</key>
+	<string>There are no files to commit.</string>
+	<key>There is nothing built for scheme &quot;%@&quot;.</key>
+	<string>There is nothing built for scheme &quot;%@&quot;.</string>
+	<key>This item is locked for editing and you may not be able to save your changes. Do you want to unlock it?</key>
+	<string>This item is locked for editing and you may not be able to save your changes. Do you want to unlock it?</string>
+	<key>This operation cannot be undone.</key>
+	<string>这个操作不能被撤销。</string>
+	<key>This will delete all of the products and intermediate files in the build folder.</key>
+	<string>This will delete all of the products and intermediate files in the build folder.</string>
+	<key>Try Again</key>
+	<string>重试</string>
+	<key>Try using Xcode to check out a new working copy.</key>
+	<string>Try using Xcode to check out a new working copy.</string>
+	<key>Type</key>
+	<string>Type</string>
+	<key>Type Line Number</key>
+	<string>Type Line Number</string>
+	<key>Type a file or symbol name to open</key>
+	<string>Type a file or symbol name to open</string>
+	<key>Unable to find a IDENavigableItem for %@</key>
+	<string>Unable to find a IDENavigableItem for %@</string>
+	<key>Unable to load selected revision.</key>
+	<string>Unable to load selected revision.</string>
+	<key>Unable to open document without a URL.</key>
+	<string>Unable to open document without a URL.</string>
+	<key>Unable to read snapshots</key>
+	<string>Unable to read snapshots</string>
+	<key>Unable to save invalid %@</key>
+	<string>Unable to save invalid %@</string>
+	<key>Uncheck All</key>
+	<string>Uncheck All</string>
+	<key>Undo</key>
+	<string>撤销</string>
+	<key>Undo Ignore</key>
+	<string>Undo Ignore</string>
+	<key>Unignore</key>
+	<string>取消忽略</string>
+	<key>Unlimited</key>
+	<string>Unlimited</string>
+	<key>Unlock</key>
+	<string>Unlock</string>
+	<key>Unlock these items?</key>
+	<string>Unlock these items?</string>
+	<key>Unlock this item?</key>
+	<string>Unlock this item?</string>
+	<key>Unlock “%@”?</key>
+	<string>Unlock “%@”?</string>
+	<key>Unlocking %lu items</key>
+	<string>Unlocking %lu items</string>
+	<key>Unlocking File</key>
+	<string>Unlocking File</string>
+	<key>Unlocking “%@”</key>
+	<string>Unlocking “%@”</string>
+	<key>Unsaved Files</key>
+	<string>Unsaved Files</string>
+	<key>Unversioned</key>
+	<string>Unversioned</string>
+	<key>Username: %@</key>
+	<string>用户名: %@</string>
+	<key>Uses Focused Editor</key>
+	<string>Uses Focused Editor</string>
+	<key>Uses Primary Editor</key>
+	<string>Uses Primary Editor</string>
+	<key>Uses Separate Assistant Editor</key>
+	<string>Uses Separate Assistant Editor</string>
+	<key>Uses Separate Tab</key>
+	<string>Uses Separate Tab</string>
+	<key>Uses Separate Window</key>
+	<string>Uses Separate Window</string>
+	<key>Uses Separate Window (Separate Tab in Fullscreen)</key>
+	<string>Uses Separate Window (Separate Tab in Fullscreen)</string>
+	<key>Uses Single Assistant Editor</key>
+	<string>Uses Single Assistant Editor</string>
+	<key>Version</key>
+	<string>版本</string>
+	<key>Version %@</key>
+	<string>Version %@</string>
+	<key>Version %@ (%@)</key>
+	<string>Version %1$@ (%2$@)</string>
+	<key>Version editor</key>
+	<string>Version editor</string>
+	<key>Wait for %@ to launch</key>
+	<string>Wait for %@ to launch</string>
+	<key>Wait for application to launch</key>
+	<string>Wait for application to launch</string>
+	<key>Wait for indexing to finish and try again.</key>
+	<string>Wait for indexing to finish and try again.</string>
+	<key>Warning</key>
+	<string>Warning</string>
+	<key>Welcome to Xcode</key>
+	<string>欢迎使用 Xcode</string>
+	<key>Workspace</key>
+	<string>工作区</string>
+	<key>Would you like to Build and Profile?</key>
+	<string>Would you like to Build and Profile?</string>
+	<key>Would you like to Build and Run?</key>
+	<string>Would you like to Build and Run?</string>
+	<key>Would you like to Profile anyway?</key>
+	<string>Would you like to Profile anyway?</string>
+	<key>Would you like to Run anyway?</key>
+	<string>Would you like to Run anyway?</string>
+	<key>Would you like to open &quot;%@&quot;?</key>
+	<string>Would you like to open &quot;%@&quot;?</string>
+	<key>Would you like to save \U201C%@\U201D before opening it as a \U201C%@?\U201D</key>
+	<string>Would you like to save “%1$@” before opening it as a “%2$@?”</string>
+	<key>Would you like to show &quot;%@&quot; in the Finder?</key>
+	<string>Would you like to show &quot;%@&quot; in the Finder?</string>
+	<key>XML</key>
+	<string>XML</string>
+	<key>Xcode.IDEKit.ActivityView.IdleTitle</key>
+	<string>Xcode</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningCancelButton</key>
+	<string>取消</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningInformation</key>
+	<string>Quitting will stop the task “%1$@”%2$@.</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningInformationAddendiumPlural</key>
+	<string> and %d other tasks</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningInformationAddendiumSingular</key>
+	<string> and %d other task</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningStopButton</key>
+	<string>退出</string>
+	<key>Xcode.IDEKit.ApplicationQuitWarningTitlefmt</key>
+	<string>Are you sure you want to quit?</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ActivityViewLabel</key>
+	<string>Activity View</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.AppFocusLabel</key>
+	<string>Focus</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.AppFocusTooltip</key>
+	<string>Toggle Xcode focus in debugging</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.BranchLabel</key>
+	<string>分支</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ConsoleLabel</key>
+	<string>控制台</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ConsoleTooltip</key>
+	<string>Toggle the Console Area</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ContinueLabel</key>
+	<string>继续</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ContinueTooltip</key>
+	<string>Continue the current debug session</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.EditorAssistantTooltip</key>
+	<string>Show the Assistant editor</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.EditorModeLabel</key>
+	<string>编辑器</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.EditorStandardTooltip</key>
+	<string>Show the Standard editor</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.EditorVersionTooltip</key>
+	<string>Show the Version editor</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.GeniusEditorLabel</key>
+	<string>Assistant</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.PauseLabel</key>
+	<string>Pause</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.PauseTooltip</key>
+	<string>Pause the current debug session</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.RunLabel</key>
+	<string>运行</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.RunTooltip</key>
+	<string>Start the active scheme</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.SchemePopupLabel</key>
+	<string>Scheme</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.SchemePopupTooltip</key>
+	<string>Set the active scheme</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.SearchLabel</key>
+	<string>在工作区中搜索</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.SearchTooltip</key>
+	<string>Search the files in the workspace</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.StandardEditorLabel</key>
+	<string>Standard</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.StopLabel</key>
+	<string>Stop</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.StopTooltip</key>
+	<string>Stop the running scheme or application</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ToolchainLabel</key>
+	<string>Active Toolchain</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.VersionEditorLabel</key>
+	<string>Version</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewDebugAreaTooltip</key>
+	<string>Hide or show the Debug area</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewNavigatorTooltip</key>
+	<string>Hide or show the Navigator</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewUtilitiesTooltip</key>
+	<string>隐藏或显示实用工具</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsHideDebuggerLabel</key>
+	<string>Hide Debug Area</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsHideInspectorLabel</key>
+	<string>Hide Inspector</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsHideNavigatorLabel</key>
+	<string>隐藏导航</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsLabel</key>
+	<string>View</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsShowDebuggerLabel</key>
+	<string>Show Debug Area</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsShowInspectorLabel</key>
+	<string>Show Inspector</string>
+	<key>Xcode.IDEKit.CustomToolbarItem.ViewsShowNavigatorLabel</key>
+	<string>显示导航</string>
+	<key>Xcode.IDEKit.DebuggerWindowTitle</key>
+	<string>Debugger</string>
+	<key>Xcode.IDEKit.DefaultFullWorkspaceDocumentName</key>
+	<string>未命名</string>
+	<key>Xcode.IDEKit.GenericCancelTitle</key>
+	<string>取消</string>
+	<key>Xcode.IDEKit.GenericContinueTitle</key>
+	<string>继续</string>
+	<key>Xcode.IDEKit.GenericSaveTitle</key>
+	<string>保存</string>
+	<key>Xcode.IDEKit.ProjectWorkspaceProjectLoadFailureTitlefmt</key>
+	<string>The %1$@ “%2$@” could not be opened.</string>
+	<key>Xcode.IDEKit.SaveAsWorkspaceInfoText</key>
+	<string>You can only combine content with this project in a workspace.</string>
+	<key>Xcode.IDEKit.SaveAsWorkspaceMsgText</key>
+	<string>Do you want to save this project in a new workspace?</string>
+	<key>Xcode.IDEKit.Snapshots.AreYouSureYouWantToDelete</key>
+	<string>Are you sure you want to delete the snapshot “%@”?</string>
+	<key>Xcode.IDEKit.Snapshots.CouldNotExport</key>
+	<string>Couldn&apos;t export snapshot in “%@”</string>
+	<key>Xcode.IDEKit.Snapshots.Export</key>
+	<string>导出</string>
+	<key>Xcode.IDEKit.Snapshots.ExportSnapshot</key>
+	<string>Export Snapshot</string>
+	<key>Xcode.IDEKit.Snapshots.RevealInFinder</key>
+	<string>Reveal in Finder</string>
+	<key>Xcode.IDEKit.Snapshots.SelectFolder</key>
+	<string>Select folder to export your snapshot to</string>
+	<key>Xcode.IDEKit.Snapshots.SnapshotSuccessful</key>
+	<string>Snapshot successfully exported in “%@”</string>
+	<key>Xcode.IDEKit.Snapshots.SnapshotsACopyIsAvailable</key>
+	<string>A copy of your project is available in “%@”</string>
+	<key>Xcode.IDEKit.SourceControl.Pull</key>
+	<string>拉取…</string>
+	<key>Xcode.IDEKit.SourceControl.Update</key>
+	<string>Update</string>
+	<key>Xcode.IDEKit.SourceControl.UpdateAll</key>
+	<string>Update All</string>
+	<key>Xcode.IDEKit.SourceControl.UpdateAndPull</key>
+	<string>Update and Pull…</string>
+	<key>Xcode.IDEKit.SourceControl.UpdateAndPullWithVE</key>
+	<string>Update and Pull…</string>
+	<key>Xcode.IDEKit.SourceControl.UpdateWithVE</key>
+	<string>更新…</string>
+	<key>Xcode.IDEKit.StopToolbarItem.NewExecutionTrackerStatusString</key>
+	<string>启动中</string>
+	<key>Xcode.IDEKit.TemplateOption.Options</key>
+	<string>选项</string>
+	<key>Xcode.IDEKit.UtilityArea.NoSelectionPlaceholder</key>
+	<string>No Selection</string>
+	<key>Xcode.IDEKit.UtilityArea.NotApplicablePlaceholder</key>
+	<string>Not Applicable</string>
+	<key>Xcode.IDEKit.VariablesView.SortAscending</key>
+	<string>Ascending</string>
+	<key>Xcode.IDEKit.VariablesView.SortBy</key>
+	<string>Sort By</string>
+	<key>Xcode.IDEKit.VariablesView.SortByName</key>
+	<string>名称</string>
+	<key>Xcode.IDEKit.VariablesView.SortByNaturalOrder</key>
+	<string>Natural Order</string>
+	<key>Xcode.IDEKit.VariablesView.SortDescending</key>
+	<string>Descending</string>
+	<key>Xcode.IDEKit.VariablesView.ToggleRawValues</key>
+	<string>Show Raw Values</string>
+	<key>Xcode.IDEKit.VariablesView.ToggleTypeDisplay</key>
+	<string>Show Types</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningCancelButton</key>
+	<string>取消</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningInformation</key>
+	<string>Closing this workspace will stop the task “%1$@”%2$@.</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningInformationAddendiumPlural</key>
+	<string> and %d other tasks</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningInformationAddendiumSingular</key>
+	<string> and %d other task</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningStopButton</key>
+	<string>停止进程</string>
+	<key>Xcode.IDEKit.WorkspaceCloseWarningTitlefmt</key>
+	<string>Are you sure you want to close the %1$@ “%2$@”?</string>
+	<key>Xcode.IDEKit.debuggerBarBreakpointsAXDescription</key>
+	<string>Breakpoints</string>
+	<key>Xcode.IDEKit.debuggerBarBreakpointsActivateTooltip</key>
+	<string>Activate breakpoints</string>
+	<key>Xcode.IDEKit.debuggerBarBreakpointsDeactivateTooltip</key>
+	<string>Deactivate breakpoints</string>
+	<key>Xcode.IDEKit.debuggerBarChooseStackFrameAXDescription</key>
+	<string>stack frame</string>
+	<key>Xcode.IDEKit.debuggerBarChooseStackFrameTooltip</key>
+	<string>Choose stack frame (hold Command to show full backtrace)</string>
+	<key>Xcode.IDEKit.debuggerBarHideDebuggerAXDescription</key>
+	<string>hide debugger</string>
+	<key>Xcode.IDEKit.debuggerBarHideDebuggerTooltip</key>
+	<string>Hide the Debug area</string>
+	<key>Xcode.IDEKit.debuggerBarPauseAXDescription</key>
+	<string>暂停</string>
+	<key>Xcode.IDEKit.debuggerBarPauseTooltip</key>
+	<string>Pause program execution</string>
+	<key>Xcode.IDEKit.debuggerBarResumeAXDescription</key>
+	<string>continue</string>
+	<key>Xcode.IDEKit.debuggerBarResumeTooltip</key>
+	<string>Continue program execution</string>
+	<key>Xcode.IDEKit.debuggerBarShowDebuggerAXDescription</key>
+	<string>show debugger</string>
+	<key>Xcode.IDEKit.debuggerBarShowDebuggerTooltip</key>
+	<string>Show the Debug area</string>
+	<key>Xcode.IDEKit.debuggerBarStepInAXDescription</key>
+	<string>step in</string>
+	<key>Xcode.IDEKit.debuggerBarStepInTooltip</key>
+	<string>Step into
+Step into instruction (hold Control)
+Step into thread (hold Control-Shift)</string>
+	<key>Xcode.IDEKit.debuggerBarStepOutAXDescription</key>
+	<string>step out</string>
+	<key>Xcode.IDEKit.debuggerBarStepOutTooltip</key>
+	<string>Step out</string>
+	<key>Xcode.IDEKit.debuggerBarStepOverAXDescription</key>
+	<string>step over</string>
+	<key>Xcode.IDEKit.debuggerBarStepOverTooltip</key>
+	<string>Step over
+Step over instruction (hold Control)
+Step over thread (hold Control-Shift)</string>
+	<key>You can&apos;t undo this action</key>
+	<string>You can&apos;t undo this action.</string>
+	<key>You can’t undo this action.</key>
+	<string>您无法撤销此操作。</string>
+	<key>You may choose to open the project, or alternately show it in a Finder window.</key>
+	<string>You may choose to open the project, or alternately show it in a Finder window.</string>
+	<key>You may choose to open the workspace, or alternately show it in a Finder window.</key>
+	<string>You may choose to open the workspace, or alternately show it in a Finder window.</string>
+	<key>You may use the Undo command to restore the changes.</key>
+	<string>You may use the Undo command to restore the changes.</string>
+	<key>Your current changes will be lost.</key>
+	<string>Your current changes will be lost.</string>
+	<key>`~!@#$%^&amp;*()-_=+[{]}\|;:&apos;&quot;,&lt;.&gt;/?</key>
+	<string>`~!@#$%^&amp;*()-_=+[{]}\|;:&apos;&quot;,&lt;.&gt;/?</string>
+	<key>activity viewer for workspace %@</key>
+	<string>activity viewer for workspace %@</string>
+	<key>and, find in files where all of these conditions are true:</key>
+	<string>and, find in files where all of these conditions are true:</string>
+	<key>any</key>
+	<string>任意</string>
+	<key>base</key>
+	<string>base</string>
+	<key>blame</key>
+	<string>blame</string>
+	<key>checking out</key>
+	<string>checking out</string>
+	<key>cloning</key>
+	<string>cloning</string>
+	<key>com.apple.dt.IDEKit.editorContextGoBackButtonTitle</key>
+	<string>Go Back</string>
+	<key>com.apple.dt.IDEKit.editorContextGoForwardButtonTitle</key>
+	<string>Go Forward</string>
+	<key>comparison</key>
+	<string>comparison</string>
+	<key>contains</key>
+	<string>包含</string>
+	<key>contains &quot;%@&quot;</key>
+	<string>contains “%@”</string>
+	<key>d</key>
+	<string>d</string>
+	<key>debug</key>
+	<string>debug</string>
+	<key>debug bar</key>
+	<string>debug bar</string>
+	<key>debugger</key>
+	<string>debugger</string>
+	<key>ends with</key>
+	<string>ends with</string>
+	<key>ends with &quot;%@&quot;</key>
+	<string>ends with “%@”</string>
+	<key>has no status</key>
+	<string>has no status</string>
+	<key>has status</key>
+	<string>has status</string>
+	<key>header file</key>
+	<string>头文件</string>
+	<key>ignore case</key>
+	<string>ignore case</string>
+	<key>inspector</key>
+	<string>inspector</string>
+	<key>is</key>
+	<string>is</string>
+	<key>is equal to</key>
+	<string>等于</string>
+	<key>is not</key>
+	<string>不是</string>
+	<key>is not equal to</key>
+	<string>is not equal to</string>
+	<key>is within folder</key>
+	<string>is within folder</string>
+	<key>is within structure</key>
+	<string>is within structure</string>
+	<key>is within workspace</key>
+	<string>is within workspace</string>
+	<key>is within workspace and frameworks</key>
+	<string>is within workspace and frameworks</string>
+	<key>library</key>
+	<string>library</string>
+	<key>local</key>
+	<string>local</string>
+	<key>log</key>
+	<string>log</string>
+	<key>match case</key>
+	<string>match case</string>
+	<key>matches regex</key>
+	<string>matches regex</string>
+	<key>matching regex &quot;%@&quot;</key>
+	<string>matching regex “%@”</string>
+	<key>matching word &quot;%@&quot;</key>
+	<string>matching word “%@”</string>
+	<key>navigation hud</key>
+	<string>navigation hud</string>
+	<key>navigator</key>
+	<string>navigator</string>
+	<key>navigators</key>
+	<string>navigators</string>
+	<key>plain text</key>
+	<string>plain text</string>
+	<key>project</key>
+	<string>project</string>
+	<key>rich text</key>
+	<string>rich text</string>
+	<key>script</key>
+	<string>script</string>
+	<key>show only the console</key>
+	<string>show only the console</string>
+	<key>show only the variables view</key>
+	<string>show only the variables view</string>
+	<key>show the variables view and console</key>
+	<string>show the variables view and console</string>
+	<key>source code</key>
+	<string>source code</string>
+	<key>starts with</key>
+	<string>starts with</string>
+	<key>starts with &quot;%@&quot;</key>
+	<string>starts with “%@”</string>
+	<key>symbol definitions containing &quot;%@&quot;</key>
+	<string>symbol definitions containing “%@”</string>
+	<key>symbol definitions ending with &quot;%@&quot;</key>
+	<string>symbol definitions ending with “%@”</string>
+	<key>symbol definitions matching word &quot;%@&quot;</key>
+	<string>symbol definitions matching word “%@”</string>
+	<key>symbol definitions starting with &quot;%@&quot;</key>
+	<string>symbol definitions starting with “%@”</string>
+	<key>symbol references containing &quot;%@&quot;</key>
+	<string>symbol references containing “%@”</string>
+	<key>symbol references ending with &quot;%@&quot;</key>
+	<string>symbol references ending with “%@”</string>
+	<key>symbol references matching word &quot;%@&quot;</key>
+	<string>symbol references matching word “%@”</string>
+	<key>symbol references starting with &quot;%@&quot;</key>
+	<string>symbol references starting with “%@”</string>
+	<key>unsaved</key>
+	<string>unsaved</string>
+	<key>updating working copy</key>
+	<string>updating working copy</string>
+	<key>utilities</key>
+	<string>utilities</string>
+	<key>view %ld %@</key>
+	<string>view %ld %@</string>
+	<key>view all issues</key>
+	<string>view all issues</string>
+	<key>workspace</key>
+	<string>workspace</string>
+	<key>“%@” Alert</key>
+	<string>“%@” Alert</string>
+	<key>“%@” is locked for editing and you may not be able to save your changes. Do you want to unlock it?</key>
+	<string>“%@” is locked for editing and you may not be able to save your changes. Do you want to unlock it?</string>
+	<key>“%@” is not a valid regular expression.</key>
+	<string>“%@” is not a valid regular expression.</string>
+	<key>…</key>
+	<string>…</string>
+	<key>⎇-click: Opens a file in a new tab.</key>
+	<string>⎇-click: Opens a file in a new tab.</string>
+	<key>⎇-click: Opens a file in a new window.</key>
+	<string>⎇-click: Opens a file in a new window.</string>
+	<key>Open another Project...</key>
+	<string>打开其他项目...</string>
+</dict>
+</plist>
