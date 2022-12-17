@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Xcode.IDEKit.EditorDocument.SourceCode-from-Stickers-title</key>
+	<string>Stickers</string>
+	<key>Xcode.IDEKit.EditorDocument.SourceCode-title</key>
+	<string>Source Code (Legacy Editor)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.AddDocumentation</key>
+	<string>添加文档</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.AllIssues</key>
+	<string>所有问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.AnalyzerResultsOnly</key>
+	<string>Analyzer Results Only</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.BalanceDelimiter</key>
+	<string>平衡分隔符</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.CommentUncomment</key>
+	<string>Comment Selection</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ContextMenuToggleIssueShown</key>
+	<string>显示问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.DecreaseFontSize</key>
+	<string>减小</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.EditAllInScope</key>
+	<string>编辑范围内的所有内容</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ErrorsAndWarningsOnly</key>
+	<string>仅错误和警告</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ErrorsOnly</key>
+	<string>仅错误</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.FixAllIssues</key>
+	<string>修复所有问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.FlattenTokens</key>
+	<string>Flatten Tokens</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.Fold</key>
+	<string>折叠</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</key>
+	<string>折叠注释块</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.FoldMethodsOrFunctions</key>
+	<string>折叠方法和函数</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.IncreaseFontSize</key>
+	<string>增加</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToNextChange</key>
+	<string>Jump to Next Change</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToNextPlaceholder</key>
+	<string>Jump to Next Placeholder</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousChange</key>
+	<string>Jump to Previous Change</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousPlaceholder</key>
+	<string>Jump to Previous Placeholder</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.MacintoshLineEndings</key>
+	<string>Macintosh (CR)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.MoveLineDown</key>
+	<string>向下移动行</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.MoveLineUp</key>
+	<string>向上移动行</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ReIndent</key>
+	<string>重新缩进</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ResetFontSize</key>
+	<string>重置</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShiftLeft</key>
+	<string>向左移位</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShiftRight</key>
+	<string>向右移位</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowBlameForLine</key>
+	<string>显示该行最后改动</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowCodeCoverage</key>
+	<string>显示代码覆盖</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowCodeCoverageCounts</key>
+	<string>Show Per-line Iteration Counts</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</key>
+	<string>显示代码提示</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowInvisibles</key>
+	<string>显示不可见项</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowInvisibles.Hide</key>
+	<string>隐藏不可见项</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowIssueBubbles</key>
+	<string>显示所有问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ShowIssueBubbles.Hide</key>
+	<string>隐藏所有问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.TabSettings</key>
+	<string>缩进设置…</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.ToggleIssueShown</key>
+	<string>显示问题</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.Unfold</key>
+	<string>展开</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.UnfoldAll</key>
+	<string>展开全部</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</key>
+	<string>展开注释块</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.UnfoldMethodsOrFunctions</key>
+	<string>展开方法和函数</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.UnixLineEndings</key>
+	<string>Unix (LF)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.WindowsLineEndings</key>
+	<string>Windows (CR/LF)</string>
+	<key>Xcode.IDESourceEditor.CmdDefinition.WrapsLines</key>
+	<string>Wrap Lines</string>
+	<key>Xcode.IDESourceEditor.DiagnosticIssueProvider.description</key>
+	<string>Provides access to diagnostic issues in a workspace</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Assembly</key>
+	<string>Assembly</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Callees</key>
+	<string>Callees</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Callers</key>
+	<string>Callers</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Categories</key>
+	<string>Categories</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Extensions</key>
+	<string>Extensions</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Preprocess</key>
+	<string>Preprocess</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Protocols</key>
+	<string>Protocols</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.ReferencingXIBs</key>
+	<string>User Interfaces</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Siblings</key>
+	<string>Siblings</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Subclasses</key>
+	<string>Subclasses</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.Superclasses</key>
+	<string>Superclasses</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.TestCallers</key>
+	<string>Test Callers</string>
+	<key>Xcode.IDESourceEditor.GeniusCategory.TestClasses</key>
+	<string>Test Classes</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.CodeCoverage</key>
+	<string>代码覆盖</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.CodeFolding</key>
+	<string>代码折叠</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.ContextualMenu</key>
+	<string>Source Editor Contextual Menu</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.Editor</key>
+	<string>编辑器</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.FileEncoding</key>
+	<string>文件编码</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.FontSize</key>
+	<string>字号</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.LineEndings</key>
+	<string>Line Endings</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.MessageBubbles</key>
+	<string>问题</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.Navigate</key>
+	<string>导航</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.SourceEditor.Actions</key>
+	<string>动作</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.Structure</key>
+	<string>结构体</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.SyntaxColoring</key>
+	<string>语法颜色标记</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.TextHandling</key>
+	<string>Text Handling</string>
+	<key>Xcode.IDESourceEditor.MenuDefinition.Theme</key>
+	<string>主题</string>
+	<key>Xcode.IDESourceEditor.TextEditingPrefPane.Title</key>
+	<string>文本编辑</string>
+</dict>
+</plist>
