@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Xcode.AlertEvent.BuildFails.Title</key>
+	<string>失败</string>
+	<key>Xcode.AlertEvent.BuildNewIssues.Title</key>
+	<string>生成新问题</string>
+	<key>Xcode.AlertEvent.BuildStart.Title</key>
+	<string>开始</string>
+	<key>Xcode.AlertEvent.BuildSucceeds.Title</key>
+	<string>成功</string>
+	<key>Xcode.AlertEvent.FindCompletesNoResults.Title</key>
+	<string>完成但无结果</string>
+	<key>Xcode.AlertEvent.FindCompletesWithResults.Title</key>
+	<string>以结果完成</string>
+	<key>Xcode.AlertEvent.FindInitiates.Title</key>
+	<string>开始</string>
+	<key>Xcode.AlertEvent.InstallFails.Title</key>
+	<string>失败</string>
+	<key>Xcode.AlertEvent.InstallSucceeds.Title</key>
+	<string>成功</string>
+	<key>Xcode.AlertEvent.PGOSucceeds</key>
+	<string>成功</string>
+	<key>Xcode.AlertEvent.PlaygroundGeneratesOutput.Title</key>
+	<string>生成输出</string>
+	<key>Xcode.AlertEvent.RunCompletes.Title</key>
+	<string>完成</string>
+	<key>Xcode.AlertEvent.RunExitsUnexpectedly.Title</key>
+	<string>意外退出</string>
+	<key>Xcode.AlertEvent.RunGeneratesOutput.Title</key>
+	<string>生成输出</string>
+	<key>Xcode.AlertEvent.RunPauses.Title</key>
+	<string>暂停</string>
+	<key>Xcode.AlertEvent.RunStart.Title</key>
+	<string>开始</string>
+	<key>Xcode.AlertEvent.SharingCompletes.Title</key>
+	<string>完成</string>
+	<key>Xcode.AlertEvent.SharingFails.Title</key>
+	<string>失败</string>
+	<key>Xcode.AlertEvent.SharingStart.Title</key>
+	<string>开始</string>
+	<key>Xcode.AlertEvent.TestingFails.Title</key>
+	<string>失败</string>
+	<key>Xcode.AlertEvent.TestingGeneratesOutput.Title</key>
+	<string>生成输出</string>
+	<key>Xcode.AlertEvent.TestingNewIssues.Title</key>
+	<string>生成新问题</string>
+	<key>Xcode.AlertEvent.TestingPauses.Title</key>
+	<string>暂停</string>
+	<key>Xcode.AlertEvent.TestingStart.Title</key>
+	<string>开始</string>
+	<key>Xcode.AlertEvent.TestingSucceeds.Title</key>
+	<string>成功</string>
+	<key>Xcode.AlertEvent.UnlockingFileStarts.Title</key>
+	<string>解锁</string>
+	<key>Xcode.FileDataType.path-based-mach-o-executable</key>
+	<string>基于路径的Mach-O可执行文件</string>
+	<key>Xcode.IDEFoundation.IDETemplateFileTypeName</key>
+	<string>文件</string>
+	<key>Xcode.IDEFoundation.IDETemplatePlaygroundTypeName</key>
+	<string>playground</string>
+	<key>Xcode.IDEFoundation.IDETemplateProjectTypeName</key>
+	<string>项目</string>
+	<key>Xcode.IDEFoundation.IDETemplateTargetTypeName</key>
+	<string>目标文件</string>
+	<key>Xcode.IDEFoundation.Launcher.PosixSpawn.Description</key>
+	<string>This launcher uses posix_spawn to launch a Runnable</string>
+	<key>Xcode.IssueProvider.Build.description</key>
+	<string>Provides access to build issues in a workspace</string>
+	<key>Xcode.IssueProvider.SourceControl.description</key>
+	<string>Provides access to source control issues (e.g, conflicts) in a workspace</string>
+	<key>Xcode.IssueProvider.Test.description</key>
+	<string>Provides access to test issues in a workspace</string>
+	<key>Xcode.IssueProvider.WorkspaceIntegrity.description</key>
+	<string>Provides access to issues in the set-up of a workspace and its component elements (projects, buildables, etc.)</string>
+</dict>
+</plist>
