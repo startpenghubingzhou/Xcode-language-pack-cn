@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Xcode3ProjectSettings.inspector
+   Xcode3ProjectSupport
+
+   Copyright 2010-2010 Apple Inc. All rights reserved.
+-->
+
+<!-- This inspector slice is instantiated by Xcode3ProjectSupport.plugindata -->
+<slice>
+    <section>
+        <sliver title="项目格式">
+            <property type="enumeration" keyPath="inspectedDocumentsController.selection.project.preferredProjectFormat">
+                <option-group>
+                    <!-- Hardcoded XCArchiveVersion versionNumberForArchiver values -->
+                    <option value="50" title="Xcode 9.3兼容"/>
+                    <option value="48" title="Xcode 8.0兼容"/>
+                    <option value="47" title="Xcode 6.3兼容"/>
+                    <option value="46" title="Xcode 3.2兼容"/>
+                    <option value="45" title="Xcode 3.1兼容"/>
+                </option-group>
+            </property>
+        </sliver>
+        <sliver title="组织">
+            <property type="string" keyPath="inspectedDocumentsController.selection.project.organizationName"/>
+        </sliver>
+        <sliver title="类前缀">
+            <property type="string" keyPath="inspectedDocumentsController.selection.project.classPrefix"/>
+        </sliver>
+    </section>
+</slice>
