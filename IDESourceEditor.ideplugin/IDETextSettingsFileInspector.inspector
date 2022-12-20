@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   IDETextSettingsInspector.inspector
+   IDESourceEditor
+
+   Created by Daniel Gobera on 4/5/2010.
+   Copyright 2010-2010 Apple Inc. All rights reserved.
+-->
+
+<!-- Inspector for per-file text editing settings. This inspector slice is instantiated by IDESourceEditor.plugindata -->
+
+<slice>
+
+    <section>
+        <sliver title="文本编码">
+            <property type="custom" class="IDETextSettingsInspectorEncodingsController" nibName="IDETextSettingsInspectorPopupProperty" baseline="7.0" />
+        </sliver>
+        <sliver title="行结束符">
+            <property type="custom" class="IDETextSettingsInspectorLineEndingsController" nibName="IDETextSettingsInspectorPopupProperty" baseline="7.0" />
+        </sliver>
+    </section>
+    
+    <section>
+        <sliver title="缩进使用">
+            <property type="enumeration" keyPath="inspectedObjectsController.selection.usesTabs">
+                <option-group>
+                    <option title="空格" value="0" />
+                    <option title="Tab键" value="1" />
+                </option-group>
+            </property>
+        </sliver>
+        <sliver title="宽度">
+            <property title="Tab键" type="number" formatStyle="integer" minimum='1' keyPath="inspectedObjectsController.selection.tabWidth"/>
+            <property title="缩进" type="number" formatStyle="integer" minimum='0' keyPath="inspectedObjectsController.selection.indentWidth"/>
+            <property title="换行符" type="boolean" keyPath="inspectedObjectsController.selection.wrapsLines" />
+        </sliver>
+    </section>
+
+</slice>

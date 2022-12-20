@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ IDEAttributedStringControlParagraphStylePopover.inspector
+ Copyright © 2012-2017 Apple Inc. All rights reserved.
+ -->
+<slice>
+    <section>
+        <sliver title="文本方向">
+            <property type="enumeration" keyPath="inspectedObjectsController.selection.baseWritingDirection" actionSelector="valuesDidFinishChanging">
+                <option-group>
+                    <option title="自然" value="-1"/>
+                </option-group>
+                <option-group>
+                    <option title="从左到右" value="0"/>
+                    <option title="从右到左" value="1"/>
+                </option-group>
+            </property>
+        </sliver>
+        <sliver title="换行符">
+            <property type="enumeration" keyPath="inspectedObjectsController.selection.lineBreakMode" actionSelector="valuesDidFinishChanging">
+                <option-group>
+                    <option title="Clip" value="2" />
+                </option-group>
+                <option-group>
+                    <option title="字符换行符" value="1" />
+                    <option title="自动换行" value="0" />
+                </option-group>
+                <option-group>
+                    <option title="截断头部" value="3" />
+                    <option title="截断中间" value="5" />
+                    <option title="截断尾部" value="4" />
+                </option-group>
+            </property>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="线条">
+            <property type="number" title="高度倍数" keyPath="inspectedObjectsController.selection.lineHeightMultiple" minimum="0.0" formatStyle="decimal" increment="0.5" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="间距" keyPath="inspectedObjectsController.selection.lineSpacing" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="最小高度" keyPath="inspectedObjectsController.selection.minimumLineHeight" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="最大高度" keyPath="inspectedObjectsController.selection.maximumLineHeight" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="段落">
+            <property type="number" title="前间距" keyPath="inspectedObjectsController.selection.paragraphSpacingBefore" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="后间距" keyPath="inspectedObjectsController.selection.paragraphSpacing" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="缩进">
+            <property type="number" title="头部" keyPath="inspectedObjectsController.selection.headIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="尾部" keyPath="inspectedObjectsController.selection.tailIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="第一行" keyPath="inspectedObjectsController.selection.firstLineHeadIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="Tab键" keyPath="inspectedObjectsController.selection.defaultTabInterval" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="连字符">
+            <property type="number" title="Factor" keyPath="inspectedObjectsController.selection.hyphenationFactor" minimum="0.0" formatStyle="decimal" increment="0.1" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver title="Truncation">
+            <property type="number" title="Tightening Factor" keyPath="inspectedObjectsController.selection.tighteningFactorForTruncation" minimum="0.0" formatStyle="decimal" increment="0.1" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Header Level">
+            <property type="number" keyPath="inspectedObjectsController.selection.headerLevel" minimum="0" formatStyle="integer" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+</slice>

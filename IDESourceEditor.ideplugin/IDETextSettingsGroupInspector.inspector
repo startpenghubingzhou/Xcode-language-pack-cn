@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   IDETextSettingsGroupInspector.inspector
+   IDESourceEditor
+
+   Created by Daniel Gobera on 4/5/2010.
+   Copyright 2010-2010 Apple Inc. All rights reserved.
+-->
+
+<!-- Inspector for per-group text editing settings. This inspector slice is instantiated by IDESourceEditor.plugindata -->
+<slice>
+    <section>
+        <sliver title="缩进使用">
+            <property type="enumeration" keyPath="inspectedObjectsController.selection.usesTabs">
+                <option-group>
+                    <option value="0" title="空格"/>
+                    <option value="1" title="Tab键"/>
+                </option-group>
+            </property>
+        </sliver>
+        <sliver title="宽度">
+            <property title="Tab键" type="number" formatStyle="integer" minimum='1' keyPath="inspectedObjectsController.selection.tabWidth"/>
+            <property title="缩进" type="number" formatStyle="integer" minimum='0' keyPath="inspectedObjectsController.selection.indentWidth"/>
+            <property title="换行符" type="boolean" keyPath="inspectedObjectsController.selection.wrapsLines"/>
+        </sliver>
+    </section>
+</slice>
