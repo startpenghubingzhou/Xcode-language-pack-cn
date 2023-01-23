@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>通用</string>
 	<key>Name</key>
-	<string>Standard Build Settings</string>
+	<string>标准编译设置</string>
 	<key>[ADDITIONAL_SDKS]-description</key>
 	<string>The locations of any sparse SDKs that should be layered on top of the one specified by `SDKROOT`. If more than one SDK is listed, the first one has highest precedence. Every SDK specified in this setting should be a &quot;sparse&quot; SDK, for example, not an SDK for an entire macOS release.</string>
 	<key>[ADDITIONAL_SDKS]-name</key>
@@ -13,19 +13,19 @@
 	<key>[ALTERNATE_GROUP]-description</key>
 	<string>The group name or gid for the files listed under the `ALTERNATE_PERMISSIONS_FILES` setting.</string>
 	<key>[ALTERNATE_GROUP]-name</key>
-	<string>Alternate Install Group</string>
+	<string>备用安装组</string>
 	<key>[ALTERNATE_MODE]-description</key>
 	<string>Permissions used for the files listed under the `ALTERNATE_PERMISSIONS_FILES` setting.</string>
 	<key>[ALTERNATE_MODE]-name</key>
-	<string>Alternate Install Permissions</string>
+	<string>备用安装权限</string>
 	<key>[ALTERNATE_OWNER]-description</key>
 	<string>The owner name or uid for the files listed under the `ALTERNATE_PERMISSIONS_FILES` setting.</string>
 	<key>[ALTERNATE_OWNER]-name</key>
-	<string>Alternate Install Owner</string>
+	<string>备用安装所有者</string>
 	<key>[ALTERNATE_PERMISSIONS_FILES]-description</key>
 	<string>List of files to which the alternate owner, group and permissions are applied.</string>
 	<key>[ALTERNATE_PERMISSIONS_FILES]-name</key>
-	<string>Alternate Permissions Files</string>
+	<string>备用权限文件</string>
 	<key>[ALWAYS_SEARCH_USER_PATHS]-description</key>
 	<string>This setting is deprecated as of Xcode 8.3 and may not be supported in future versions. It is recommended that you disable the setting.
 
@@ -33,15 +33,15 @@ If enabled, both `#include &lt;header.h&gt;`-style and `#include &quot;header.h&
 
 For backwards compatibility reasons, this setting is enabled by default. Disabling it is strongly recommended.</string>
 	<key>[ALWAYS_SEARCH_USER_PATHS]-name</key>
-	<string>Always Search User Paths (Deprecated)</string>
+	<string>始终搜索用户路径（已弃用）</string>
 	<key>[APPLICATION_EXTENSION_API_ONLY]-description</key>
 	<string>When enabled, this causes the compiler and linker to disallow use of APIs that are not available to app extensions and to disallow linking to frameworks that have not been built with this setting enabled.</string>
 	<key>[APPLICATION_EXTENSION_API_ONLY]-name</key>
-	<string>Require Only App-Extension-Safe API</string>
+	<string>仅需要应用程序扩展安全API</string>
 	<key>[APPLY_RULES_IN_COPY_FILES]-description</key>
 	<string>Files copied with a Copy Files build phase are unchanged by default. Setting this to `TRUE` causes property list files (`.plist`) and strings files to be converted as specified by `PLIST_FILE_OUTPUT_FORMAT` and `STRINGS_FILE_OUTPUT_ENCODING`.</string>
 	<key>[APPLY_RULES_IN_COPY_FILES]-name</key>
-	<string>Convert Copied Files</string>
+	<string>转换复制的文件</string>
 	<key>[ARCHS]-description</key>
 	<string>A list of the architectures for which the product will be built. This is usually set to a predefined build setting provided by the platform. If more than one architecture is specified, a universal binary will be produced.</string>
 	<key>[ARCHS]-name</key>
@@ -51,7 +51,7 @@ For backwards compatibility reasons, this setting is enabled by default. Disabli
 	<key>[BUILD_VARIANTS]-description</key>
 	<string>A list of the build variants of the linked binary that will be produced. By default, only the `normal` variant is produced. Other common values include `debug` and `profile`.</string>
 	<key>[BUILD_VARIANTS]-name</key>
-	<string>Build Variants</string>
+	<string>构建变体</string>
 	<key>[BUNDLE_LOADER]-description</key>
 	<string>Specifies the executable that will load the bundle output file being linked. Undefined symbols from the bundle are checked against the specified executable as if it is one of the dynamic libraries the bundle was linked with.</string>
 	<key>[BUNDLE_LOADER]-name</key>
@@ -71,7 +71,7 @@ For backwards compatibility reasons, this setting is enabled by default. Disabli
 	<key>[CODE_SIGN_INJECT_BASE_ENTITLEMENTS]-description</key>
 	<string>Automatically inject entitlements from the platform&apos;s BaseEntitlements.plist into the code signatures of executables.</string>
 	<key>[CODE_SIGN_INJECT_BASE_ENTITLEMENTS]-name</key>
-	<string>Code Signing Inject Base Entitlements</string>
+	<string>代码签名注入基本授权</string>
 	<key>[CODE_SIGN_STYLE]-description</key>
 	<string>This setting specifies the method used to acquire and locate signing assets. Choose `Automatic` to let Xcode automatically create and update profiles, app IDs, and certificates. Choose `Manual` to create and update these yourself on the developer website.</string>
 	<key>[CODE_SIGN_STYLE]-name</key>
@@ -89,33 +89,33 @@ For backwards compatibility reasons, this setting is enabled by default. Disabli
 	<key>[CONFIGURATION_BUILD_DIR]-description</key>
 	<string>The base path where build products will be placed during a build for a given configuration. By default, this is set to `$(BUILD_DIR)/$(CONFIGURATION)`.</string>
 	<key>[CONFIGURATION_BUILD_DIR]-name</key>
-	<string>Per-configuration Build Products Path</string>
+	<string>预配置构建成品路径</string>
 	<key>[CONFIGURATION_TEMP_DIR]-description</key>
 	<string>The base path where intermediates will be placed during a build for a given configuration. By default, this is set to `$(PROJECT_TEMP_DIR)/$(CONFIGURATION)`.</string>
 	<key>[CONFIGURATION_TEMP_DIR]-name</key>
-	<string>Per-configuration Intermediate Build Files Path</string>
+	<string>每个预配置中间构建文件路径</string>
 	<key>[COPYING_PRESERVES_HFS_DATA]-description</key>
 	<string>Causes the copying of resources to preserve resource forks and Finder info.</string>
 	<key>[COPYING_PRESERVES_HFS_DATA]-name</key>
-	<string>Preserve HFS Data</string>
+	<string>保留HFS数据</string>
 	<key>[COPY_PHASE_STRIP]-description</key>
 	<string>Specifies whether binary files that are copied during the build, such as in a Copy Bundle Resources or Copy Files build phase, should be stripped of debugging symbols. It does not cause the linked product of a target to be stripped—use `STRIP_INSTALLED_PRODUCT` for that.</string>
 	<key>[COPY_PHASE_STRIP]-name</key>
-	<string>Strip Debug Symbols During Copy</string>
+	<string>复制期间删除调试符号</string>
 	<key>[CREATE_INFOPLIST_SECTION_IN_BINARY]-description</key>
 	<string>Enabling this setting will create a section in the product&apos;s linked binary containing the processed `Info.plist` file for the target. This setting only applies to command-line tool targets.</string>
 	<key>[CREATE_INFOPLIST_SECTION_IN_BINARY]-name</key>
-	<string>Create Info.plist Section in Binary</string>
+	<string>以二进制格式创建Info.plist节</string>
 	<key>[CURRENT_PROJECT_VERSION]-description</key>
 	<string>This setting defines the current version of the project. The value must be a integer or floating point number, such as `57` or `365.8`.</string>
 	<key>[CURRENT_PROJECT_VERSION]-name</key>
-	<string>Current Project Version</string>
+	<string>当前项目版本</string>
 	<key>[Code Signing]-category</key>
 	<string>签名</string>
 	<key>[DEAD_CODE_STRIPPING]-description</key>
 	<string>Activating this setting causes the `-dead_strip` flag to be passed to `ld(1)` via `cc(1)` to turn on dead code stripping.</string>
 	<key>[DEAD_CODE_STRIPPING]-name</key>
-	<string>Dead Code Stripping</string>
+	<string>死代码剥离</string>
 	<key>[DEBUG_INFORMATION_FORMAT]-description</key>
 	<string>The type of debug information to produce.
 
@@ -128,21 +128,21 @@ For backwards compatibility reasons, this setting is enabled by default. Disabli
 	<key>[DEBUG_INFORMATION_FORMAT]-name</key>
 	<string>调试信息格式</string>
 	<key>[DEBUG_INFORMATION_FORMAT]-value-[dwarf-with-dsym]</key>
-	<string>DWARF with dSYM File</string>
+	<string> 带dSYM文件的DWARF</string>
 	<key>[DEBUG_INFORMATION_FORMAT]-value-[dwarf]</key>
 	<string>DWARF</string>
 	<key>[DEFINES_MODULE]-description</key>
 	<string>If enabled, the product will be treated as defining its own module. This enables automatic production of LLVM module map files when appropriate, and allows the product to be imported as a module.</string>
 	<key>[DEFINES_MODULE]-name</key>
-	<string>Defines Module</string>
+	<string>定义模块</string>
 	<key>[DEPLOYMENT_LOCATION]-description</key>
 	<string>If enabled, built products are placed in their installed locations in addition to the built products folder.</string>
 	<key>[DEPLOYMENT_LOCATION]-name</key>
-	<string>Deployment Location</string>
+	<string>部署位置</string>
 	<key>[DEPLOYMENT_POSTPROCESSING]-description</key>
 	<string>If enabled, indicates that binaries should be stripped and file mode, owner, and group information should be set to standard values.</string>
 	<key>[DEPLOYMENT_POSTPROCESSING]-name</key>
-	<string>Deployment Postprocessing</string>
+	<string>部署后处理</string>
 	<key>[DEVELOPMENT_TEAM]-description</key>
 	<string>The team ID of a development team to use for signing certificates and provisioning profiles.</string>
 	<key>[DEVELOPMENT_TEAM]-name</key>
@@ -152,15 +152,15 @@ For backwards compatibility reasons, this setting is enabled by default. Disabli
 
 Typically this path is not set per target, but is provided as an option on the command line when performing an `xcodebuild install`. It may also be set in a build configuration in special circumstances.</string>
 	<key>[DSTROOT]-name</key>
-	<string>Installation Build Products Location</string>
+	<string>安装构建成品位置</string>
 	<key>[DYLIB_COMPATIBILITY_VERSION]-description</key>
 	<string>Determines the compatibility version of the resulting library, bundle, or framework binary. See [Dynamic Library Design Guidelines](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/DynamicLibraryDesignGuidelines.html#//apple_ref/doc/uid/TP40002013-SW19) in [Dynamic Library Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html) for details on assigning version numbers of dynamic libraries.</string>
 	<key>[DYLIB_COMPATIBILITY_VERSION]-name</key>
-	<string>Compatibility Version</string>
+	<string>兼容性版本</string>
 	<key>[DYLIB_CURRENT_VERSION]-description</key>
 	<string>This setting defines the current version of any framework built by the project. As with `CURRENT_PROJECT_VERSION`, the value must be an integer or floating point number, such as `57` or `365.8`. By default, it is set to `$(CURRENT_PROJECT_VERSION)`. See [Dynamic Library Design Guidelines](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/DynamicLibraryDesignGuidelines.html#//apple_ref/doc/uid/TP40002013-SW19) in [Dynamic Library Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html) for details on assigning version numbers of dynamic libraries.</string>
 	<key>[DYLIB_CURRENT_VERSION]-name</key>
-	<string>Current Library Version</string>
+	<string>当前库版本</string>
 	<key>[DYLIB_INSTALL_NAME_BASE]-description</key>
 	<string>Sets the base value for the internal `install path` (`LC_ID_DYLIB`) in a dynamic library. This will be combined with the `EXECUTABLE_PATH` to form the full install path. Setting `LD_DYLIB_INSTALL_NAME` directly will override this setting. This setting defaults to the target&apos;s `INSTALL_PATH`. It is ignored when building any product other than a dynamic library.</string>
 	<key>[DYLIB_INSTALL_NAME_BASE]-name</key>
@@ -174,15 +174,15 @@ Typically this path is not set per target, but is provided as an option on the c
 	<key>[EXECUTABLE_EXTENSION]-description</key>
 	<string>This is the extension used for the executable product generated by the target, which has a default value based on the product type.</string>
 	<key>[EXECUTABLE_EXTENSION]-name</key>
-	<string>Executable Extension</string>
+	<string>可执行扩展</string>
 	<key>[EXECUTABLE_PREFIX]-description</key>
 	<string>The prefix used for the executable product generated by the target, which has a default value based on the product type.</string>
 	<key>[EXECUTABLE_PREFIX]-name</key>
-	<string>Executable Prefix</string>
+	<string>可执行文件前缀</string>
 	<key>[EXPORTED_SYMBOLS_FILE]-description</key>
 	<string>This is a project-relative path to a file that lists the symbols to export. See `ld -exported_symbols_list` for details on exporting symbols.</string>
 	<key>[EXPORTED_SYMBOLS_FILE]-name</key>
-	<string>Exported Symbols File</string>
+	<string>导出的符号文件</string>
 	<key>[FRAMEWORK_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to folders containing frameworks to be searched by the compiler for both included or imported header files when compiling C, Objective-C, C++, or Objective-C++, and by the linker for frameworks used by the product. Paths are delimited by whitespace, so any paths with spaces in them must be properly quoted.</string>
 	<key>[FRAMEWORK_SEARCH_PATHS]-name</key>
@@ -190,23 +190,23 @@ Typically this path is not set per target, but is provided as an option on the c
 	<key>[FRAMEWORK_VERSION]-description</key>
 	<string>Framework bundles are versioned by having contents in subfolders of a version folder that has links to the current version and its contents.</string>
 	<key>[FRAMEWORK_VERSION]-name</key>
-	<string>Framework Version</string>
+	<string>框架版本</string>
 	<key>[GCC_VERSION]-description</key>
 	<string>The compiler to use for C, C++, and Objective-C.</string>
 	<key>[GCC_VERSION]-name</key>
-	<string>Compiler for C/C++/Objective-C</string>
+	<string>C/C++/Objective-C编译器</string>
 	<key>[GENERATE_MASTER_OBJECT_FILE]-description</key>
 	<string>Activating this setting will cause the object files built by a target to be prelinked using `ld -r` into a single object file, and that object file will then be linked into the final product. This is useful to force the linker to resolve symbols and link the object files into a single module before building a static library. Also, a separate set of link flags can be applied to the prelink allowing additional control over, for instance, exported symbols.</string>
 	<key>[GENERATE_MASTER_OBJECT_FILE]-name</key>
-	<string>Perform Single-Object Prelink</string>
+	<string>执行单个对象预链接</string>
 	<key>[GENERATE_PKGINFO_FILE]-description</key>
 	<string>Forces the `PkgInfo` file to be written to wrapped products even if this file is not expected.</string>
 	<key>[GENERATE_PKGINFO_FILE]-name</key>
-	<string>Force Package Info Generation</string>
+	<string>强制包信息生成</string>
 	<key>[GENERATE_PROFILING_CODE]-description</key>
 	<string>Activating this setting will cause the compiler and linker to generate profiling code. For example, GCC will generate code suitable for use with `gprof(1)`.</string>
 	<key>[GENERATE_PROFILING_CODE]-name</key>
-	<string>Generate Profiling Code</string>
+	<string>生成分析代码</string>
 	<key>[HEADER_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to folders to be searched by the compiler for included or imported header files when compiling C, Objective-C, C++, or Objective-C++. Paths are delimited by whitespace, so any paths with spaces in them need to be properly quoted.</string>
 	<key>[HEADER_SEARCH_PATHS]-name</key>
@@ -214,11 +214,11 @@ Typically this path is not set per target, but is provided as an option on the c
 	<key>[INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES]-description</key>
 	<string>This is a list of `fnmatch()`-style patterns of file or directory names to include when performing a recursive search. By default, this is empty and is only customized when you want to provide exceptions to the list of filename patterns provided in `EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES`.</string>
 	<key>[INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES]-name</key>
-	<string>Sub-Directories to Include in Recursive Searches</string>
+	<string>递归搜索中要包含的子目录</string>
 	<key>[INFOPLIST_EXPAND_BUILD_SETTINGS]-description</key>
 	<string>Expand build settings in the `Info.plist` file.</string>
 	<key>[INFOPLIST_EXPAND_BUILD_SETTINGS]-name</key>
-	<string>Expand Build Settings in Info.plist File</string>
+	<string>展开Info.plist文件中的生成设置</string>
 	<key>[INFOPLIST_FILE]-description</key>
 	<string>The project-relative path to the property list file that contains the `Info.plist` information used by bundles. For details on information property list files, see [Information Property List Files](https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPRuntimeConfig/Articles/ConfigFiles.html#//apple_ref/doc/uid/20002091-CJBJIEDH) in [Runtime Configuration Guidelines](https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPRuntimeConfig/000-Introduction/introduction.html).</string>
 	<key>[INFOPLIST_FILE]-name</key>
@@ -226,79 +226,79 @@ Typically this path is not set per target, but is provided as an option on the c
 	<key>[INFOPLIST_OTHER_PREPROCESSOR_FLAGS]-description</key>
 	<string>Other flags to pass to the C preprocessor when preprocessing the `Info.plist` file.</string>
 	<key>[INFOPLIST_OTHER_PREPROCESSOR_FLAGS]-name</key>
-	<string>Info.plist Other Preprocessor Flags</string>
+	<string>Info.plist其他预处理器标志</string>
 	<key>[INFOPLIST_OUTPUT_FORMAT]-description</key>
 	<string>Specifies the output encoding for the output `Info.plist`. The output encodings can be `binary` or `XML`. By default, the output encoding will be unchanged from the input.</string>
 	<key>[INFOPLIST_OUTPUT_FORMAT]-name</key>
-	<string>Info.plist Output Encoding</string>
+	<string>Info.plist输出编码</string>
 	<key>[INFOPLIST_PREFIX_HEADER]-description</key>
 	<string>Implicitly include the given file when preprocessing the `Info.plist` file. The path given should either be a project relative path or an absolute path.</string>
 	<key>[INFOPLIST_PREFIX_HEADER]-name</key>
-	<string>Info.plist Preprocessor Prefix File</string>
+	<string>Info.plist预处理器前缀文件</string>
 	<key>[INFOPLIST_PREPROCESSOR_DEFINITIONS]-description</key>
 	<string>Space-separated list of preprocessor macros of the form `foo` or `foo=bar`. These macros are used when preprocessing the `Info.plist` file.</string>
 	<key>[INFOPLIST_PREPROCESSOR_DEFINITIONS]-name</key>
-	<string>Info.plist Preprocessor Definitions</string>
+	<string>Info.plist预处理器定义</string>
 	<key>[INFOPLIST_PREPROCESS]-description</key>
 	<string>Preprocess the `Info.plist` file using the C Preprocessor.</string>
 	<key>[INFOPLIST_PREPROCESS]-name</key>
-	<string>Preprocess Info.plist File</string>
+	<string>预处理Info.plist文件</string>
 	<key>[INIT_ROUTINE]-description</key>
 	<string>This is the name of the routine to use for initialization.</string>
 	<key>[INIT_ROUTINE]-name</key>
-	<string>Initialization Routine</string>
+	<string>初始化例程</string>
 	<key>[INSTALL_GROUP]-description</key>
 	<string>The group name or `gid` for installed products.</string>
 	<key>[INSTALL_GROUP]-name</key>
-	<string>Install Group</string>
+	<string>安装组</string>
 	<key>[INSTALL_MODE_FLAG]-description</key>
 	<string>Permissions used for installed product files.</string>
 	<key>[INSTALL_MODE_FLAG]-name</key>
-	<string>Install Permissions</string>
+	<string>安装权限</string>
 	<key>[INSTALL_OWNER]-description</key>
 	<string>The owner name or `uid` for installed products.</string>
 	<key>[INSTALL_OWNER]-name</key>
-	<string>Install Owner</string>
+	<string>安装所有者</string>
 	<key>[INSTALL_PATH]-description</key>
 	<string>The directory in which to install the build products. This path is prepended by the `DSTROOT`.</string>
 	<key>[INSTALL_PATH]-name</key>
-	<string>Installation Directory</string>
+	<string>安装目录</string>
 	<key>[KEEP_PRIVATE_EXTERNS]-description</key>
 	<string>Activating this setting will preserve private external symbols, rather than turning them into static symbols. This setting is also respected when performing a single-object prelink.</string>
 	<key>[KEEP_PRIVATE_EXTERNS]-name</key>
-	<string>Preserve Private External Symbols</string>
+	<string>保留专用外部符号</string>
 	<key>[KernelModule]-category</key>
 	<string>内核模块</string>
 	<key>[LD_DEPENDENCY_INFO_FILE]-description</key>
 	<string>This setting defines the path to which the linker should emit information about what files it used as inputs and generated. Xcode uses this information for its dependency tracking. Setting the value of this setting to empty will disable passing this option to the linker.</string>
 	<key>[LD_DEPENDENCY_INFO_FILE]-name</key>
-	<string>Path to Linker Dependency Info File</string>
+	<string>链接器依赖关系信息文件的路径</string>
 	<key>[LD_DYLIB_INSTALL_NAME]-description</key>
 	<string>Sets an internal `install path` (`LC_ID_DYLIB`) in a dynamic library. Any clients linked against the library will record that path as the way `dyld` should locate this library. If this option is not specified, then the `-o` path will be used. This setting is ignored when building any product other than a dynamic library. See [Dynamic Library Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html).</string>
 	<key>[LD_DYLIB_INSTALL_NAME]-name</key>
-	<string>Dynamic Library Install Name</string>
+	<string>动态库安装名称</string>
 	<key>[LD_GENERATE_MAP_FILE]-description</key>
 	<string>Activating this setting will cause the linker to write a map file to disk, which details all symbols and their addresses in the output image. The path to the map file is defined by the `LD_MAP_FILE_PATH` setting.</string>
 	<key>[LD_GENERATE_MAP_FILE]-name</key>
-	<string>Write Link Map File</string>
+	<string>写入链接映射文件</string>
 	<key>[LD_MAP_FILE_PATH]-description</key>
 	<string>This setting defines the path to the map file written by the linker when the `LD_GENERATE_MAP_FILE` setting is activated. By default, a separate file will be written for each architecture and build variant, and these will be generated in the Intermediates directory for the target whose product is being linked.</string>
 	<key>[LD_MAP_FILE_PATH]-name</key>
-	<string>Path to Link Map File</string>
+	<string>链接映射文件路径</string>
 	<key>[LD_NO_PIE]-description</key>
 	<string>Activating this setting will prevent Xcode from building a main executable that is position independent (PIE). When targeting macOS 10.7 or later, PIE is the default for main executables, so activating this setting will change that behavior. When targeting OS X 10.6 or earlier, or when building for i386, PIE is not the default, so activating this setting does nothing.
 
 You cannot create a PIE from `.o` files compiled with `-mdynamic-no-pic`. Using PIE means the codegen is less optimal, but the address randomization adds some security.</string>
 	<key>[LD_NO_PIE]-name</key>
-	<string>Generate Position-Dependent Executable</string>
+	<string>生成位置相关的可执行文件</string>
 	<key>[LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER]-description</key>
 	<string>This setting controls whether arguments to the linker should be quoted using `-Xlinker`. By default, Xcode invokes the linker by invoking the driver of the compiler used to build the source files in the target, and passing `-Xlinker` to quote arguments will cause the compiler driver to pass them through to the linker (rather than trying to evaluate them within the driver). By default, this setting is enabled. Disabling it will cause Xcode to not use `-Xlinker` to pass arguments to the linker. Disabling this setting is useful if the target has instructed Xcode to use an alternate linker (for example, by setting the `LD` setting to the path to another linker) and that alternate linker does not recognize `-Xlinker`.</string>
 	<key>[LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER]-name</key>
-	<string>Quote Linker Arguments</string>
+	<string>引用链接器参数</string>
 	<key>[LD_RUNPATH_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to be added to the `runpath` search path list for the image being created. At runtime, `dyld` uses the `runpath` when searching for dylibs whose load path begins with `@rpath/`. See [Dynamic Library Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html).</string>
 	<key>[LD_RUNPATH_SEARCH_PATHS]-name</key>
-	<string>Runpath Search Paths</string>
+	<string>运行路径搜索路径</string>
 	<key>[LIBRARY_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to folders to be searched by the linker for libraries used by the product. Paths are delimited by whitespace, so any paths with spaces in them need to be properly quoted.</string>
 	<key>[LIBRARY_SEARCH_PATHS]-name</key>
@@ -306,15 +306,15 @@ You cannot create a PIE from `.o` files compiled with `-mdynamic-no-pic`. Using 
 	<key>[LINKER_DISPLAYS_MANGLED_NAMES]-description</key>
 	<string>Activating this setting causes the linker to display mangled names for C++ symbols. Normally, this is not recommended, but turning it on can help to diagnose and solve C++ link errors.</string>
 	<key>[LINKER_DISPLAYS_MANGLED_NAMES]-name</key>
-	<string>Display Mangled Names</string>
+	<string>显示已损坏的名称</string>
 	<key>[LINK_WITH_STANDARD_LIBRARIES]-description</key>
 	<string>When this setting is enabled, the compiler driver will automatically pass its standard libraries to the linker to use during linking. If desired, this flag can be used to disable linking with the standard libraries, and then individual libraries can be passed as `OTHER_LDFLAGS`.</string>
 	<key>[LINK_WITH_STANDARD_LIBRARIES]-name</key>
-	<string>Link With Standard Libraries</string>
+	<string>与标准库链接</string>
 	<key>[Linking]-category</key>
 	<string>链接</string>
 	<key>[Localization]-category</key>
-	<string>Localization</string>
+	<string>本地化</string>
 	<key>[MACH_O_TYPE]-description</key>
 	<string>This setting determines the format of the produced binary and how it can be linked when building other binaries. For information on binary types, see [Building Mach-O Files](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/1-Articles/building_files.html#//apple_ref/doc/uid/TP40001828-SW1) in [Mach-O Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/0-Introduction/introduction.html).
 
@@ -350,17 +350,17 @@ You cannot create a PIE from `.o` files compiled with `-mdynamic-no-pic`. Using 
 	<key>[MACOSX_DEPLOYMENT_TARGET]-description-[]</key>
 	<string>Code will load on any Mac OS system that supports the APIs that are used.</string>
 	<key>[MACOSX_DEPLOYMENT_TARGET]-name</key>
-	<string>macOS Deployment Target</string>
+	<string>macOS部署目标</string>
 	<key>[MACOSX_DEPLOYMENT_TARGET]-value-[]</key>
 	<string>Compiler Default</string>
 	<key>[MODULEMAP_FILE]-description</key>
 	<string>This is the project-relative path to the LLVM module map file that defines the module structure for the compiler. If empty, it will be automatically generated for appropriate products when `DEFINES_MODULE` is enabled.</string>
 	<key>[MODULEMAP_FILE]-name</key>
-	<string>Module Map File</string>
+	<string>模块映射文件</string>
 	<key>[MODULEMAP_PRIVATE_FILE]-description</key>
 	<string>This is the project-relative path to the LLVM module map file that defines the module structure for private headers.</string>
 	<key>[MODULEMAP_PRIVATE_FILE]-name</key>
-	<string>Private Module Map File</string>
+	<string>私有模块映射文件</string>
 	<key>[MODULE_NAME]-description</key>
 	<string>This is the identifier of the kernel module listed in the generated stub. This is only used when building kernel extensions.</string>
 	<key>[MODULE_NAME]-name</key>
@@ -380,11 +380,11 @@ You cannot create a PIE from `.o` files compiled with `-mdynamic-no-pic`. Using 
 	<key>[OBJROOT]-description</key>
 	<string>The path where intermediate files will be placed during a build. Intermediate files include generated sources, object files, etc. Shell script build phases can place and access files here, as well. Typically this path is not set per target, but is set per project or per user. By default, this is set to `$(PROJECT_DIR)/build`.</string>
 	<key>[OBJROOT]-name</key>
-	<string>Intermediate Build Files Path</string>
+	<string>中间构建文件路径</string>
 	<key>[ONLY_ACTIVE_ARCH]-description</key>
 	<string>If enabled, only the active architecture is built.</string>
 	<key>[ONLY_ACTIVE_ARCH]-name</key>
-	<string>Build Active Architecture Only</string>
+	<string>仅构建活动的架构</string>
 	<key>[ORDER_FILE]-description</key>
 	<string>The path to a file that alters the order in which functions and data are laid out.
 
@@ -392,7 +392,7 @@ For each section in the output file, any symbol in that section that are specifi
 
 Generally you should not specify an order file in Debug or Development configurations, as this will make the linked binary less readable to the debugger. Use them only in Release or Deployment configurations.</string>
 	<key>[ORDER_FILE]-name</key>
-	<string>Order File</string>
+	<string>排序文件</string>
 	<key>[OTHER_CODE_SIGN_FLAGS]-description</key>
 	<string>A list of additional options to pass to `codesign(1)`.</string>
 	<key>[OTHER_CODE_SIGN_FLAGS]-name</key>
@@ -400,41 +400,41 @@ Generally you should not specify an order file in Debug or Development configura
 	<key>[OTHER_LDFLAGS]-description</key>
 	<string>Options defined in this setting are passed to invocations of the linker.</string>
 	<key>[OTHER_LDFLAGS]-name</key>
-	<string>Other Linker Flags</string>
+	<string>其他链接标志</string>
 	<key>[OTHER_LIBTOOLFLAGS]-description</key>
 	<string>Options defined in this setting are passed to all invocations of the archive librarian, which is used to generate static libraries.</string>
 	<key>[OTHER_LIBTOOLFLAGS]-name</key>
-	<string>Other Librarian Flags</string>
+	<string>其他管理标志</string>
 	<key>[PLIST_FILE_OUTPUT_FORMAT]-description</key>
 	<string>Specifies the output encoding for property list files (`.plist`). The output encodings can be `binary` or `XML`. By default, the output encoding will be unchanged from the input.</string>
 	<key>[PLIST_FILE_OUTPUT_FORMAT]-name</key>
-	<string>Property List Output Encoding</string>
+	<string>属性列表输出编码</string>
 	<key>[PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR]-description</key>
 	<string>This setting allows for better control of sharing precompiled prefix header files between projects. By default, Xcode assumes that the prefix header file may include header files from the build directory if the build directory is outside of the project directory. Xcode cannot determine this ahead of time since other projects may not have been built into the shared build directory at the time the information is needed.
 
 If your prefix file never includes files from the build directory you may set this to `NO` to improve sharing of precompiled headers. If the prefix does use files from a build directory that is inside your project directory, you may set this to `YES` to avoid unintended sharing that may result in build failures.</string>
 	<key>[PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR]-name</key>
-	<string>Precompiled Header Uses Files From Build Directory</string>
+	<string>使用构建目录中的文件预编译头文件</string>
 	<key>[PRELINK_FLAGS]-description</key>
 	<string>Additional flags to pass when performing a single-object prelink.</string>
 	<key>[PRELINK_FLAGS]-name</key>
-	<string>Single-Object Prelink Flags</string>
+	<string>单个对象预链接标志</string>
 	<key>[PRELINK_LIBS]-description</key>
 	<string>Additional libraries to pass when performing a single-object prelink.</string>
 	<key>[PRELINK_LIBS]-name</key>
-	<string>Prelink libraries</string>
+	<string>预链接库</string>
 	<key>[PRESERVE_DEAD_CODE_INITS_AND_TERMS]-description</key>
 	<string>Activating this setting, in combination with the `DEAD_CODE_STRIPPING` (`-dead_strip`) option, causes the `-no_dead_strip_inits_and_terms` flag to be passed to `ld(1)` via `cc(1)` to disable dead code stripping for initialization and termination routines. This option should not be used without the aforementioned `DEAD_CODE_STRIPPING` option.</string>
 	<key>[PRESERVE_DEAD_CODE_INITS_AND_TERMS]-name</key>
-	<string>Don&apos;t Dead-Strip Inits and Terms</string>
+	<string>不要死扣初始化和术语</string>
 	<key>[PRIVATE_HEADERS_FOLDER_PATH]-description</key>
 	<string>The location to copy the private headers to during building, relative to the built products folder.</string>
 	<key>[PRIVATE_HEADERS_FOLDER_PATH]-name</key>
-	<string>Private Headers Folder Path</string>
+	<string>私有头文件文件夹路径</string>
 	<key>[PRODUCT_MODULE_NAME]-description</key>
 	<string>The name to use for the source code module constructed for this target, and which will be used to import the module in implementation source files. Must be a valid identifier.</string>
 	<key>[PRODUCT_MODULE_NAME]-name</key>
-	<string>Product Module Name</string>
+	<string>成品模块名称</string>
 	<key>[PRODUCT_NAME]-description</key>
 	<string>This is the basename of the product generated by the target.</string>
 	<key>[PRODUCT_NAME]-name</key>
@@ -444,31 +444,31 @@ If your prefix file never includes files from the build directory you may set th
 
 This build setting is deprecated. Use `PROVISIONING_PROFILE_SPECIFIER` instead.</string>
 	<key>[PROVISIONING_PROFILE]-name</key>
-	<string>Provisioning Profile (Deprecated)</string>
+	<string>设置配置文件（已弃用）</string>
 	<key>[PROVISIONING_PROFILE_SPECIFIER]-description</key>
 	<string>Must contain a profile name (or UUID). A missing or invalid profile will cause a build error. Use in conjunction with [DEVELOPMENT_TEAM] to fully specify provisioning profile.</string>
 	<key>[PROVISIONING_PROFILE_SPECIFIER]-name</key>
-	<string>Provisioning Profile</string>
+	<string>设置配置文件</string>
 	<key>[PUBLIC_HEADERS_FOLDER_PATH]-description</key>
 	<string>The location to copy the public headers to during building, relative to the built products folder.</string>
 	<key>[PUBLIC_HEADERS_FOLDER_PATH]-name</key>
-	<string>Public Headers Folder Path</string>
+	<string>公用头文件文件夹路径</string>
 	<key>[Packaging]-category</key>
 	<string>打包</string>
 	<key>[RESOURCES_TARGETED_DEVICE_FAMILY]-description</key>
 	<string>Overrides `TARGETED_DEVICE_FAMILY` when the resource copying needs to differ from the default targeted device.</string>
 	<key>[RESOURCES_TARGETED_DEVICE_FAMILY]-name</key>
-	<string>Resources Targeted Device Family</string>
+	<string>资源目标设备系列</string>
 	<key>[REZ_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to search for files with resource manager resources. Paths are delimited by whitespace, so any paths with spaces in them need to be properly quoted.</string>
 	<key>[REZ_SEARCH_PATHS]-name</key>
-	<string>Rez Search Paths</string>
+	<string>Rez搜索路径</string>
 	<key>[SCAN_ALL_SOURCE_FILES_FOR_INCLUDES]-description</key>
 	<string>Activating this setting will cause all source files to be scanned for includes (for example, of header files) when computing the dependency graph, in which case if an included file is changed then the including file will be rebuilt next time a target containing it is built. Normally only certain types of files, such as C-language source files, are scanned.
 
 This setting is useful if your project contains files of unusual types, which are compiled using a custom build rule.</string>
 	<key>[SCAN_ALL_SOURCE_FILES_FOR_INCLUDES]-name</key>
-	<string>Scan All Source Files for Includes</string>
+	<string>扫描所有源文件以查找包含项</string>
 	<key>[SDKROOT]-description</key>
 	<string>The name or path of the base SDK being used during the build. The product will be built against the headers and libraries located inside the indicated SDK. This path will be prepended to all search paths, and will be passed through the environment to the compiler and linker. Additional SDKs can be specified in the `ADDITIONAL_SDKS` setting.</string>
 	<key>[SDKROOT]-name</key>
@@ -478,31 +478,31 @@ This setting is useful if your project contains files of unusual types, which ar
 
 Generally you should not specify symbol ordering options in Debug or Development configurations, as this will make the linked binary less readable to the debugger. Use them only in Release or Deployment configurations.</string>
 	<key>[SECTORDER_FLAGS]-name</key>
-	<string>Symbol Ordering Flags</string>
+	<string>符号排序标志</string>
 	<key>[SEPARATE_SYMBOL_EDIT]-description</key>
 	<string>Activating this setting when the linked product&apos;s symbols are to be edited will cause editing to occur via a separate invocation of `nmedit(1)`. Otherwise editing will occur during linking, if possible.</string>
 	<key>[SEPARATE_SYMBOL_EDIT]-name</key>
-	<string>Separately Edit Symbols</string>
+	<string>单独编辑符号</string>
 	<key>[SHARED_PRECOMPS_DIR]-description</key>
 	<string>The path where precompiled prefix header files are placed during a build. Defaults to `$(OBJROOT)/SharedPrecompiledHeaders`. Using a common location allows precompiled headers to be shared between multiple projects.</string>
 	<key>[SHARED_PRECOMPS_DIR]-name</key>
-	<string>Precompiled Headers Cache Path</string>
+	<string>预编译头文件缓存路径</string>
 	<key>[SKIP_INSTALL]-description</key>
 	<string>If enabled, don&apos;t install built products even if deployment locations are active.</string>
 	<key>[SKIP_INSTALL]-name</key>
-	<string>Skip Install</string>
+	<string>跳过安装</string>
 	<key>[STRINGS_FILE_OUTPUT_ENCODING]-description</key>
 	<string>Specify the encoding to be used for Strings files (by default, the output encoding will be 16-bit Unicode). The value can be either an `NSStringEncoding`, such as one of the numeric values recognized by `NSString`, or it can be an IANA character set name as understood by `CFString`. The operation will fail if the file cannot be converted to the specified encoding.</string>
 	<key>[STRINGS_FILE_OUTPUT_ENCODING]-name</key>
-	<string>Strings File Output Encoding</string>
+	<string>字符串文件输出编码</string>
 	<key>[STRIPFLAGS]-description</key>
 	<string>Additional flags to be passed when stripping the linked product of the build.</string>
 	<key>[STRIPFLAGS]-name</key>
-	<string>Additional Strip Flags</string>
+	<string>附加剥离标志</string>
 	<key>[STRIP_INSTALLED_PRODUCT]-description</key>
 	<string>If enabled,  the linked product of the build will be stripped of symbols when performing deployment postprocessing.</string>
 	<key>[STRIP_INSTALLED_PRODUCT]-name</key>
-	<string>Strip Linked Product</string>
+	<string>剥离链接后成品</string>
 	<key>[STRIP_STYLE]-description</key>
 	<string>The level of symbol stripping to be performed on the linked product of the build. The default value is defined by the target&apos;s product type.
 
@@ -516,21 +516,21 @@ Generally you should not specify symbol ordering options in Debug or Development
 	<key>[STRIP_STYLE]-description-[non-global]</key>
 	<string>Strips non-global symbols, but saves external symbols. [non-global, -x]</string>
 	<key>[STRIP_STYLE]-name</key>
-	<string>Strip Style</string>
+	<string>剥离风格</string>
 	<key>[STRIP_STYLE]-value-[all]</key>
-	<string>All Symbols</string>
+	<string>所有符号</string>
 	<key>[STRIP_STYLE]-value-[debugging]</key>
-	<string>Debugging Symbols</string>
+	<string>调试 符号</string>
 	<key>[STRIP_STYLE]-value-[non-global]</key>
-	<string>Non-Global Symbols</string>
+	<string>非全局符号</string>
 	<key>[STRIP_SWIFT_SYMBOLS]-description</key>
 	<string>Adjust the level of symbol stripping specified by the STRIP_STYLE setting so that when the linked product of the build is stripped, all Swift symbols will be removed.</string>
 	<key>[STRIP_SWIFT_SYMBOLS]-name</key>
-	<string>Strip Swift Symbols</string>
+	<string>剥离Swift符号</string>
 	<key>[SUPPORTED_PLATFORMS]-description</key>
 	<string>The list of supported platforms from which a base SDK can be used. This setting is used if the product can be built for multiple platforms using different SDKs.</string>
 	<key>[SUPPORTED_PLATFORMS]-name</key>
-	<string>Supported Platforms</string>
+	<string>支持平台</string>
 	<key>[SYMROOT]-description</key>
 	<string>The path at which all products will be placed when performing a build. Typically this path is not set per target, but is set per-project or per-user. By default, this is set to `$(PROJECT_DIR)/build`.</string>
 	<key>[SYMROOT]-name</key>
@@ -540,15 +540,15 @@ Generally you should not specify symbol ordering options in Debug or Development
 	<key>[TEST_HOST]-description</key>
 	<string>Path to the executable into which a bundle of tests is injected. Only specify this setting if testing an application or other executable.</string>
 	<key>[TEST_HOST]-name</key>
-	<string>Test Host</string>
+	<string>测试主机</string>
 	<key>[TREAT_MISSING_BASELINES_AS_TEST_FAILURES]-description</key>
 	<string>When running tests that measure performance via `XCTestCase`, report missing baselines as test failures.</string>
 	<key>[TREAT_MISSING_BASELINES_AS_TEST_FAILURES]-name</key>
-	<string>Treat missing baselines as test failures</string>
+	<string>将缺少基线视为测试失败</string>
 	<key>[UNEXPORTED_SYMBOLS_FILE]-description</key>
 	<string>A project-relative path to a file that lists the symbols not to export. See `ld -exported_symbols_list` for details on exporting symbols.</string>
 	<key>[UNEXPORTED_SYMBOLS_FILE]-name</key>
-	<string>Unexported Symbols File</string>
+	<string>未导出的符号文件</string>
 	<key>[USER_HEADER_SEARCH_PATHS]-description</key>
 	<string>This is a list of paths to folders to be searched by the compiler for included or imported user header files (those headers listed in quotes) when compiling C, Objective-C, C++, or Objective-C++. Paths are delimited by whitespace, so any paths with spaces in them need to be properly quoted. See `ALWAYS_SEARCH_USER_PATHS` for more details on how this setting is used. If the compiler doesn&apos;t support the concept of user headers, then the search paths are prepended to the any existing header search paths defined in `HEADER_SEARCH_PATHS`.</string>
 	<key>[USER_HEADER_SEARCH_PATHS]-name</key>
@@ -556,17 +556,17 @@ Generally you should not specify symbol ordering options in Debug or Development
 	<key>[USE_HEADERMAP]-description</key>
 	<string>Enable the use of *Header Maps*, which provide the compiler with a mapping from textual header names to their locations, bypassing the normal compiler header search path mechanisms. This allows source code to include headers from various locations in the file system without needing to update the header search path build settings.</string>
 	<key>[USE_HEADERMAP]-name</key>
-	<string>Use Header Maps</string>
+	<string>使用头文件映射</string>
 	<key>[UnitTesting]-category</key>
-	<string>Testing</string>
+	<string>测试</string>
 	<key>[VALIDATE_PRODUCT]-description</key>
 	<string>If enabled, perform validation checks on the product as part of the build process.</string>
 	<key>[VALIDATE_PRODUCT]-name</key>
-	<string>Validate Built Product</string>
+	<string>验证构建的成品</string>
 	<key>[VALID_ARCHS]-description</key>
 	<string>A space-separated list of architectures for which the target should actually be built. For each target, this is intersected with the list specified in `ARCHS`, and the resulting set is built. This allows individual targets to opt out of building for particular architectures. If the resulting set of architectures is empty, no executable will be produced.</string>
 	<key>[VALID_ARCHS]-name</key>
-	<string>Valid Architectures</string>
+	<string>有效架构</string>
 	<key>[VERSIONING_SYSTEM]-description</key>
 	<string>Selects the process used for version-stamping generated files.
 
@@ -577,37 +577,37 @@ Generally you should not specify symbol ordering options in Debug or Development
 	<key>[VERSIONING_SYSTEM]-description-[apple-generic]</key>
 	<string>Use the current project version setting.</string>
 	<key>[VERSIONING_SYSTEM]-name</key>
-	<string>Versioning System</string>
+	<string>版本控制系统</string>
 	<key>[VERSIONING_SYSTEM]-value-[]</key>
-	<string>None</string>
+	<string>无</string>
 	<key>[VERSIONING_SYSTEM]-value-[apple-generic]</key>
-	<string>Apple Generic</string>
+	<string>Apple通用</string>
 	<key>[VERSION_INFO_BUILDER]-description</key>
 	<string>This defines a reference to the user performing a build to be included in the generated Apple Generic Versioning stub. Defaults to the value of the `USER` environment variable.</string>
 	<key>[VERSION_INFO_BUILDER]-name</key>
-	<string>Versioning Username</string>
+	<string>版本控制用户名</string>
 	<key>[VERSION_INFO_EXPORT_DECL]-description</key>
 	<string>This defines a prefix string for the version info symbol declaration in the generated Apple Generic Versioning stub. This can be used, for example, to add an optional `export` keyword to the version symbol declaration. This should rarely be changed.</string>
 	<key>[VERSION_INFO_EXPORT_DECL]-name</key>
-	<string>Generated Versioning Variables</string>
+	<string>生成的版本控制变量</string>
 	<key>[VERSION_INFO_FILE]-description</key>
 	<string>Used to specify a name for the source file that will be generated by Apple Generic Versioning and compiled into your product. By default, this is set to `$(PRODUCT_NAME)_vers.c`.</string>
 	<key>[VERSION_INFO_FILE]-name</key>
-	<string>Generated Versioning Source Filename</string>
+	<string>生成的版本控制源文件名</string>
 	<key>[VERSION_INFO_PREFIX]-description</key>
 	<string>Used as a prefix for the name of the version info symbol in the generated versioning source file. If you prefix your exported symbols you will probably want to set this to the same prefix.</string>
 	<key>[VERSION_INFO_PREFIX]-name</key>
-	<string>Versioning Name Prefix</string>
+	<string>版本控制名称前缀</string>
 	<key>[VERSION_INFO_SUFFIX]-description</key>
 	<string>Used as a suffix for the name of the version info symbol in the generated versioning source file. This is rarely used.</string>
 	<key>[VERSION_INFO_SUFFIX]-name</key>
-	<string>Versioning Name Suffix</string>
+	<string>版本控制名称后缀</string>
 	<key>[Versioning]-category</key>
 	<string>版本命名</string>
 	<key>[WARNING_LDFLAGS]-description</key>
 	<string>These flags are passed with linker invocations, and by default give the `-no_arch_warnings` flag to the linker to avoid many warnings being generated during multi-architecture builds.</string>
 	<key>[WARNING_LDFLAGS]-name</key>
-	<string>Warning Linker Flags</string>
+	<string>警告链接器标志</string>
 	<key>[WRAPPER_EXTENSION]-description</key>
 	<string>The extension used for product wrappers, which has a default value based on the product type.</string>
 	<key>[WRAPPER_EXTENSION]-name</key>
