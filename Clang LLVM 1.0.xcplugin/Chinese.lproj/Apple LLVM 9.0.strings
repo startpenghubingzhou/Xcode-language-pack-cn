@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Apple LLVM 9.0 编译器</string>
+	<key>Name</key>
+	<string>Apple LLVM 9.0</string>
+	<key>Vendor</key>
+	<string>Apple</string>
+	<key>Version</key>
+	<string>9.0</string>
+	<key>[ASANPolicy]-category</key>
+	<string>Address Sanitizer</string>
+	<key>[CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW]-description</key>
+	<string>Check for C++ container overflow when Address Sanitizer is enabled. This check requires the entire application to be built with Address Sanitizer. If not, it may report false positives.</string>
+	<key>[CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW]-name</key>
+	<string>Enable C++ Container Overflow Checks</string>
+	<key>[CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_DEADCODE_DEADSTORES]-description</key>
+	<string>Check for values stored to variables and never read again.</string>
+	<key>[CLANG_ANALYZER_DEADCODE_DEADSTORES]-name</key>
+	<string>Dead Stores</string>
+	<key>[CLANG_ANALYZER_DEADCODE_DEADSTORES]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_DEADCODE_DEADSTORES]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_DEADCODE_IDEMPOTENT_OPERATIONS]-description</key>
+	<string>This checker is a form of dead code analysis, and flags various &quot;idempotent operations&quot; (operations that effectively do nothing). Examples include always assigning a value to variable that never changes the original value, always adding 0 to a variable, etc.</string>
+	<key>[CLANG_ANALYZER_DEADCODE_IDEMPOTENT_OPERATIONS]-name</key>
+	<string>Idempotent Operations</string>
+	<key>[CLANG_ANALYZER_DEADCODE_IDEMPOTENT_OPERATIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_DEADCODE_IDEMPOTENT_OPERATIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_GCD]-description</key>
+	<string>Check for misuses of the Grand Central Dispatch API.</string>
+	<key>[CLANG_ANALYZER_GCD]-name</key>
+	<string>Misuse of Grand Central Dispatch</string>
+	<key>[CLANG_ANALYZER_GCD]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_GCD]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT]-description</key>
+	<string>Warn when a call to an `NSLocalizedString()` macro is missing a context comment for the localizer.</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT]-name</key>
+	<string>Missing Localization Context Comment</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED]-description</key>
+	<string>Warn when a nonlocalized string is passed to a user interface method expecting a localized string.</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED]-name</key>
+	<string>Missing Localizability</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_MEMORY_MANAGEMENT]-description</key>
+	<string>Warn about memory leaks, use-after-free, and other API misuses.</string>
+	<key>[CLANG_ANALYZER_MEMORY_MANAGEMENT]-name</key>
+	<string>Improper Memory Management</string>
+	<key>[CLANG_ANALYZER_MEMORY_MANAGEMENT]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_MEMORY_MANAGEMENT]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_NONNULL]-description</key>
+	<string>Check for misuses of `nonnull` parameter and return types.</string>
+	<key>[CLANG_ANALYZER_NONNULL]-name</key>
+	<string>Misuse of &apos;nonnull&apos;</string>
+	<key>[CLANG_ANALYZER_NONNULL]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_NONNULL]-value-[YES]</key>
+	<string>是 (有风险)</string>
+	<key>[CLANG_ANALYZER_NONNULL]-value-[YES_NONAGGRESSIVE]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION]-description</key>
+	<string>Warn when a number object, such as an instance of `NSNumber`, `CFNumberRef`, `OSNumber`, or `OSBoolean` is compared or converted to a primitive value instead of another object.</string>
+	<key>[CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION]-name</key>
+	<string>Suspicious Conversions of NSNumber and CFNumberRef</string>
+	<key>[CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION]-value-[YES_AGGRESSIVE]</key>
+	<string>是 (有风险)</string>
+	<key>[CLANG_ANALYZER_OBJC_ATSYNC]-description</key>
+	<string>Warn on `nil` pointers used as mutexes for `@synchronized`.</string>
+	<key>[CLANG_ANALYZER_OBJC_ATSYNC]-name</key>
+	<string>@synchronized with nil mutex</string>
+	<key>[CLANG_ANALYZER_OBJC_ATSYNC]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_ATSYNC]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_COLLECTIONS]-description</key>
+	<string>Warn if `CF` collections are created with non-pointer-size values. Check if `NS` collections are initialized with non-Objective-C type elements.</string>
+	<key>[CLANG_ANALYZER_OBJC_COLLECTIONS]-name</key>
+	<string>Misuse of Collections API</string>
+	<key>[CLANG_ANALYZER_OBJC_COLLECTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_COLLECTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_DEALLOC]-description</key>
+	<string>Warn when an instance is improperly cleaned up in `-dealloc`.</string>
+	<key>[CLANG_ANALYZER_OBJC_DEALLOC]-name</key>
+	<string>Improper Instance Cleanup in &apos;-dealloc&apos;</string>
+	<key>[CLANG_ANALYZER_OBJC_DEALLOC]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_DEALLOC]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_GENERICS]-description</key>
+	<string>Warn if a specialized generic type is converted to an incompatible type.</string>
+	<key>[CLANG_ANALYZER_OBJC_GENERICS]-name</key>
+	<string>Misuse of Objective-C generics</string>
+	<key>[CLANG_ANALYZER_OBJC_GENERICS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_GENERICS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES]-description</key>
+	<string>警告Objective-C方法签名与类型不兼容</string>
+	<key>[CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES]-name</key>
+	<string>方法签名不匹配</string>
+	<key>[CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_NSCFERROR]-description</key>
+	<string>Warn if functions accepting `CFErrorRef` or `NSError` cannot indicate that an error occurred.</string>
+	<key>[CLANG_ANALYZER_OBJC_NSCFERROR]-name</key>
+	<string>Improper Handling of CFError and NSError</string>
+	<key>[CLANG_ANALYZER_OBJC_NSCFERROR]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_NSCFERROR]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_RETAIN_COUNT]-description</key>
+	<string>Warn on leaks and improper reference count management.</string>
+	<key>[CLANG_ANALYZER_OBJC_RETAIN_COUNT]-name</key>
+	<string>Violation of Reference Counting Rules</string>
+	<key>[CLANG_ANALYZER_OBJC_RETAIN_COUNT]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_RETAIN_COUNT]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_SELF_INIT]-description</key>
+	<string>检查`super-init`是否在Objective-C初始化方法中正确调用。</string>
+	<key>[CLANG_ANALYZER_OBJC_SELF_INIT]-name</key>
+	<string>违反`self-=[super-init]`原则</string>
+	<key>[CLANG_ANALYZER_OBJC_SELF_INIT]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_SELF_INIT]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_OBJC_UNUSED_IVARS]-description</key>
+	<string>Warn about private ivars that are never used.</string>
+	<key>[CLANG_ANALYZER_OBJC_UNUSED_IVARS]-name</key>
+	<string>Unused Ivars</string>
+	<key>[CLANG_ANALYZER_OBJC_UNUSED_IVARS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_OBJC_UNUSED_IVARS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_BUFFER_OVERFLOW_EXPERIMENTAL]-description</key>
+	<string>Check for potential buffer overflows.</string>
+	<key>[CLANG_ANALYZER_SECURITY_BUFFER_OVERFLOW_EXPERIMENTAL]-name</key>
+	<string>*EXPERIMENTAL* Buffer overflows</string>
+	<key>[CLANG_ANALYZER_SECURITY_BUFFER_OVERFLOW_EXPERIMENTAL]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_BUFFER_OVERFLOW_EXPERIMENTAL]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER]-description</key>
+	<string>Warn on using a floating point value as a loop counter (CERT: FLP30-C, FLP30-CPP).</string>
+	<key>[CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER]-name</key>
+	<string>Floating Point Value Used as Loop Counter</string>
+	<key>[CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS]-description</key>
+	<string>Warn on uses of `getpw` and `gets`. The functions are dangerous as they may trigger a buffer overflow.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS]-name</key>
+	<string>Use of &apos;getpw&apos;, &apos;gets&apos; (Buffer Overflow)</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP]-description</key>
+	<string>Warn on uses of `mktemp`, which produces predictable temporary files. It is obsoleted by `mktemps`. Warn when `mkstemp` is passed fewer than 6 `X`&apos;s in the format string.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP]-name</key>
+	<string>Use of &apos;mktemp&apos; or Predictable &apos;mktemps&apos;</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND]-description</key>
+	<string>Warn on uses of `rand`, `random`, and related functions, which produce predictable random number sequences. Use `arc4random` instead.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND]-name</key>
+	<string>Use of &apos;rand&apos; Functions</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY]-description</key>
+	<string>Warn on uses of the `strcpy` and `strcat` functions, which can result in buffer overflows. Use `strlcpy` or `strlcat` instead.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY]-name</key>
+	<string>Use of &apos;strcpy&apos; and &apos;strcat&apos;</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN]-description</key>
+	<string>Warn on uses of sensitive functions whose return values must be always checked.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN]-name</key>
+	<string>Unchecked Return Values</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK]-description</key>
+	<string>Warn on uses of the `vfork` function, which is inherently insecure. Use the safer `posix_spawn` function instead.</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK]-name</key>
+	<string>Use of &apos;vfork&apos;</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ANALYZER_SECURITY_KEYCHAIN_API]-description</key>
+	<string>Check for leaks of keychain attribute lists and data buffers returned by the Keychain Services API.</string>
+	<key>[CLANG_ANALYZER_SECURITY_KEYCHAIN_API]-name</key>
+	<string>Misuse of Keychain Services API</string>
+	<key>[CLANG_ANALYZER_SECURITY_KEYCHAIN_API]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ANALYZER_SECURITY_KEYCHAIN_API]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description</key>
+	<string>Choose a standard or non-standard C++ language dialect. Options include:
+
+* *C++98:* Accept ISO C++ 1998 with amendments, but not GNU extensions. [-std=c++98]
+* *GNU++98:* Accept ISO C++ 1998 with amendments and GNU extensions. [-std=gnu++98]
+* *C++11:* Accept the ISO C++ 2011 standard with amendments, but not GNU extensions. [-std=c++11]
+* *GNU++11:* Accept the ISO C++ 2011 standard with amendments and GNU extensions. [-std=gnu++11]
+* *C++14:* Accept the ISO C++ 2014 standard with amendments, but not GNU extensions. [-std=c++14]
+* *GNU++14:* Accept the ISO C++ 2014 standard with amendments and GNU extensions. [-std=gnu++14]
+* *C++17:* Accept the ISO C++ 2017 standard with amendments, but not GNU extensions. [-std=c++17]
+* *GNU++17:* Accept the ISO C++ 2017 standard with amendments and GNU extensions. [-std=gnu++17]
+* *Compiler Default:* Tells the compiler to use its default C++ language dialect. This is normally the best choice unless you have specific needs. (Currently equivalent to GNU++98.)</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[c++0x]</key>
+	<string>接受修订后的ISO C++ 2011标准，但不接受GNU扩展。 [-std=c++11]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[c++14]</key>
+	<string>接受修订后的ISO C++ 2014标准，但不接受GNU扩展。 [-std=c++14]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[c++17]</key>
+	<string>接受修订后的ISO C++ 2017标准，但不接受GNU扩展。 [-std=c++17]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[c++98]</key>
+	<string>接受修订后的ISO C++ 1998标准，但不接受GNU扩展。 [-std=c++98]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[compiler-default]</key>
+	<string>让编译器使用其默认的C++语言方言。除非你有特定需求，否则这通常是最好的选择（目前大致为GNUC++98）。</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[gnu++0x]</key>
+	<string>接受修订后的ISO C++ 2011标准且接受GNU扩展。 [-std=gnu++11]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[gnu++14]</key>
+	<string>接受修订后的ISO C++ 2014标准且接受GNU扩展。 [-std=gnu++14]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[gnu++17]</key>
+	<string>接受修订后的ISO C++ 2017标准且接受GNU扩展。 [-std=gnu++17]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-description-[gnu++98]</key>
+	<string>接受修订后的ISO C++ 1998标准且接受GNU扩展。 [-std=gnu++98]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-name</key>
+	<string>C++ 语言标准</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[c++0x]</key>
+	<string>C++11 [-std=c++11]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[c++14]</key>
+	<string>C++14 [-std=c++14]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[c++17]</key>
+	<string>C++17标准 [-std=c++17]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[c++98]</key>
+	<string>C++98 [-std=c++98]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[compiler-default]</key>
+	<string>编译器默认</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[gnu++0x]</key>
+	<string>GNU++11标准 [-std=gnu++11]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[gnu++14]</key>
+	<string>GNU++14标准 [-std=gnu++14]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[gnu++17]</key>
+	<string>GNU++17标准 [-std=gnu++17]</string>
+	<key>[CLANG_CXX_LANGUAGE_STANDARD]-value-[gnu++98]</key>
+	<string>GNU++98标准 [-std=gnu++98]</string>
+	<key>[CLANG_CXX_LIBRARY]-description</key>
+	<string>选择一个要使用的C++标准库版本。
+
+* *libstdc++:*  一个传统的C++标准库，可与GCC和LLVM编译器配合使用（默认）。
+* *libc++:* 一个高度优化的C++标准库，仅适用于LLVM编译器，旨在支持C++11的新功能。</string>
+	<key>[CLANG_CXX_LIBRARY]-description-[compiler-default]</key>
+	<string>Tells the compiler to use its default C++ standard library.  (Currently equivalent to libstdc++)</string>
+	<key>[CLANG_CXX_LIBRARY]-description-[libc++]</key>
+	<string>New optimized C++ standard library that works only with the LLVM Compiler.</string>
+	<key>[CLANG_CXX_LIBRARY]-description-[libstdc++]</key>
+	<string>C++ standard library that works with GCC and the LLVM Compiler.</string>
+	<key>[CLANG_CXX_LIBRARY]-name</key>
+	<string>C++ 标准库</string>
+	<key>[CLANG_CXX_LIBRARY]-value-[compiler-default]</key>
+	<string>编译器默认</string>
+	<key>[CLANG_CXX_LIBRARY]-value-[libc++]</key>
+	<string>libc++ (带C++11标准支持的LLVM C++ 标准库)</string>
+	<key>[CLANG_CXX_LIBRARY]-value-[libstdc++]</key>
+	<string>libstdc++ (GNU C++标准库)</string>
+	<key>[CLANG_DEBUG_INFORMATION_LEVEL]-description</key>
+	<string>Toggles the amount of debug information emitted when debug symbols are enabled. This can impact the size of the generated debug information, which may matter in some cases for large projects, such as when using LTO.</string>
+	<key>[CLANG_DEBUG_INFORMATION_LEVEL]-name</key>
+	<string>调试信息级别</string>
+	<key>[CLANG_DEBUG_INFORMATION_LEVEL]-value-[default]</key>
+	<string>编译器默认</string>
+	<key>[CLANG_DEBUG_INFORMATION_LEVEL]-value-[line-tables-only]</key>
+	<string>Line tables only</string>
+	<key>[CLANG_ENABLE_MODULES]-description</key>
+	<string>Enables the use of modules for system APIs. System headers are imported as semantic modules instead of raw headers. This can result in faster builds and project indexing.</string>
+	<key>[CLANG_ENABLE_MODULES]-name</key>
+	<string>启用模块 (C 和 Objective-C)</string>
+	<key>[CLANG_ENABLE_MODULES]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_ENABLE_MODULES]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_ENABLE_OBJC_ARC]-description</key>
+	<string>编译引用计数的Objective-C代码（当未启用垃圾收集时）以使用自动引用计数。使用自动引用计数编译的代码与使用手动引用计数（例如，传统的“保留”和“释放”消息）或自动引用计数编辑的其他代码（如框架）兼容。使用此模式将与目前编译使用Objective-C垃圾回收的代码不兼容。</string>
+	<key>[CLANG_ENABLE_OBJC_ARC]-name</key>
+	<string>Objective-C 自动引用计数</string>
+	<key>[CLANG_ENABLE_OBJC_ARC]-value-[NO]</key>
+	<string>使用手动（传统）引用计数</string>
+	<key>[CLANG_ENABLE_OBJC_ARC]-value-[YES]</key>
+	<string>使用自动引用计数</string>
+	<key>[CLANG_ENABLE_OBJC_WEAK]-description</key>
+	<string>编译Objective-C代码时，为使用手动Retain Release（MRR）语义编译的代码启用弱引用。</string>
+	<key>[CLANG_ENABLE_OBJC_WEAK]-name</key>
+	<string>手动Retain Release中的弱引用</string>
+	<key>[CLANG_ENABLE_OBJC_WEAK]-value-[NO]</key>
+	<string>Do not enable weak references in MRR</string>
+	<key>[CLANG_ENABLE_OBJC_WEAK]-value-[YES]</key>
+	<string>Enable weak references for MRR</string>
+	<key>[CLANG_LINK_OBJC_RUNTIME]-description</key>
+	<string>When linking a target using Objective-C code, implicitly link in Foundation (and if deploying back to an older OS) a backwards compatibility library to allow newer language features to run on an OS where the runtime support is not natively available. Most targets that use Objective-C should use this, although there are rare cases where a target should opt out of this behavior.</string>
+	<key>[CLANG_LINK_OBJC_RUNTIME]-name</key>
+	<string>Implicitly Link Objective-C Runtime Support</string>
+	<key>[CLANG_LINK_OBJC_RUNTIME]-value-[No]</key>
+	<string>否</string>
+	<key>[CLANG_LINK_OBJC_RUNTIME]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_MODULES_AUTOLINK]-description</key>
+	<string>Automatically link SDK frameworks that are referenced using `#import` or `#include`. This feature requires also enabling support for modules.</string>
+	<key>[CLANG_MODULES_AUTOLINK]-name</key>
+	<string>自动链接框架</string>
+	<key>[CLANG_MODULES_AUTOLINK]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_MODULES_AUTOLINK]-value-[YES]</key>
+	<string>是（启用模块时）</string>
+	<key>[CLANG_OPTIMIZATION_PROFILE_FILE]-description</key>
+	<string>The path to the file of the profile data to use when `CLANG_USE_OPTIMIZATION_PROFILE` is enabled.</string>
+	<key>[CLANG_OPTIMIZATION_PROFILE_FILE]-name</key>
+	<string>Optimization Profile File</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE]-description</key>
+	<string>The depth the static analyzer uses during the Build action. Use `Deep` to exercise the full power of the analyzer. Use `Shallow` for faster analysis.</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE]-name</key>
+	<string>Mode of Analysis for &apos;Build&apos;</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE]-value-[deep]</key>
+	<string>Deep</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE]-value-[shallow]</key>
+	<string>Shallow (faster)</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION]-description</key>
+	<string>The depth the static analyzer uses during the Analyze action. Use `Deep` to exercise the full power of the analyzer. Use `Shallow` for faster analysis.</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION]-name</key>
+	<string>Mode of Analysis for &apos;Analyze&apos;</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION]-value-[deep]</key>
+	<string>Deep</string>
+	<key>[CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION]-value-[shallow]</key>
+	<string>Shallow (faster)</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER]-description</key>
+	<string>Check for unsigned integer overflow, in addition to checks for signed integer overflow.</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER]-name</key>
+	<string>Enable Extra Integer Checks</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY]-description</key>
+	<string>Check for violations of nullability annotations in function calls, return statements, and assignments.</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY]-name</key>
+	<string>Enable Nullability Annotation Checks</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_USE_OPTIMIZATION_PROFILE]-description</key>
+	<string>When this setting is enabled, `clang` will use the optimization profile collected for a target when building it.</string>
+	<key>[CLANG_USE_OPTIMIZATION_PROFILE]-name</key>
+	<string>Use Optimization Profile</string>
+	<key>[CLANG_USE_OPTIMIZATION_PROFILE]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_USE_OPTIMIZATION_PROFILE]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_ASSIGN_ENUM]-description</key>
+	<string>Warn about assigning integer constants to enum values that are out of the range of the enumerated type.</string>
+	<key>[CLANG_WARN_ASSIGN_ENUM]-name</key>
+	<string>Out-of-Range Enum Assignments</string>
+	<key>[CLANG_WARN_ASSIGN_ENUM]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_ASSIGN_ENUM]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING]-description</key>
+	<string>Warn about block captures of implicitly autoreleasing parameters.</string>
+	<key>[CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING]-name</key>
+	<string>Block Capture of Autoreleasing</string>
+	<key>[CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_BOOL_CONVERSION]-description</key>
+	<string>Warn about implicit conversions to boolean values that are suspicious. For example, writing `if (foo)` where `foo` is the name a function will trigger a warning.</string>
+	<key>[CLANG_WARN_BOOL_CONVERSION]-name</key>
+	<string>Implicit Boolean Conversions</string>
+	<key>[CLANG_WARN_BOOL_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_BOOL_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_BOOL_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_COMMA]-description</key>
+	<string>Warn about suspicious uses of the comma operator.</string>
+	<key>[CLANG_WARN_COMMA]-name</key>
+	<string>Suspicious Commas</string>
+	<key>[CLANG_WARN_COMMA]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_COMMA]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_COMMA]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_CONSTANT_CONVERSION]-description</key>
+	<string>Warn about implicit conversions of constant values that cause the constant value to change, either through a loss of precision, or entirely in its meaning.</string>
+	<key>[CLANG_WARN_CONSTANT_CONVERSION]-name</key>
+	<string>Implicit Constant Conversions</string>
+	<key>[CLANG_WARN_CONSTANT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_CONSTANT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_CONSTANT_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_CXX0X_EXTENSIONS]-description</key>
+	<string>When compiling C++ code using a language standard older than C++11, warn about the use of C++11 extensions.</string>
+	<key>[CLANG_WARN_CXX0X_EXTENSIONS]-name</key>
+	<string>在早期版本 C++ 中使用 C++11 扩展</string>
+	<key>[CLANG_WARN_CXX0X_EXTENSIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_CXX0X_EXTENSIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS]-description</key>
+	<string>Warn if an Objective-C class either subclasses a deprecated class or overrides a method that has been marked deprecated or unavailable.</string>
+	<key>[CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS]-name</key>
+	<string>重写废弃的Objective-C方法</string>
+	<key>[CLANG_WARN_DIRECT_OBJC_ISA_USAGE]-description</key>
+	<string>Warn about direct accesses to the Objective-C `isa` pointer instead of using a runtime API.</string>
+	<key>[CLANG_WARN_DIRECT_OBJC_ISA_USAGE]-name</key>
+	<string>Direct usage of &apos;isa&apos;</string>
+	<key>[CLANG_WARN_DIRECT_OBJC_ISA_USAGE]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_DIRECT_OBJC_ISA_USAGE]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_DIRECT_OBJC_ISA_USAGE]-value-[YES_ERROR]</key>
+	<string>是（视为错误）</string>
+	<key>[CLANG_WARN_DOCUMENTATION_COMMENTS]-description</key>
+	<string>Warns about issues in documentation comments (`doxygen`-style) such as missing or incorrect documentation tags.</string>
+	<key>[CLANG_WARN_DOCUMENTATION_COMMENTS]-name</key>
+	<string>文档注释</string>
+	<key>[CLANG_WARN_DOCUMENTATION_COMMENTS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_DOCUMENTATION_COMMENTS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_EMPTY_BODY]-description</key>
+	<string>Warn about loop bodies that are suspiciously empty.</string>
+	<key>[CLANG_WARN_EMPTY_BODY]-name</key>
+	<string>空循环体</string>
+	<key>[CLANG_WARN_EMPTY_BODY]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_EMPTY_BODY]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_ENUM_CONVERSION]-description</key>
+	<string>Warn about implicit conversions between different kinds of enum values. For example, this can catch issues when using the wrong enum flag as an argument to a function or method.</string>
+	<key>[CLANG_WARN_ENUM_CONVERSION]-name</key>
+	<string>Implicit Enum Conversions</string>
+	<key>[CLANG_WARN_ENUM_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_ENUM_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_ENUM_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_FLOAT_CONVERSION]-description</key>
+	<string>Warn about implicit conversions that turn floating-point numbers into integers.</string>
+	<key>[CLANG_WARN_FLOAT_CONVERSION]-name</key>
+	<string>Implicit Float Conversions</string>
+	<key>[CLANG_WARN_FLOAT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_FLOAT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_FLOAT_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_IMPLICIT_SIGN_CONVERSION]-description</key>
+	<string>Warn about implicit integer conversions that change the signedness of an integer value.</string>
+	<key>[CLANG_WARN_IMPLICIT_SIGN_CONVERSION]-name</key>
+	<string>Implicit Signedness Conversions</string>
+	<key>[CLANG_WARN_IMPLICIT_SIGN_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_IMPLICIT_SIGN_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_IMPLICIT_SIGN_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_INFINITE_RECURSION]-description</key>
+	<string>Warn if all paths through a function call itself.</string>
+	<key>[CLANG_WARN_INFINITE_RECURSION]-name</key>
+	<string>Infinite Recursion</string>
+	<key>[CLANG_WARN_INFINITE_RECURSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_INFINITE_RECURSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_INT_CONVERSION]-description</key>
+	<string>Warn about implicit conversions between pointers and integers. For example, this can catch issues when one incorrectly intermixes using `NSNumber*`&apos;s and raw integers.</string>
+	<key>[CLANG_WARN_INT_CONVERSION]-name</key>
+	<string>隐式整数到指针转换</string>
+	<key>[CLANG_WARN_INT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_INT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_INT_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_NON_LITERAL_NULL_CONVERSION]-description</key>
+	<string>Warn about non-literal expressions that evaluate to zero being treated as a null pointer.</string>
+	<key>[CLANG_WARN_NON_LITERAL_NULL_CONVERSION]-name</key>
+	<string>隐式非文字Null转换</string>
+	<key>[CLANG_WARN_NON_LITERAL_NULL_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_NON_LITERAL_NULL_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_NON_LITERAL_NULL_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION]-description</key>
+	<string>Warns when a nullable expression is used somewhere it’s not allowed, such as when passed as a `_Nonnull` parameter.</string>
+	<key>[CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION]-name</key>
+	<string>Incorrect Uses of Nullable Values</string>
+	<key>[CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJCPP_ARC_ABI]-description</key>
+	<string>When compiling Objective-C++ code that uses Automatic Reference Counting, report code that may cause ABI issues when linking ARC code with traditional manual reference counting code.</string>
+	<key>[CLANG_WARN_OBJCPP_ARC_ABI]-name</key>
+	<string>Objective-C++自动引用计数ABI不兼容性</string>
+	<key>[CLANG_WARN_OBJCPP_ARC_ABI]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJCPP_ARC_ABI]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE]-description</key>
+	<string>Warn about implicit ownership types on Objective-C object references as out parameters. For example, declaring a parameter with type `NSObject**` will produce a warning because the compiler will assume that the out parameter&apos;s ownership type is `__autoreleasing`.</string>
+	<key>[CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE]-name</key>
+	<string>Implicit ownership types on out parameters</string>
+	<key>[CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES]-description</key>
+	<string>Warn about `@property` declarations that are implicitly atomic.</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES]-name</key>
+	<string>Implicit Atomic Objective-C Properties</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF]-description</key>
+	<string>警告块中`self`的隐式保留，这可能会创建保留循环。</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF]-name</key>
+	<string>Implicit retain of &apos;self&apos; within blocks</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_LITERAL_CONVERSION]-description</key>
+	<string>Warn about implicit conversions from Objective-C literals to values of incompatible type.</string>
+	<key>[CLANG_WARN_OBJC_LITERAL_CONVERSION]-name</key>
+	<string>Implicit Objective-C Literal Conversions</string>
+	<key>[CLANG_WARN_OBJC_LITERAL_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_LITERAL_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_LITERAL_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS]-description</key>
+	<string>Starting in Xcode 4.4, the Apple LLVM Compiler will implicitly synthesize properties that are not explicitly synthesized using `@synthesize`. This setting warns about such implicit behavior, even though the property is still synthesized. This is essentially a backwards compatibility warning, or for those who wish to continue to explicitly use `@synthesize`.</string>
+	<key>[CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS]-name</key>
+	<string>Implicit Synthesized Properties</string>
+	<key>[CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK]-description</key>
+	<string>Warn about repeatedly using a weak reference without assigning the weak reference to a strong reference. This is often symptomatic of a race condition where the weak reference can become `nil` between accesses, resulting in unexpected behavior. Assigning to temporary strong reference ensures the object stays alive during the related accesses.</string>
+	<key>[CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK]-name</key>
+	<string>Repeatedly using a __weak reference</string>
+	<key>[CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK]-value-[YES_AGGRESSIVE]</key>
+	<string>是 (有风险)</string>
+	<key>[CLANG_WARN_OBJC_ROOT_CLASS]-description</key>
+	<string>Warn about classes that unintentionally do not subclass a root class, such as `NSObject`.</string>
+	<key>[CLANG_WARN_OBJC_ROOT_CLASS]-name</key>
+	<string>Unintentional Root Class</string>
+	<key>[CLANG_WARN_OBJC_ROOT_CLASS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_OBJC_ROOT_CLASS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_OBJC_ROOT_CLASS]-value-[YES_ERROR]</key>
+	<string>是 (视为错误)</string>
+	<key>[CLANG_WARN_RANGE_LOOP_ANALYSIS]-description</key>
+	<string>Warn about ranged-based for loops.</string>
+	<key>[CLANG_WARN_RANGE_LOOP_ANALYSIS]-name</key>
+	<string>Range-based For Loops</string>
+	<key>[CLANG_WARN_RANGE_LOOP_ANALYSIS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_RANGE_LOOP_ANALYSIS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_STRICT_PROTOTYPES]-description</key>
+	<string>Warn about non-prototype declarations.</string>
+	<key>[CLANG_WARN_STRICT_PROTOTYPES]-name</key>
+	<string>Strict Prototypes</string>
+	<key>[CLANG_WARN_STRICT_PROTOTYPES]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_STRICT_PROTOTYPES]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_STRICT_PROTOTYPES]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION]-description</key>
+	<string>Warn about various implicit conversions that can lose information or are otherwise suspicious.</string>
+	<key>[CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION]-name</key>
+	<string>可疑隐式转换</string>
+	<key>[CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[CLANG_WARN_SUSPICIOUS_MOVE]-description</key>
+	<string>Warn about suspicious uses of `std::move`.</string>
+	<key>[CLANG_WARN_SUSPICIOUS_MOVE]-name</key>
+	<string>Suspicious Moves</string>
+	<key>[CLANG_WARN_SUSPICIOUS_MOVE]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_SUSPICIOUS_MOVE]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_UNGUARDED_AVAILABILITY]-description</key>
+	<string>Warn if an API that is newer than the deployment target is used without &quot;if (@available(...))&quot; guards.</string>
+	<key>[CLANG_WARN_UNGUARDED_AVAILABILITY]-name</key>
+	<string>Unguarded availability</string>
+	<key>[CLANG_WARN_UNGUARDED_AVAILABILITY]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_UNGUARDED_AVAILABILITY]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_UNGUARDED_AVAILABILITY]-value-[YES_AGGRESSIVE]</key>
+	<string>是 (所有版本)</string>
+	<key>[CLANG_WARN_UNREACHABLE_CODE]-description</key>
+	<string>Warns about potentially unreachable code.</string>
+	<key>[CLANG_WARN_UNREACHABLE_CODE]-name</key>
+	<string>Unreachable Code</string>
+	<key>[CLANG_WARN_UNREACHABLE_CODE]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN_UNREACHABLE_CODE]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN_UNREACHABLE_CODE]-value-[YES_AGGRESSIVE]</key>
+	<string>是 (有风险)</string>
+	<key>[CLANG_WARN__ARC_BRIDGE_CAST_NONARC]-description</key>
+	<string>Warn about using `__bridge` casts when not using ARC, where they have no effect.</string>
+	<key>[CLANG_WARN__ARC_BRIDGE_CAST_NONARC]-name</key>
+	<string>Using __bridge Casts Outside of ARC</string>
+	<key>[CLANG_WARN__ARC_BRIDGE_CAST_NONARC]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN__ARC_BRIDGE_CAST_NONARC]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN__DUPLICATE_METHOD_MATCH]-description</key>
+	<string>Warn about declaring the same method more than once within the same `@interface`.</string>
+	<key>[CLANG_WARN__DUPLICATE_METHOD_MATCH]-name</key>
+	<string>Duplicate Method Definitions</string>
+	<key>[CLANG_WARN__DUPLICATE_METHOD_MATCH]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN__DUPLICATE_METHOD_MATCH]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_WARN__EXIT_TIME_DESTRUCTORS]-description</key>
+	<string>Warn about destructors for C++ objects that are called when an application is terminating.</string>
+	<key>[CLANG_WARN__EXIT_TIME_DESTRUCTORS]-name</key>
+	<string>退出时 C++ 析构</string>
+	<key>[CLANG_WARN__EXIT_TIME_DESTRUCTORS]-value-[NO]</key>
+	<string>否</string>
+	<key>[CLANG_WARN__EXIT_TIME_DESTRUCTORS]-value-[YES]</key>
+	<string>是</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[avx2]</key>
+	<string>AVX 2</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[avx]</key>
+	<string>AVX</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[default]</key>
+	<string>默认构建平台</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[sse3]</key>
+	<string>SSE 3</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[sse4.1]</key>
+	<string>SSE 4.1</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[sse4.2]</key>
+	<string>SSE 4.2</string>
+	<key>[CLANG_X86_VECTOR_INSTRUCTIONS]-value-[ssse3]</key>
+	<string>SSE 3 (with supplemental extensions)</string>
+	<key>[CodeGeneration]-category</key>
+	<string>代码生成</string>
+	<key>[CustomFlags]-category</key>
+	<string>当前编译器标志</string>
+	<key>[ENABLE_NS_ASSERTIONS]-description</key>
+	<string>Controls whether assertion logic provided by `NSAssert` is included in the preprocessed source code or is elided during preprocessing. Disabling assertions can improve code performance.</string>
+	<key>[ENABLE_NS_ASSERTIONS]-name</key>
+	<string>Enable Foundation Assertions</string>
+	<key>[ENABLE_NS_ASSERTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[ENABLE_NS_ASSERTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[ENABLE_STRICT_OBJC_MSGSEND]-description</key>
+	<string>Controls whether `objc_msgSend` calls must be cast to the appropriate function pointer type before being called.</string>
+	<key>[ENABLE_STRICT_OBJC_MSGSEND]-name</key>
+	<string>Enable Strict Checking of objc_msgSend Calls</string>
+	<key>[ENABLE_STRICT_OBJC_MSGSEND]-value-[NO]</key>
+	<string>否</string>
+	<key>[ENABLE_STRICT_OBJC_MSGSEND]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_CHAR_IS_UNSIGNED_CHAR]-description</key>
+	<string>Enabling this setting causes `char` to be unsigned by default, disabling it causes `char` to be signed by default.</string>
+	<key>[GCC_CHAR_IS_UNSIGNED_CHAR]-name</key>
+	<string>&apos;char&apos; Type Is Unsigned</string>
+	<key>[GCC_CHAR_IS_UNSIGNED_CHAR]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_CHAR_IS_UNSIGNED_CHAR]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_CW_ASM_SYNTAX]-description</key>
+	<string>Enable the CodeWarrior/Microsoft syntax for inline assembly code in addition to the standard GCC syntax.</string>
+	<key>[GCC_CW_ASM_SYNTAX]-name</key>
+	<string>CodeWarrior/MS-Style Inline Assembly</string>
+	<key>[GCC_CW_ASM_SYNTAX]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_CW_ASM_SYNTAX]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description</key>
+	<string>Choose a standard or non-standard C language dialect.
+
+* *ANSI C:* Accept ISO C90 and ISO C++, turning off GNU extensions that are incompatible. [-ansi]
+  Incompatible GNU extensions include the `asm`, `inline`, and `typeof` keywords (but not the equivalent `\_\_asm\_\_`, `\_\_inline\_\_`, and `\_\_typeof\_\_` forms), and the `//` syntax for comments.
+  This setting also enables trigraphs.
+* *C89:* Accept ISO C90 (1990), but not GNU extensions. [-std=c89]
+* *GNU89:* Accept ISO C90 and GNU extensions. [-std=gnu89]
+* *C99:* Accept ISO C99 (1999), but not GNU extensions. [-std=c99]
+* *GNU99:* Accept ISO C99 and GNU extensions. [-std=gnu99]
+* *C11:* Accept ISO C11 (2011), but not GNU extensions. [-std=c11]
+* *GNU11:* Accept ISO C11 and GNU extensions. [-std=gnu11]
+* *Compiler Default:* Tells the compiler to use its default C language dialect. This is normally the best choice unless you have specific needs. (Currently equivalent to GNU99.)</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[ansi]</key>
+	<string>接受ISO C90和ISO C++标准，关闭不兼容的GNU扩展。[-ansi]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[c89]</key>
+	<string>接受ISO C90标准，但不接受GNU扩展。 [-std=c89]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[c99]</key>
+	<string>接受ISO C99标准，但不接受GNU扩展。 [-std=c99]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[compiler-default]</key>
+	<string>告诉编译器使用其默认的C语言方言。除非有特定需求，否则这通常是最好的选择。（目前相当于GNU99）</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[gnu89]</key>
+	<string>接受ISO C90标准和GNU扩展。  [-std=gnu89]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-description-[gnu99]</key>
+	<string>接受ISO C99标准和GNU扩展。 [-std=gnu99]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-name</key>
+	<string>C 语言标准</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[ansi]</key>
+	<string>ANSI C标准 [-ansi]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[c89]</key>
+	<string>C89标准 [-std=c89]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[c99]</key>
+	<string>C99标准 [-std=c99]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[compiler-default]</key>
+	<string>编译器默认</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[gnu89]</key>
+	<string>GNU89标准 [-std=gnu89]</string>
+	<key>[GCC_C_LANGUAGE_STANDARD]-value-[gnu99]</key>
+	<string>GNU99标准 [-std=gnu99]</string>
+	<key>[GCC_DYNAMIC_NO_PIC]-description</key>
+	<string>Faster function calls for applications. Not appropriate for shared libraries, which need to be position-independent.</string>
+	<key>[GCC_DYNAMIC_NO_PIC]-name</key>
+	<string>Generate Position-Dependent Code</string>
+	<key>[GCC_DYNAMIC_NO_PIC]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_DYNAMIC_NO_PIC]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_ASM_KEYWORD]-description</key>
+	<string>Controls whether `asm`, `inline`, and `typeof` are treated as keywords or whether they can be used as identifiers.</string>
+	<key>[GCC_ENABLE_ASM_KEYWORD]-name</key>
+	<string>允许使用 &apos;asm&apos;, &apos;inline&apos;, &apos;typeof&apos;</string>
+	<key>[GCC_ENABLE_ASM_KEYWORD]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_ASM_KEYWORD]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_BUILTIN_FUNCTIONS]-description</key>
+	<string>Controls whether builtin functions that do not begin with `\_\_builtin\_` as prefix are recognized.
+
+GCC normally generates special code to handle certain builtin functions more efficiently; for instance, calls to `alloca` may become single instructions that adjust the stack directly, and calls to `memcpy` may become inline copy loops. The resulting code is often both smaller and faster, but since the function calls no longer appear as such, you cannot set a breakpoint on those calls, nor can you change the behavior of the functions by linking with a different library. In addition, when a function is recognized as a builtin function, GCC may use information about that function to warn about problems with calls to that function, or to generate more efficient code, even if the resulting code still contains calls to that function. For example, warnings are given with `-Wformat` for bad calls to `printf`, when `printf` is built in, and `strlen` is known not to modify global memory.</string>
+	<key>[GCC_ENABLE_BUILTIN_FUNCTIONS]-name</key>
+	<string>Recognize Builtin Functions</string>
+	<key>[GCC_ENABLE_BUILTIN_FUNCTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_BUILTIN_FUNCTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_CPP_EXCEPTIONS]-description</key>
+	<string>Enable C++ exception handling. Generates extra code needed to propagate exceptions. For some targets, this implies GCC will generate frame unwind information for all functions, which can produce significant data size overhead, although it does not affect execution. If you do not specify this option, GCC will enable it by default for languages like C++ that normally require exception handling, and disable it for languages like C that do not normally require it. However, you may need to enable this option when compiling C code that needs to interoperate properly with exception handlers written in C++.</string>
+	<key>[GCC_ENABLE_CPP_EXCEPTIONS]-name</key>
+	<string>启用 C++ 异常</string>
+	<key>[GCC_ENABLE_CPP_EXCEPTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_CPP_EXCEPTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_CPP_RTTI]-description</key>
+	<string>Enable generation of information about every class with virtual functions for use by the C++ runtime type identification features (`dynamic_cast` and `typeid`). If you don&apos;t use those parts of the language, you can save some space by using this flag. Note that exception handling uses the same information, but it will generate it as needed.</string>
+	<key>[GCC_ENABLE_CPP_RTTI]-name</key>
+	<string>启用 C++ 运行时类型</string>
+	<key>[GCC_ENABLE_CPP_RTTI]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_CPP_RTTI]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_EXCEPTIONS]-description</key>
+	<string>Enable exception handling. Generates extra code needed to propagate exceptions. For some targets, this implies GCC will generate frame unwind information for all functions, which can produce significant data size overhead, although it does not affect execution. If you do not specify this option, GCC will enable it by default for languages like C++ and Objective-C that normally require exception handling, and disable it for languages like C that do not normally require it. However, you may need to enable this option when compiling C code that needs to interoperate properly with exception handlers written in other languages. You may also wish to disable this option if you are compiling older programs that don&apos;t use exception handling.</string>
+	<key>[GCC_ENABLE_EXCEPTIONS]-name</key>
+	<string>Enable Exceptions</string>
+	<key>[GCC_ENABLE_EXCEPTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_EXCEPTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS]-description</key>
+	<string>Generate output containing library calls for floating point.</string>
+	<key>[GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS]-name</key>
+	<string>Generate Floating Point Library Calls</string>
+	<key>[GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_KERNEL_DEVELOPMENT]-description</key>
+	<string>Activating this setting enables kernel development mode.</string>
+	<key>[GCC_ENABLE_KERNEL_DEVELOPMENT]-name</key>
+	<string>Kernel Development Mode</string>
+	<key>[GCC_ENABLE_KERNEL_DEVELOPMENT]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_KERNEL_DEVELOPMENT]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_OBJC_EXCEPTIONS]-description</key>
+	<string>This setting enables `@try`/`@catch`/`@throw` syntax for handling exceptions in Objective-C code. Only applies to Objective-C.</string>
+	<key>[GCC_ENABLE_OBJC_EXCEPTIONS]-name</key>
+	<string>启用 Objective-C 异常</string>
+	<key>[GCC_ENABLE_OBJC_EXCEPTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_OBJC_EXCEPTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_PASCAL_STRINGS]-description</key>
+	<string>Recognize and construct Pascal-style string literals. Its use in new code is discouraged.
+
+Pascal string literals take the form `&quot;\pstring&quot;` . The special escape sequence `\p` denotes the Pascal length byte for the string, and will be replaced at compile time with the number of characters that follow. The `\p` may only appear at the beginning of a string literal, and may not appear in wide string literals or as an integral constant.</string>
+	<key>[GCC_ENABLE_PASCAL_STRINGS]-name</key>
+	<string>Recognize Pascal Strings</string>
+	<key>[GCC_ENABLE_PASCAL_STRINGS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_PASCAL_STRINGS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_ENABLE_TRIGRAPHS]-description</key>
+	<string>Controls whether or not trigraphs are permitted in the source code.</string>
+	<key>[GCC_ENABLE_TRIGRAPHS]-name</key>
+	<string>Enable Trigraphs</string>
+	<key>[GCC_ENABLE_TRIGRAPHS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_ENABLE_TRIGRAPHS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_FAST_MATH]-description</key>
+	<string>Enables some floating point optimizations that are not IEEE754-compliant, but which usually work. Programs that require strict IEEE compliance may not work with this option.</string>
+	<key>[GCC_FAST_MATH]-name</key>
+	<string>Relax IEEE Compliance</string>
+	<key>[GCC_FAST_MATH]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_FAST_MATH]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_FAST_OBJC_DISPATCH]-description</key>
+	<string>This setting enables highly accelerated dispatch to the Objective-C runtime. Only applies to Objective-C.</string>
+	<key>[GCC_FAST_OBJC_DISPATCH]-name</key>
+	<string>Accelerated Objective-C Dispatch</string>
+	<key>[GCC_FAST_OBJC_DISPATCH]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_FAST_OBJC_DISPATCH]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_GENERATE_DEBUGGING_SYMBOLS]-description</key>
+	<string>Enables or disables generation of debug symbols. When debug symbols are enabled, the level of detail can be controlled by the `DEBUG_INFORMATION_FORMAT` setting.</string>
+	<key>[GCC_GENERATE_DEBUGGING_SYMBOLS]-name</key>
+	<string>Generate Debug Symbols</string>
+	<key>[GCC_GENERATE_DEBUGGING_SYMBOLS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_GENERATE_DEBUGGING_SYMBOLS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_GENERATE_TEST_COVERAGE_FILES]-description</key>
+	<string>Activating this setting causes a `notes` file to be produced that the `gcov` code-coverage utility can use to show program coverage.</string>
+	<key>[GCC_GENERATE_TEST_COVERAGE_FILES]-name</key>
+	<string>Generate Legacy Test Coverage Files</string>
+	<key>[GCC_GENERATE_TEST_COVERAGE_FILES]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_GENERATE_TEST_COVERAGE_FILES]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_INCREASE_PRECOMPILED_HEADER_SHARING]-description</key>
+	<string>Enabling this option will enable increased sharing of precompiled headers among targets that share the same prefix header and precompiled header directory.
+
+Xcode distinguishes between precompiled header (PCH) files by generating a hash value based on the command-line options to the compiler used to create the PCH. Enabling this option will exclude certain compiler options from that hash. Presently this option will exclude search path options (`-I`, `-iquote`, `-isystem`, `-F`, `-L`) from the hash.
+
+Enabling increased sharing of PCH files carries some risk—if two targets use the same prefix header but have different include paths that cause the prefix header to include different files when they are precompiled, then subtle problems may result because one target will use a PCH that was built using files included by the other target. In this case, this option must be turned off in order to enforce correctness.</string>
+	<key>[GCC_INCREASE_PRECOMPILED_HEADER_SHARING]-name</key>
+	<string>Increase Sharing of Precompiled Headers</string>
+	<key>[GCC_INCREASE_PRECOMPILED_HEADER_SHARING]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_INCREASE_PRECOMPILED_HEADER_SHARING]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_INLINES_ARE_PRIVATE_EXTERN]-description</key>
+	<string>When enabled, out-of-line copies of inline methods are declared `private extern`.</string>
+	<key>[GCC_INLINES_ARE_PRIVATE_EXTERN]-name</key>
+	<string>Inline Methods Hidden</string>
+	<key>[GCC_INLINES_ARE_PRIVATE_EXTERN]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_INLINES_ARE_PRIVATE_EXTERN]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_INPUT_FILETYPE]-description</key>
+	<string>Specifies whether to compile each source file according to its file type, or whether to treat all source files in the target as if they are of a specific language.</string>
+	<key>[GCC_INPUT_FILETYPE]-name</key>
+	<string>将源代码编译为</string>
+	<key>[GCC_INPUT_FILETYPE]-value-[automatic]</key>
+	<string>According to File Type</string>
+	<key>[GCC_INPUT_FILETYPE]-value-[sourcecode.c.c]</key>
+	<string>C</string>
+	<key>[GCC_INPUT_FILETYPE]-value-[sourcecode.c.objc]</key>
+	<string>Objective-C</string>
+	<key>[GCC_INPUT_FILETYPE]-value-[sourcecode.cpp.cpp]</key>
+	<string>C++</string>
+	<key>[GCC_INPUT_FILETYPE]-value-[sourcecode.cpp.objcpp]</key>
+	<string>Objective-C++</string>
+	<key>[GCC_INSTRUMENT_PROGRAM_FLOW_ARCS]-description</key>
+	<string>Activating this setting indicates that code should be added so program flow arcs are instrumented.</string>
+	<key>[GCC_INSTRUMENT_PROGRAM_FLOW_ARCS]-name</key>
+	<string>Instrument Program Flow</string>
+	<key>[GCC_INSTRUMENT_PROGRAM_FLOW_ARCS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_INSTRUMENT_PROGRAM_FLOW_ARCS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_LINK_WITH_DYNAMIC_LIBRARIES]-description</key>
+	<string>Enabling this option allows linking with the shared libraries. This is the default for most product types.</string>
+	<key>[GCC_LINK_WITH_DYNAMIC_LIBRARIES]-name</key>
+	<string>启用链接共享库</string>
+	<key>[GCC_LINK_WITH_DYNAMIC_LIBRARIES]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_LINK_WITH_DYNAMIC_LIBRARIES]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_NO_COMMON_BLOCKS]-description</key>
+	<string>In C, allocate even uninitialized global variables in the data section of the object file, rather than generating them as common blocks. This has the effect that if the same variable is declared (without `extern`) in two different compilations, you will get an error when you link them.</string>
+	<key>[GCC_NO_COMMON_BLOCKS]-name</key>
+	<string>无公共块</string>
+	<key>[GCC_NO_COMMON_BLOCKS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_NO_COMMON_BLOCKS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-description</key>
+	<string>Specifies the degree to which the generated code is optimized for speed and binary size.
+
+* *None:* Do not optimize. [-O0]
+  With this setting, the compiler&apos;s goal is to reduce the cost of compilation and to make debugging produce the expected results. Statements are independent—if you stop the program with a breakpoint between statements, you can then assign a new value to any variable or change the program counter to any other statement in the function and get exactly the results you would expect from the source code.
+* *Fast:* Optimizing compilation takes somewhat more time, and a lot more memory for a large function. [-O1]
+  With this setting, the compiler tries to reduce code size and execution time, without performing any optimizations that take a great deal of compilation time. In Apple&apos;s compiler, strict aliasing, block reordering, and inter-block scheduling are disabled by default when optimizing.
+* *Faster:* The compiler performs nearly all supported optimizations that do not involve a space-speed tradeoff. [-O2]
+  With this setting, the compiler does not perform loop unrolling or function inlining, or register renaming. As compared to the `Fast` setting, this setting increases both compilation time and the performance of the generated code.
+* *Fastest:* Turns on all optimizations specified by the `Faster` setting and also turns on function inlining and register renaming options. This setting may result in a larger binary. [-O3]
+* *Fastest, Smallest:* Optimize for size. This setting enables all `Faster` optimizations that do not typically increase code size. It also performs further optimizations designed to reduce code size. [-Os]
+* *Fastest, Aggressive Optimizations:* This setting enables `Fastest` but also enables aggressive optimizations that may break strict standards compliance but should work well on well-behaved code. [-Ofast]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-name</key>
+	<string>Optimization Level</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[0]</key>
+	<string>None [-O0]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[1]</key>
+	<string>快 [-O, O1]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[2]</key>
+	<string>较快 [-O2]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[3]</key>
+	<string>最快 [-O3]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[fast]</key>
+	<string>最快、有风险的优化 [-Ofast]</string>
+	<key>[GCC_OPTIMIZATION_LEVEL]-value-[s]</key>
+	<string>最快，最小 [-Os]</string>
+	<key>[GCC_PRECOMPILE_PREFIX_HEADER]-description</key>
+	<string>Generates a precompiled header for the prefix header, which should reduce overall build times.
+
+Precompiling the prefix header will be most effective if the contents of the prefix header or any file it includes change rarely. If the contents of the prefix header or any file it includes change frequently, there may be a negative impact to overall build time.</string>
+	<key>[GCC_PRECOMPILE_PREFIX_HEADER]-name</key>
+	<string>预编译Prefix头文件</string>
+	<key>[GCC_PRECOMPILE_PREFIX_HEADER]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_PRECOMPILE_PREFIX_HEADER]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_PREFIX_HEADER]-description</key>
+	<string>Implicitly include the named header. The path given should either be a project relative path or an absolute path.</string>
+	<key>[GCC_PREFIX_HEADER]-name</key>
+	<string>Prefix头文件</string>
+	<key>[GCC_PREFIX_HEADER]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_PREFIX_HEADER]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_PREPROCESSOR_DEFINITIONS]-description</key>
+	<string>Space-separated list of preprocessor macros of the form `foo` or `foo=bar`.</string>
+	<key>[GCC_PREPROCESSOR_DEFINITIONS]-name</key>
+	<string>预处理器定义宏</string>
+	<key>[GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS]-description</key>
+	<string>Space-separated list of preprocessor macros of the form `foo` or `foo=bar`. These macros are not used when precompiling a prefix header file.</string>
+	<key>[GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS]-name</key>
+	<string>不在预编译的头文件中使用预处理器定义宏</string>
+	<key>[GCC_REUSE_STRINGS]-description</key>
+	<string>Reuse string literals.</string>
+	<key>[GCC_REUSE_STRINGS]-name</key>
+	<string>Make Strings Read-Only</string>
+	<key>[GCC_REUSE_STRINGS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_REUSE_STRINGS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_SHORT_ENUMS]-description</key>
+	<string>Make enums only as large as needed for the range of possible values.
+
+This setting generates code that may not binary compatible with code generated without this setting or with macOS frameworks.</string>
+	<key>[GCC_SHORT_ENUMS]-name</key>
+	<string>Short Enumeration Constants</string>
+	<key>[GCC_SHORT_ENUMS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_SHORT_ENUMS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_STRICT_ALIASING]-description</key>
+	<string>Optimize code by making more aggressive assumptions about whether pointers can point to the same objects as other pointers. Programs that use pointers a lot may benefit from this, but programs that don&apos;t strictly follow the ISO C rules about the type with which an object may be accessed may behave unexpectedly.</string>
+	<key>[GCC_STRICT_ALIASING]-name</key>
+	<string>Enforce Strict Aliasing</string>
+	<key>[GCC_STRICT_ALIASING]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_STRICT_ALIASING]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_SYMBOLS_PRIVATE_EXTERN]-description</key>
+	<string>When enabled, all symbols are declared `private extern` unless explicitly marked to be exported using `\_\_attribute\_\_((visibility(&quot;default&quot;)))` in code. If not enabled, all symbols are exported unless explicitly marked as `private extern`. See [Controlling Symbol Visibility](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/SymbolVisibility.html#//apple_ref/doc/uid/TP40001670-CJBGBHEJ) in [C++ Runtime Environment Programming Guide](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/CPPRuntimeEnv.html).</string>
+	<key>[GCC_SYMBOLS_PRIVATE_EXTERN]-name</key>
+	<string>Symbols Hidden by Default</string>
+	<key>[GCC_SYMBOLS_PRIVATE_EXTERN]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_SYMBOLS_PRIVATE_EXTERN]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS]-description</key>
+	<string>Causes warnings about missing function prototypes to be treated as errors. Only applies to C and Objective-C.</string>
+	<key>[GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS]-name</key>
+	<string>Treat Missing Function Prototypes as Errors</string>
+	<key>[GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS]-description</key>
+	<string>Enabling this option causes warnings about incompatible pointer types to be treated as errors.</string>
+	<key>[GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS]-name</key>
+	<string>Treat Incompatible Pointer Type Warnings as Errors</string>
+	<key>[GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_TREAT_WARNINGS_AS_ERRORS]-description</key>
+	<string>Enabling this option causes all warnings to be treated as errors.</string>
+	<key>[GCC_TREAT_WARNINGS_AS_ERRORS]-name</key>
+	<string>Treat Warnings as Errors</string>
+	<key>[GCC_TREAT_WARNINGS_AS_ERRORS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_TREAT_WARNINGS_AS_ERRORS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_UNROLL_LOOPS]-description</key>
+	<string>Unrolls loops. Unrolling makes the code larger, but may make it faster by reducing the number of branches executed.</string>
+	<key>[GCC_UNROLL_LOOPS]-name</key>
+	<string>Unroll Loops</string>
+	<key>[GCC_UNROLL_LOOPS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_UNROLL_LOOPS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_USE_STANDARD_INCLUDE_SEARCHING]-description</key>
+	<string>Controls whether the standard system directories are searched for header files. When disabled, only the directories you have specified with `-I` options (and the directory of the current file, if appropriate) are searched.</string>
+	<key>[GCC_USE_STANDARD_INCLUDE_SEARCHING]-name</key>
+	<string>Use Standard System Header Directory Searching</string>
+	<key>[GCC_USE_STANDARD_INCLUDE_SEARCHING]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_USE_STANDARD_INCLUDE_SEARCHING]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_64_TO_32_BIT_CONVERSION]-description</key>
+	<string>Warn if a value is implicitly converted from a 64-bit type to a 32-bit type. This is a subset of the warnings provided by -Wconversion.</string>
+	<key>[GCC_WARN_64_TO_32_BIT_CONVERSION]-name</key>
+	<string>Implicit Conversion to 32 Bit Type</string>
+	<key>[GCC_WARN_64_TO_32_BIT_CONVERSION]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_64_TO_32_BIT_CONVERSION]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_64_TO_32_BIT_CONVERSION]-value-[YES_ERROR]</key>
+	<string>是 (错误)</string>
+	<key>[GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS]-description</key>
+	<string>Warn about the use of deprecated functions, variables, and types (as indicated by the `deprecated` attribute).</string>
+	<key>[GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS]-name</key>
+	<string>废弃函数</string>
+	<key>[GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO]-description</key>
+	<string>Unchecking this setting will suppress warnings from applying the `offsetof` macro to a non-POD type. According to the 1998 ISO C++ standard, applying `offsetof` to a non-POD type is undefined. In existing C++ implementations, however, `offsetof` typically gives meaningful results even when applied to certain kinds of non-POD types, such as a simple struct that fails to be a POD type only by virtue of having a constructor. This flag is for users who are aware that they are writing nonportable code and who have deliberately chosen to ignore the warning about it.
+
+The restrictions on `offsetof` may be relaxed in a future version of the C++ standard.</string>
+	<key>[GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO]-name</key>
+	<string>未定义宏偏移量的使用</string>
+	<key>[GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS]-description</key>
+	<string>Warn if a structure&apos;s initializer has some fields missing. For example, the following code would cause such a warning because `x.h` is implicitly zero:
+
+    struct s { int f, g, h; };
+    struct s x = { 3, 4 };
+
+This option does not warn about designated initializers, so the following modification would not trigger a warning:
+
+    struct s { int f, g, h; };
+    struct s x = { .f = 3, .g = 4 };</string>
+	<key>[GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS]-name</key>
+	<string>Missing Fields in Structure Initializers</string>
+	<key>[GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_MISSING_NEWLINE]-description</key>
+	<string>Warn when a source file does not end with a newline.</string>
+	<key>[GCC_WARN_ABOUT_MISSING_NEWLINE]-name</key>
+	<string>文件末尾缺少换行符</string>
+	<key>[GCC_WARN_ABOUT_MISSING_NEWLINE]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_MISSING_NEWLINE]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_MISSING_PROTOTYPES]-description</key>
+	<string>Causes warnings to be emitted about missing prototypes.</string>
+	<key>[GCC_WARN_ABOUT_MISSING_PROTOTYPES]-name</key>
+	<string>Missing Function Prototypes</string>
+	<key>[GCC_WARN_ABOUT_MISSING_PROTOTYPES]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_MISSING_PROTOTYPES]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_POINTER_SIGNEDNESS]-description</key>
+	<string>Warn when pointers passed via arguments or assigned to a variable differ in sign.</string>
+	<key>[GCC_WARN_ABOUT_POINTER_SIGNEDNESS]-name</key>
+	<string>Pointer Sign Comparison</string>
+	<key>[GCC_WARN_ABOUT_POINTER_SIGNEDNESS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_POINTER_SIGNEDNESS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_RETURN_TYPE]-description</key>
+	<string>Causes warnings to be emitted when a function with a defined return type (not `void`) contains a return statement without a return-value. Also emits a warning when a function is defined without specifying a return type.</string>
+	<key>[GCC_WARN_ABOUT_RETURN_TYPE]-name</key>
+	<string>Mismatched Return Type</string>
+	<key>[GCC_WARN_ABOUT_RETURN_TYPE]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ABOUT_RETURN_TYPE]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_ABOUT_RETURN_TYPE]-value-[YES_ERROR]</key>
+	<string>是 (视为警告)</string>
+	<key>[GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL]-description</key>
+	<string>Warn if methods required by a protocol are not implemented in the class adopting it. Only applies to Objective-C.</string>
+	<key>[GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL]-name</key>
+	<string>不完整的Objective-C协议</string>
+	<key>[GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_CHECK_SWITCH_STATEMENTS]-description</key>
+	<string>Warn whenever a switch statement has an index of enumeral type and lacks a case for one or more of the named codes of that enumeration. The presence of a default label prevents this warning. Case labels outside the enumeration range also provoke warnings when this option is used.</string>
+	<key>[GCC_WARN_CHECK_SWITCH_STATEMENTS]-name</key>
+	<string>检查Switch语句</string>
+	<key>[GCC_WARN_CHECK_SWITCH_STATEMENTS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_CHECK_SWITCH_STATEMENTS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_FOUR_CHARACTER_CONSTANTS]-description</key>
+	<string>Warn about four-char literals (for example, macOS-style `OSTypes`: `&apos;APPL&apos;`).</string>
+	<key>[GCC_WARN_FOUR_CHARACTER_CONSTANTS]-name</key>
+	<string>四字符文字</string>
+	<key>[GCC_WARN_FOUR_CHARACTER_CONSTANTS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_FOUR_CHARACTER_CONSTANTS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS]-description</key>
+	<string>Warn when a function declaration hides virtual functions from a base class.
+
+For example, in the following example, the `A` class version of `f()` is hidden in `B`.
+
+	struct A {
+	  virtual void f();
+	};
+
+	struct B: public A {
+	  void f(int);
+	};
+
+As a result, the following code will fail to compile.
+
+	B* b;
+	b-&gt;f();
+
+This setting only applies to C++ and Objective-C++ sources.</string>
+	<key>[GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS]-name</key>
+	<string>重载虚函数</string>
+	<key>[GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_INHIBIT_ALL_WARNINGS]-description</key>
+	<string>禁止所有警告信息</string>
+	<key>[GCC_WARN_INHIBIT_ALL_WARNINGS]-name</key>
+	<string>禁止所有警告</string>
+	<key>[GCC_WARN_INHIBIT_ALL_WARNINGS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_INHIBIT_ALL_WARNINGS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED]-description</key>
+	<string>Warn if an aggregate or union initializer is not fully bracketed. In the following example, the initializer for `a` is not fully bracketed, but the initializer for `b` is fully bracketed.
+
+	int a[2][2] = { 0, 1, 2, 3 };
+	int b[2][2] = { { 0, 1 }, { 2, 3 } };
+</string>
+	<key>[GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED]-name</key>
+	<string>Initializer Not Fully Bracketed</string>
+	<key>[GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_MISSING_PARENTHESES]-description</key>
+	<string>Warn if parentheses are omitted in certain contexts, such as when there is an assignment in a context where a truth value is expected, or when operators are nested whose precedence causes confusion. Also, warn about constructions where there may be confusion as to which `if` statement an `else` branch belongs. For example:
+
+    {
+      if (a)
+        if (b)
+          foo ();
+      else
+        bar ();
+    }
+
+In C, every `else` branch belongs to the innermost possible `if` statement, which in the example above is `if (b)`. This is often not what the programmer expects, as illustrated by indentation used in the example above. This build setting causes GCC to issue a warning when there is the potential for this confusion. To eliminate the warning, add explicit braces around the innermost `if` statement so there is no way the `else` could belong to the enclosing `if`. For example:
+
+    {
+      if (a)
+        {
+          if (b)
+            foo ();
+          else
+            bar ();
+        }
+    }
+</string>
+	<key>[GCC_WARN_MISSING_PARENTHESES]-name</key>
+	<string>缺少花括号和圆括号</string>
+	<key>[GCC_WARN_MISSING_PARENTHESES]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_MISSING_PARENTHESES]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_NON_VIRTUAL_DESTRUCTOR]-description</key>
+	<string>Warn when a class declares an nonvirtual destructor that should probably be virtual, because it looks like the class will be used polymorphically. This is only active for C++ or Objective-C++ sources.</string>
+	<key>[GCC_WARN_NON_VIRTUAL_DESTRUCTOR]-name</key>
+	<string>Nonvirtual Destructor</string>
+	<key>[GCC_WARN_NON_VIRTUAL_DESTRUCTOR]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_NON_VIRTUAL_DESTRUCTOR]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_PEDANTIC]-description</key>
+	<string>Issue all the warnings demanded by strict ISO C and ISO C++; reject all programs that use forbidden extensions, and some other programs that do not follow ISO C and ISO C++. For ISO C, follows the version of the ISO C standard specified by any `-std` option used.</string>
+	<key>[GCC_WARN_PEDANTIC]-name</key>
+	<string>Pedantic警告</string>
+	<key>[GCC_WARN_PEDANTIC]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_PEDANTIC]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_SHADOW]-description</key>
+	<string>Warn whenever a local variable shadows another local variable, parameter or global variable or whenever a builtin function is shadowed.</string>
+	<key>[GCC_WARN_SHADOW]-name</key>
+	<string>Hidden Local Variables</string>
+	<key>[GCC_WARN_SHADOW]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_SHADOW]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_SIGN_COMPARE]-description</key>
+	<string>Warn when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned.</string>
+	<key>[GCC_WARN_SIGN_COMPARE]-name</key>
+	<string>Sign Comparison</string>
+	<key>[GCC_WARN_SIGN_COMPARE]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_SIGN_COMPARE]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_STRICT_SELECTOR_MATCH]-description</key>
+	<string>Warn if multiple methods with differing argument and/or return types are found for a given selector when attempting to send a message using this selector to a receiver of type `id` or `Class`. When this setting is disabled, the compiler will omit such warnings if any differences found are confined to types that share the same size and alignment.</string>
+	<key>[GCC_WARN_STRICT_SELECTOR_MATCH]-name</key>
+	<string>Strict Selector Matching</string>
+	<key>[GCC_WARN_TYPECHECK_CALLS_TO_PRINTF]-description</key>
+	<string>Check calls to `printf` and `scanf` to make sure that the arguments supplied have types appropriate to the format string specified, and that the conversions specified in the format string make sense.</string>
+	<key>[GCC_WARN_TYPECHECK_CALLS_TO_PRINTF]-name</key>
+	<string>Typecheck Calls to printf/scanf</string>
+	<key>[GCC_WARN_TYPECHECK_CALLS_TO_PRINTF]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_TYPECHECK_CALLS_TO_PRINTF]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNDECLARED_SELECTOR]-description</key>
+	<string>Warn if a `@selector(...)` expression referring to an undeclared selector is found. A selector is considered undeclared if no method with that name has been declared before the `@selector(...)` expression, either explicitly in an `@interface` or `@protocol` declaration, or implicitly in an `@implementation` section. This option always performs its checks as soon as a `@selector(...)` expression is found, while `-Wselector` only performs its checks in the final stage of compilation. This also enforces the coding style convention that methods and selectors must be declared before being used.</string>
+	<key>[GCC_WARN_UNDECLARED_SELECTOR]-name</key>
+	<string>Undeclared Selector</string>
+	<key>[GCC_WARN_UNINITIALIZED_AUTOS]-description</key>
+	<string>Warn if a variable might be clobbered by a `setjmp` call or if an automatic variable is used without prior initialization.
+
+The compiler may not detect all cases where an automatic variable is initialized or all usage patterns that may lead to use prior to initialization. You can toggle between the normal uninitialized value checking or the more aggressive (conservative) checking, which finds more issues but the checking is much stricter.</string>
+	<key>[GCC_WARN_UNINITIALIZED_AUTOS]-name</key>
+	<string>Uninitialized Variables</string>
+	<key>[GCC_WARN_UNINITIALIZED_AUTOS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNINITIALIZED_AUTOS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNINITIALIZED_AUTOS]-value-[YES_AGGRESSIVE]</key>
+	<string>是 (有风险)</string>
+	<key>[GCC_WARN_UNKNOWN_PRAGMAS]-description</key>
+	<string>Warn when a `#pragma` directive is encountered that is not understood by GCC. If this command line option is used, warnings will even be issued for unknown pragmas in system header files. This is not the case if the warnings were only enabled by the `-Wall` command-line option.</string>
+	<key>[GCC_WARN_UNKNOWN_PRAGMAS]-name</key>
+	<string>未知Pragma</string>
+	<key>[GCC_WARN_UNKNOWN_PRAGMAS]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNKNOWN_PRAGMAS]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNUSED_FUNCTION]-description</key>
+	<string>Warn whenever a static function is declared but not defined or a noninline static function is unused.</string>
+	<key>[GCC_WARN_UNUSED_FUNCTION]-name</key>
+	<string>未使用的函数</string>
+	<key>[GCC_WARN_UNUSED_FUNCTION]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNUSED_FUNCTION]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNUSED_LABEL]-description</key>
+	<string>Warn whenever a label is declared but not used.</string>
+	<key>[GCC_WARN_UNUSED_LABEL]-name</key>
+	<string>Unused Labels</string>
+	<key>[GCC_WARN_UNUSED_LABEL]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNUSED_LABEL]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNUSED_PARAMETER]-description</key>
+	<string>Warn whenever a function parameter is unused aside from its declaration.</string>
+	<key>[GCC_WARN_UNUSED_PARAMETER]-name</key>
+	<string>Unused Parameters</string>
+	<key>[GCC_WARN_UNUSED_PARAMETER]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNUSED_PARAMETER]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNUSED_VALUE]-description</key>
+	<string>Warn whenever a statement computes a result that is explicitly not used.</string>
+	<key>[GCC_WARN_UNUSED_VALUE]-name</key>
+	<string>Unused Values</string>
+	<key>[GCC_WARN_UNUSED_VALUE]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNUSED_VALUE]-value-[YES]</key>
+	<string>是</string>
+	<key>[GCC_WARN_UNUSED_VARIABLE]-description</key>
+	<string>Warn whenever a local variable or nonconstant static variable is unused aside from its declaration.</string>
+	<key>[GCC_WARN_UNUSED_VARIABLE]-name</key>
+	<string>未使用变量</string>
+	<key>[GCC_WARN_UNUSED_VARIABLE]-value-[NO]</key>
+	<string>否</string>
+	<key>[GCC_WARN_UNUSED_VARIABLE]-value-[YES]</key>
+	<string>是</string>
+	<key>[LLVM_LTO]-description</key>
+	<string>Enabling this setting allows optimization across file boundaries during linking.
+
+* *No:* Disabled. Do not use link-time optimization.
+* *Monolithic Link-Time Optimization:* This mode performs monolithic link-time optimization of binaries, combining all executable code into a single unit and running aggressive compiler optimizations.
+* *Incremental Link-Time Optimization:* This mode performs partitioned link-time optimization of binaries, inlining between compilation units and running aggressive compiler optimizations on each unit in parallel. This enables fast incremental builds and uses less memory than Monolithic LTO.</string>
+	<key>[LLVM_LTO]-name</key>
+	<string>Link-Time Optimization</string>
+	<key>[LLVM_LTO]-value-[NO]</key>
+	<string>否</string>
+	<key>[LLVM_LTO]-value-[YES]</key>
+	<string>生成单个 LTO 文件</string>
+	<key>[LLVM_LTO]-value-[YES_THIN]</key>
+	<string>生成多个 LTO 文件</string>
+	<key>[LanguageCXX]-category</key>
+	<string>语言 - C++</string>
+	<key>[LanguageModules]-category</key>
+	<string>语言 - 模块</string>
+	<key>[LanguageObjC]-category</key>
+	<string>语言 - Objective C</string>
+	<key>[Language]-category</key>
+	<string>语言</string>
+	<key>[OTHER_CFLAGS]-description</key>
+	<string>Space-separated list of additional flags to pass to the compiler for C and Objective-C files. Be sure to backslash-escape any arguments that contain spaces or special characters, such as path names that may contain spaces. Use this setting if Xcode does not already provide UI for a particular C or Objective-C compiler flag.</string>
+	<key>[OTHER_CFLAGS]-name</key>
+	<string>其他 C 编译标志</string>
+	<key>[OTHER_CPLUSPLUSFLAGS]-description</key>
+	<string>Space-separated list of additional flags to pass to the compiler for C++ and Objective-C++ files. Be sure to backslash-escape any arguments that contain spaces or special characters, such as path names that may contain spaces. Use this setting if Xcode does not already provide UI for a C++ or Objective-C++ compiler flag.</string>
+	<key>[OTHER_CPLUSPLUSFLAGS]-name</key>
+	<string>其他 C++ 编译标志</string>
+	<key>[Preprocessing]-category</key>
+	<string>预处理</string>
+	<key>[RUN_CLANG_STATIC_ANALYZER]-description</key>
+	<string>Activating this setting will cause Xcode to run the `Clang` static analysis tool on qualifying source files during every build.</string>
+	<key>[RUN_CLANG_STATIC_ANALYZER]-name</key>
+	<string>“构建”时分析</string>
+	<key>[SAAppleAPICheckers]-category</key>
+	<string>问题 - Apple APIs</string>
+	<key>[SACheckers]-category</key>
+	<string>Generic Issues</string>
+	<key>[SAObjCCheckers]-category</key>
+	<string>问题 - Objective-C</string>
+	<key>[SAPolicy]-category</key>
+	<string>Analysis Policy</string>
+	<key>[SASecurityCheckers]-category</key>
+	<string>问题 - 安全性</string>
+	<key>[UBSANPolicy]-category</key>
+	<string>未定义行为清理器</string>
+	<key>[WARNING_CFLAGS]-description</key>
+	<string>Space-separated list of additional warning flags to pass to the compiler. Use this setting if Xcode does not already provide UI for a particular compiler warning flag.</string>
+	<key>[WARNING_CFLAGS]-name</key>
+	<string>其他警告编译标志</string>
+	<key>[WarningsCXX]-category</key>
+	<string>警告 - C++</string>
+	<key>[WarningsObjCARC]-category</key>
+	<string>警告 - Objective C 和 ARC</string>
+	<key>[WarningsObjC]-category</key>
+	<string>警告 - Objective C</string>
+	<key>[WarningsPolicy]-category</key>
+	<string>警告策略</string>
+	<key>[Warnings]-category</key>
+	<string>警告 - 所有语言</string>
+</dict>
+</plist>

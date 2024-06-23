@@ -1,0 +1,41 @@
+/**
+    Default compiler specification
+
+    Copyright (c) 2000-2012 Apple Inc.
+	All Rights Reserved.
+*/
+
+{   Type = Compiler;
+    Identifier = com.apple.compilers.gcc;
+    Class = PBXCompilerSpecificationGcc;
+    Name = "默认编译器";
+    Description = "默认编译器";
+    Version = "Default";
+    Vendor = "Apple";
+    Architectures = (
+        i386,
+        ppc,
+        ppc7400,
+        ppc7450,
+        ppc970,
+        ppc64,
+        "x86_64",
+        armv6,
+        armv7,
+    );
+    FileTypes = (sourcecode.c.c, sourcecode.c.objc, sourcecode.cpp.cpp, sourcecode.cpp.objcpp, sourcecode.asm);
+    BuiltinJambaseRuleName = "ProcessC";   // <== is this still used?  A.B. 2004.09.20
+    CommandOutputParser = XCGccCommandOutputParser;
+    OptionConditionFlavors = (
+        arch,
+        sdk,
+    );
+    SupportsHeadermaps = Yes;
+    DashIFlagAcceptsHeadermaps = No;
+    UseCPlusPlusCompilerDriverWhenBundlizing = No;
+    SupportsIsysroot = NO;
+    ExecDescription = "编译 $(InputFile)";
+    ProgressDescription = "正在编译 $(CommandProgressByType) 源代码文件";
+    ExecDescriptionForPrecompile = "预编译 $(InputFile)";
+    ProgressDescriptionForPrecompile = "正在预编译 $(CommandProgressByType) prefix头文件";
+}
