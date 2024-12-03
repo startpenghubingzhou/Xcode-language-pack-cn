@@ -42,7 +42,3 @@ Xcode 版本或者使用类似方案的 macOS 应用程序。
 ```
 
 然后将文件夹改名为`Chinese.lproj`，彻底退出并启动下Xcode程序，对应的汉化应该就起作用了。
-
-## 感谢
-
-- MouriNaruto, https://github.com/MouriNaruto
